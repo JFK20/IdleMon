@@ -8,7 +8,7 @@ using Unity;
 
 public class MapInteraction : MonoBehaviour
 {
-    [SerializeField] private int maxWaitTime = 1;
+    //[SerializeField] private int maxWaitTime = 1;
 
     private void OnEnable()
     {

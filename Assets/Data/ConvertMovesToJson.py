@@ -15,13 +15,13 @@ class Move:
         
     def toJson(self):
         return {
-            "name": self.name,
-            "type": self.type,
-            "category": self.category,
-            "pp": self.pp,
-            "power": self.power,
-            "accuracy": self.accuracy,
-            "description": self.description
+            "Name": self.name,
+            "Type": self.type,
+            "Category": self.category,
+            "PP": self.pp,
+            "Power": self.power,
+            "Accuracy": self.accuracy,
+            "Description": self.description
         }
         
 
@@ -82,7 +82,7 @@ def textToMove(texts):
     return Moves
 
 def dumpMoves(Moves):
-    output_file = path.join(absolute_path, "Data", "Moves.json")
+    output_file = path.join(absolute_path, "Moves.json")
     
     jsonMoves = [move.toJson() for move in Moves]
     
@@ -94,9 +94,7 @@ def dumpMoves(Moves):
 if __name__ == "__main__":
     
     absolute_path = path.dirname(__file__)
-    pokemon_file = path.join(absolute_path, "Data", "Pokemon.txt")
-    abilities_file = path.join(absolute_path, "Data", "abilitys.txt")
-    moves_file = path.join(absolute_path, "Data", "moves.txt")
+    moves_file = path.join(absolute_path, "moves.txt")
     
     texts = getTexts(moves_file)
     Moves = textToMove(texts)
