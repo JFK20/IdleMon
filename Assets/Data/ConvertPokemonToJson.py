@@ -19,16 +19,16 @@ class Pokemon:
 
     def toJson(self):
         return {
-            "name": self.name,
-            "types": self.types,
-            "baseStats": self.baseStats,
-            "genderRatio": self.genderRatio,
-            "ability": self.ability,
-            "hiddenAbilities": self.hiddenAbilities,
-            "moveSet": self.moveSet,
-            "habitat": self.habitat,
-            "evolutions": self.evolutions,
-            "description": self.description
+            "Name": self.name,
+            "Types": self.types,
+            "BaseStats": self.baseStats,
+            "GenderRatio": self.genderRatio,
+            "Ability": self.ability,
+            "HiddenAbilities": self.hiddenAbilities,
+            "MoveSet": self.moveSet,
+            "Habitat": self.habitat,
+            "Evolutions": self.evolutions,
+            "Description": self.description
         }
 
 
@@ -53,7 +53,7 @@ def getTexts(file_name):
 def textToPokemons(texts):
     pokemons = []
 
-    patternName = r'Name\s*=\s*(\w+ *\w*)'
+    patternName = r'\[(\w+)\]'
     patternType = r'Types\s*=\s*((?:\w+,*)+)'
     patternBaseStats = r'BaseStats\s*=\s*(\d+,\d+,\d+,\d+,\d+,\d+)'
     patternGender = r'GenderRatio\s*=\s*(\w+)'
@@ -109,13 +109,12 @@ def textToPokemons(texts):
                 1), matchHiddenAbility, matchMoves.group(1), matchHabitat, matchEvolutions, matchDescription.group(1))
 
             pokemons.append(pokemon)
-            print(pokemon.toJson())
 
     return pokemons
 
 
 def dumpPokemons(pokemons):
-    output_file = path.join(absolute_path, "Pokemons.json")
+    output_file = path.join(absolute_path ,"Pokemons.json")
 
     jsonPokemons = [pokemon.toJson() for pokemon in pokemons]
 

@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public enum MoveType {
+    Unknown,
     Fire,
     Water,
     Grass,
@@ -27,32 +28,56 @@ public enum MoveType {
 }
 
 public enum MoveCategory {
+    Unknown,
     Physical,
     Special,
     Status,
 }
 
-public static class EnumSwitches {
+public enum GenderRatio {
+    Unknown,
+    AlwaysMale,
+    FemaleOneEighth,
+    Female25Percent,
+    Female50Percent,
+    Female75Percent,
+    FemaleSevenEighths,
+    AlwaysFemale,
+    Genderless,
+}
 
-    public static MoveType MoveTypePass(string toPass) {
+public enum Habitat {
+    Unknown,
+    Cave,
+    Forest,
+    Grassland,
+    Mountain,
+    Rare,
+    RoughTerrain,
+    Sea,
+    Urban,
+    WatersEdge,
+}
+
+public enum Stats {
+    Unknown,
+    HP,
+    Attack,
+    Defense,
+    Speed,
+    SpecialAttack,
+    SpecialDefense,
+}
+
+public static class EnumSwitches {
+    public static T EnumSwitch<T>(string toPass) {
         try {
-            MoveType value = (MoveType) Enum.Parse(typeof(MoveType), toPass, true);
+            T value = (T) Enum.Parse(typeof(T), toPass, true);
             return value;
         }
         catch (Exception e) {
             Console.WriteLine(e);
-            return MoveType.Fighting;
-        }
-    }
-    
-    public static MoveCategory MoveCategoryPass(string toPass) {
-        try {
-            MoveCategory value = (MoveCategory) Enum.Parse(typeof(MoveCategory), toPass, true);
-            return value;
-        }
-        catch (Exception e) {
-            Console.WriteLine(e);
-            return MoveCategory.Special;
+            return default(T);
         }
     }
     

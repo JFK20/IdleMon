@@ -47,7 +47,7 @@ def getTexts(file_name):
 def textToMove(texts):
     Moves = []
     
-    patternName = r'Name\s*=\s*(\w+ *\w*)'
+    patternName = r'\[(\w+)\]'
     patternType = r"Type\s*=\s*(\w+ *\w*)"
     patternCategory = r"Category\s*=\s*(\w+ *\w*)"
     patternPP = r"TotalPP\s*=\s*(\w+ *\w*)"

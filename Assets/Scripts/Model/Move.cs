@@ -27,8 +27,8 @@ public class Move {
     }
     
     public void SetEnums() {
-        moveType = EnumSwitches.MoveTypePass(Type);
-        moveCategory = EnumSwitches.MoveCategoryPass(Category);
+        moveType = EnumSwitches.EnumSwitch<MoveType>(Type);
+        moveCategory = EnumSwitches.EnumSwitch<MoveCategory>(Category);
     }
 
     public override string ToString() {
