@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: KABUTO
+  m_EditorClassIdentifier: 
+  Name: KABUTO
+  ID: 0
+  types: 0a00000002000000
+  baseStats: 1e000000500000005a00000037000000370000002d000000
+  genderRatio: 2
+  Ability: SWIFTSWIM,BATTLEARMOR
+  HiddenAbilities: WEAKARMOR
+  moveSetStructs:
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 5
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: AQUAJET
+      Type: WATER
+      Category: Physical
+      PP: 20
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 2
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: MUDSHOT
+      Type: GROUND
+      Category: Special
+      PP: 15
+      Power: 55
+      Accuracy: 95
+      Description: The user attacks by hurling a blob of mud at the target. It also
+        reduces the target's Speed.
+      moveType: 9
+      moveCategory: 2
+    level: 25
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: BRINE
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: If the target's HP is down to about half, this attack will hit
+        with double the power.
+      moveType: 2
+      moveCategory: 2
+    level: 35
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 41
+  - move:
+      Name: LEECHLIFE
+      Type: BUG
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user drains the target's blood. The user's HP is restored
+        by half the damage taken by the target.
+      moveType: 11
+      moveCategory: 1
+    level: 45
+  - move:
+      Name: LIQUIDATION
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 85
+      Accuracy: 100
+      Description: The user slams into the target using a full-force blast of water.
+        May lower the target's Defense.
+      moveType: 2
+      moveCategory: 1
+    level: 50
+  - move:
+      Name: METALSOUND
+      Type: STEEL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: A horrible sound like scraping metal harshly reduces the target's
+        Sp. Def stat.
+      moveType: 17
+      moveCategory: 3
+    level: 55
+  - move:
+      Name: STONEEDGE
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user stabs the foe with sharpened stones from below. It has
+        a high critical-hit ratio.
+      moveType: 10
+      moveCategory: 1
+    level: 60
+  habitat: 7
+  evolutionStructs: []
+  Description: "This Pok\xC3\xA9mon has been regenerated from a fossil. However,
+    in rare cases, living examples have been discovered. Kabuto have not changed
+    for 300 million years."
+  Evolutions: KABUTOPS,Level,40

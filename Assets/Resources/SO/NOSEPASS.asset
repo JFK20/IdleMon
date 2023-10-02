@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: NOSEPASS
+  m_EditorClassIdentifier: 
+  Name: NOSEPASS
+  ID: 0
+  types: 0a000000
+  baseStats: 1e0000002d000000870000001e0000002d0000005a000000
+  genderRatio: 4
+  Ability: STURDY,MAGNETPULL
+  HiddenAbilities: SANDFORCE
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: BLOCK
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user blocks the target's way with arms spread wide to prevent
+        escape.
+      moveType: 5
+      moveCategory: 3
+    level: 7
+  - move:
+      Name: ROCKTHROW
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 90
+      Description: The user picks up and throws a small rock at the target to attack.
+      moveType: 10
+      moveCategory: 1
+    level: 10
+  - move:
+      Name: THUNDERWAVE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 90
+      Description: A weak electric charge is launched at the target. It causes paralysis
+        if it hits.
+      moveType: 4
+      moveCategory: 3
+    level: 13
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: SPARK
+      Type: ELECTRIC
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The user throws an electrically charged tackle at the target.
+        It may also leave the target with paralysis.
+      moveType: 4
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: POWERGEM
+      Type: ROCK
+      Category: Special
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The user attacks with a ray of light that sparkles as if it were
+        made of gemstones.
+      moveType: 10
+      moveCategory: 2
+    level: 25
+  - move:
+      Name: ROCKBLAST
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 25
+      Accuracy: 90
+      Description: The user hurls hard rocks at the target. Two to five rocks are
+        launched in quick succession.
+      moveType: 10
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: DISCHARGE
+      Type: ELECTRIC
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: A flare of electricity is loosed to strike the area around the
+        user. It may also cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 31
+  - move:
+      Name: SANDSTORM
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Summons a five-turn sandstorm to hurt all combatants except the
+        Rock, Ground, and Steel types.
+      moveType: 10
+      moveCategory: 3
+    level: 34
+  - move:
+      Name: EARTHPOWER
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user makes the ground under the foe erupt with power. It may
+        also lower the target's Sp. Def.
+      moveType: 9
+      moveCategory: 2
+    level: 37
+  - move:
+      Name: STONEEDGE
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user stabs the foe with sharpened stones from below. It has
+        a high critical-hit ratio.
+      moveType: 10
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: LOCKON
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user takes sure aim at the target. It ensures the next attack
+        does not fail to hit the target.
+      moveType: 5
+      moveCategory: 3
+    level: 43
+  - move:
+      Name: ZAPCANNON
+      Type: ELECTRIC
+      Category: Special
+      PP: 5
+      Power: 120
+      Accuracy: 50
+      Description: The user fires an electric blast like a cannon to inflict damage
+        and cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 43
+  habitat: 1
+  evolutionStructs: []
+  Description: Its body emits a powerful magnetism. It feeds on prey that is pulled
+    in by the force. Its magnetism is stronger in cold seasons.
+  Evolutions: PROBOPASS,LocationFlag,Magnetic,PROBOPASS,Item,THUNDERSTONE

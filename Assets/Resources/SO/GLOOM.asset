@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GLOOM
+  m_EditorClassIdentifier: 
+  Name: GLOOM
+  ID: 0
+  types: 0300000008000000
+  baseStats: 3c000000410000004600000028000000550000004b000000
+  genderRatio: 4
+  Ability: CHLOROPHYLL
+  HiddenAbilities: STENCH
+  moveSetStructs:
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: GROWTH
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user's body grows all at once, raising the Atk and Sp. Atk
+        stats.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ACID
+      Type: POISON
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The foe is attacked with a spray of harsh acid. It may also lower
+        the target's Sp. Def stat.
+      moveType: 8
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SWEETSCENT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: "A sweet scent that lowers the foe's evasiveness. It also lures
+        wild Pok\xC3\xA9mon if used in grass, etc."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: POISONPOWDER
+      Type: POISON
+      Category: Status
+      PP: 35
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of poisonous dust on the target. It
+        may poison the target.
+      moveType: 8
+      moveCategory: 3
+    level: 14
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: SLEEPPOWDER
+      Type: GRASS
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a big cloud of sleep-inducing dust around the
+        target.
+      moveType: 3
+      moveCategory: 3
+    level: 18
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: TOXIC
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 90
+      Description: A move that leaves the target badly poisoned. Its poison damage
+        worsens every turn.
+      moveType: 8
+      moveCategory: 3
+    level: 26
+  - move:
+      Name: MOONBLAST
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 95
+      Accuracy: 100
+      Description: The user attacks by borrowing the power of the moon. This may
+        also lower the target's Sp. Atk stat.
+      moveType: 18
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: GRASSYTERRAIN
+      Type: GRASS
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user turns the ground to grass for five turns. Grounded Pok\xC3\xA9mon
+        restore a little HP every turn."
+      moveType: 3
+      moveCategory: 3
+    level: 38
+  - move:
+      Name: MOONLIGHT
+      Type: FAIRY
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP. The amount of HP regained varies
+        with the weather.
+      moveType: 18
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: PETALDANCE
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user attacks by scattering petals for two to three turns.
+        The user then becomes confused.
+      moveType: 3
+      moveCategory: 2
+    level: 50
+  habitat: 3
+  evolutionStructs: []
+  Description: A horribly noxious honey drools from its mouth. One whiff of the honey
+    can result in memory loss. Some fans are said to enjoy this overwhelming stink,
+    however.
+  Evolutions: VILEPLUME,Item,LEAFSTONE,BELLOSSOM,Item,SUNSTONE

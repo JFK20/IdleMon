@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: TENTACOOL
+  m_EditorClassIdentifier: 
+  Name: TENTACOOL
+  ID: 0
+  types: 0200000008000000
+  baseStats: 280000002800000023000000460000003200000064000000
+  genderRatio: 4
+  Ability: CLEARBODY,LIQUIDOOZE
+  HiddenAbilities: RAINDISH
+  moveSetStructs:
+  - move:
+      Name: POISONSTING
+      Type: POISON
+      Category: Physical
+      PP: 35
+      Power: 15
+      Accuracy: 100
+      Description: The user stabs the target with a poisonous stinger. This may also
+        poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ACID
+      Type: POISON
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The foe is attacked with a spray of harsh acid. It may also lower
+        the target's Sp. Def stat.
+      moveType: 8
+      moveCategory: 2
+    level: 4
+  - move:
+      Name: WRAP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 90
+      Description: A long body or vines are used to wrap and squeeze the target for
+        four to five turns.
+      moveType: 5
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 16
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: BUBBLEBEAM
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: A spray of bubbles is forcefully ejected at the target. It may
+        also lower its Speed stat.
+      moveType: 2
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: HEX
+      Type: GHOST
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: This relentless attack does massive damage to a target affected
+        by status problems.
+      moveType: 12
+      moveCategory: 2
+    level: 28
+  - move:
+      Name: ACIDARMOR
+      Type: POISON
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user alters its cellular structure to liquefy itself, sharply
+        raising its Defense stat.
+      moveType: 8
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: POISONJAB
+      Type: POISON
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The target is stabbed with a tentacle or arm seeped with poison.
+        It may also poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: SURF
+      Type: WATER
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: It swamps the area around the user with a giant wave. It can also
+        be used for crossing water.
+      moveType: 2
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: SLUDGEWAVE
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 95
+      Accuracy: 100
+      Description: It swamps the area around the user with a giant sludge wave. It
+        may also poison those hit.
+      moveType: 8
+      moveCategory: 2
+    level: 44
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 48
+  habitat: 7
+  evolutionStructs: []
+  Description: Its body is almost entirely composed of water. It ensnares its foe
+    with its two long tentacles, then stabs with the poison stingers at their tips.
+  Evolutions: TENTACRUEL,Level,30

@@ -24,7 +24,6 @@ public class MovesManager : MonoBehaviour {
         foreach (var move in TMPmoves) {
             move.SetEnums();
         }
-        //Debug.Log(TMPmoves[0]);
 
         return TMPmoves;
     }

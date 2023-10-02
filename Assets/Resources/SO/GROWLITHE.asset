@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GROWLITHE
+  m_EditorClassIdentifier: 
+  Name: GROWLITHE
+  ID: 0
+  types: 01000000
+  baseStats: 37000000460000002d0000003c0000004600000032000000
+  genderRatio: 3
+  Ability: INTIMIDATE,FLASHFIRE
+  HiddenAbilities: JUSTIFIED
+  moveSetStructs:
+  - move:
+      Name: EMBER
+      Type: FIRE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is attacked with small flames. It may also leave the
+        target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: HOWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user howls loudly to raise the spirit of itself and allies,
+        boosting their Attack stats.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: FLAMEWHEEL
+      Type: FIRE
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user cloaks itself in fire and charges at the target. It may
+        also leave the target with a burn.
+      moveType: 1
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: HELPINGHAND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user assists an ally by boosting the power of its attack.
+      moveType: 5
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: FIREFANG
+      Type: FIRE
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with flame-cloaked fangs. It may also make the
+        target flinch or leave it burned.
+      moveType: 1
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: RETALIATE
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: Gets revenge for a fainted ally. If an ally fainted in the last
+        turn, this attack's damage increases.
+      moveType: 5
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: FLAMETHROWER
+      Type: FIRE
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: The target is scorched with an intense blast of fire. It may also
+        leave the target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: ROAR
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The target is scared off and replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: PLAYROUGH
+      Type: FAIRY
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user plays rough with the target and attacks it. This may
+        also lower the target's Attack stat.
+      moveType: 18
+      moveCategory: 1
+    level: 48
+  - move:
+      Name: REVERSAL
+      Type: FIGHTING
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: An all-out attack that becomes more powerful the less HP the user
+        has.
+      moveType: 7
+      moveCategory: 1
+    level: 52
+  - move:
+      Name: FLAREBLITZ
+      Type: FIRE
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: The user cloaks itself in fire and charges at the foe. The user
+        also takes damage and may burn the target.
+      moveType: 1
+      moveCategory: 1
+    level: 56
+  habitat: 3
+  evolutionStructs: []
+  Description: "Its superb sense of smell ensures that this Pok\xC3\xA9mon won't
+    forget any scent, no matter what. It uses its sense of smell to detect the emotions
+    of others."
+  Evolutions: ARCANINE,Item,FIRESTONE

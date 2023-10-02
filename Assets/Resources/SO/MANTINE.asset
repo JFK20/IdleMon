@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: MANTINE
+  m_EditorClassIdentifier: 
+  Name: MANTINE
+  ID: 0
+  types: 0200000006000000
+  baseStats: 55000000280000004600000046000000500000008c000000
+  genderRatio: 4
+  Ability: SWIFTSWIM,WATERABSORB
+  HiddenAbilities: WATERVEIL
+  moveSetStructs:
+  - move:
+      Name: PSYBEAM
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is attacked with a peculiar ray. It may also cause
+        confusion.
+      moveType: 13
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: BULLETSEED
+      Type: GRASS
+      Category: Physical
+      PP: 30
+      Power: 25
+      Accuracy: 100
+      Description: The user forcefully shoots seeds at the target. Two to five seeds
+        are shot in rapid succession.
+      moveType: 3
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ROOST
+      Type: FLYING
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lands and rests its body. It restores the user's HP by
+        up to half of its max HP.
+      moveType: 6
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WINGATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 60
+      Accuracy: 100
+      Description: The target is struck with large, imposing wings spread wide to
+        inflict damage.
+      moveType: 6
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: WIDEGUARD
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user and its allies are protected from wide-ranging attacks
+        for a turn. May fail if used in succession.
+      moveType: 10
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: BUBBLEBEAM
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: A spray of bubbles is forcefully ejected at the target. It may
+        also lower its Speed stat.
+      moveType: 2
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: AQUARING
+      Type: WATER
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user envelops itself in a veil made of water. It regains some
+        HP on every turn.
+      moveType: 2
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: BOUNCE
+      Type: FLYING
+      Category: Physical
+      PP: 5
+      Power: 85
+      Accuracy: 85
+      Description: The user bounces up high, then drops on the foe on the second
+        turn. It may also paralyze the foe.
+      moveType: 6
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 48
+  habitat: 7
+  evolutionStructs: []
+  Description: On sunny days, schools of Mantine can be seen elegantly leaping over
+    the waves. It is not bothered by the Remoraid that hitches rides.
+  Evolutions: 

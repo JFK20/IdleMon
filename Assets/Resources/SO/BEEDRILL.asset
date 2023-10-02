@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: BEEDRILL
+  m_EditorClassIdentifier: 
+  Name: BEEDRILL
+  ID: 0
+  types: 0b00000008000000
+  baseStats: 410000005a000000280000004b0000002d00000050000000
+  genderRatio: 4
+  Ability: SWARM
+  HiddenAbilities: SNIPER
+  moveSetStructs:
+  - move:
+      Name: FURYATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 85
+      Description: The target is jabbed repeatedly with a horn or beak two to five
+        times in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POISONSTING
+      Type: POISON
+      Category: Physical
+      PP: 35
+      Power: 15
+      Accuracy: 100
+      Description: The user stabs the target with a poisonous stinger. This may also
+        poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: STRINGSHOT
+      Type: BUG
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 95
+      Description: The foe is bound with silk blown from the user's mouth. This silk
+        reduces the target's Speed.
+      moveType: 11
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BUGBITE
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user bites the target. If the target is holding a Berry, the
+        user eats it and gains its effect.
+      moveType: 11
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FURYCUTTER
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 40
+      Accuracy: 95
+      Description: The target is slashed with scythes or claws. Its power increases
+        if it hits in succession.
+      moveType: 11
+      moveCategory: 1
+    level: 11
+  - move:
+      Name: LASERFOCUS
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user focuses intensely. The attack on the next turn always
+        results in a critical hit.
+      moveType: 5
+      moveCategory: 3
+    level: 14
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: VENOSHOCK
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: The user drenches the foe in a special poisonous liquid. Its power
+        doubles if the target is poisoned.
+      moveType: 8
+      moveCategory: 2
+    level: 23
+  - move:
+      Name: ASSURANCE
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: If the target has already taken some damage in the same turn,
+        this attack's power is doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 26
+  - move:
+      Name: TOXICSPIKES
+      Type: POISON
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays a trap of poison spikes at the foe's feet. They
+        poison foes that switch into battle.
+      moveType: 8
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: PINMISSILE
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 25
+      Accuracy: 95
+      Description: Sharp spikes are shot at the target in rapid succession. They
+        hit two to five times in a row.
+      moveType: 11
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: POISONJAB
+      Type: POISON
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The target is stabbed with a tentacle or arm seeped with poison.
+        It may also poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 38
+  - move:
+      Name: ENDEAVOR
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: An attack move that cuts down the target's HP to equal the user's
+        HP.
+      moveType: 5
+      moveCategory: 1
+    level: 41
+  - move:
+      Name: FELLSTINGER
+      Type: BUG
+      Category: Physical
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: When the user knocks out a target with this move, the user's Attack
+        stat rises drastically.
+      moveType: 11
+      moveCategory: 1
+    level: 44
+  habitat: 2
+  evolutionStructs: []
+  Description: A Beedrill is extremely territorial. For safety reasons, no one should
+    ever approach its nest. If angered, they will attack in a swarm.
+  Evolutions: 

@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: FLYGON
+  m_EditorClassIdentifier: 
+  Name: FLYGON
+  ID: 0
+  types: 090000000f000000
+  baseStats: 500000006400000050000000640000005000000050000000
+  genderRatio: 4
+  Ability: LEVITATE
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: DRAGONCLAW
+      Type: DRAGON
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user slashes the target with huge, sharp claws.
+      moveType: 15
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: OUTRAGE
+      Type: DRAGON
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 15
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DRAGONBREATH
+      Type: DRAGON
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user exhales a mighty gust that inflicts damage. It may also
+        leave the target with paralysis.
+      moveType: 15
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: DRAGONDANCE
+      Type: DRAGON
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user vigorously performs a mystic, powerful dance that boosts
+        its Attack and Speed stats.
+      moveType: 15
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FEINT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 30
+      Accuracy: 100
+      Description: An attack that hits a target using Protect or Detect. It also
+        lifts the effects of those moves.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LASERFOCUS
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user focuses intensely. The attack on the next turn always
+        results in a critical hit.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BULLDOZE
+      Type: GROUND
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: "The user strikes everything around it by stomping on the ground.
+        It reduces hit Pok\xC3\xA9mon's Speed."
+      moveType: 9
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DIG
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user burrows, then attacks on the second turn. It can also
+        be used to exit dungeons.
+      moveType: 9
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SUPERPOWER
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 100
+      Description: The user attacks the target with great power. However, it also
+        lowers the user's Attack and Defense.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FISSURE
+      Type: GROUND
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The user opens up a fissure in the ground and drops the foe in.
+        The target instantly faints if it hits.
+      moveType: 9
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: MUDSLAP
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 20
+      Accuracy: 100
+      Description: The user hurls mud in the target's face to inflict damage and
+        lower its accuracy.
+      moveType: 9
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: SANDTOMB
+      Type: GROUND
+      Category: Physical
+      PP: 15
+      Power: 35
+      Accuracy: 85
+      Description: The user traps the target inside a harshly raging sandstorm for
+        four to five turns.
+      moveType: 9
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: DRAGONTAIL
+      Type: DRAGON
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 90
+      Description: "The user knocks away the target and drags out another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 15
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: BUGBUZZ
+      Type: BUG
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user vibrates its wings to generate a damaging sound wave.
+        It may also lower the target's Sp. Def stat.
+      moveType: 11
+      moveCategory: 2
+    level: 28
+  - move:
+      Name: SANDSTORM
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Summons a five-turn sandstorm to hurt all combatants except the
+        Rock, Ground, and Steel types.
+      moveType: 10
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: EARTHPOWER
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user makes the ground under the foe erupt with power. It may
+        also lower the target's Sp. Def.
+      moveType: 9
+      moveCategory: 2
+    level: 38
+  - move:
+      Name: EARTHQUAKE
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: "The user sets off an earthquake that strikes every Pok\xC3\xA9mon
+        around it."
+      moveType: 9
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: UPROAR
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user attacks in an uproar for three turns. Over that time,
+        no one can fall asleep.
+      moveType: 5
+      moveCategory: 2
+    level: 52
+  - move:
+      Name: DRAGONRUSH
+      Type: DRAGON
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 75
+      Description: The user tackles the foe while exhibiting overwhelming menace.
+        It may also make the target flinch.
+      moveType: 15
+      moveCategory: 1
+    level: 60
+  - move:
+      Name: BOOMBURST
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 140
+      Accuracy: 100
+      Description: The user attacks everything around it with the destructive power
+        of a terrible, explosive sound.
+      moveType: 5
+      moveCategory: 2
+    level: 68
+  habitat: 6
+  evolutionStructs: []
+  Description: The flapping of its wings sounds like singing. To prevent detection
+    by enemies, it hides itself by flapping up a cloud of desert sand.
+  Evolutions: 

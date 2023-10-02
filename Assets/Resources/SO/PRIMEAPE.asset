@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: PRIMEAPE
+  m_EditorClassIdentifier: 
+  Name: PRIMEAPE
+  ID: 0
+  types: 07000000
+  baseStats: 41000000690000003c0000005f0000003c00000046000000
+  genderRatio: 4
+  Ability: VITALSPIRIT,ANGERPOINT
+  HiddenAbilities: DEFIANT
+  moveSetStructs:
+  - move:
+      Name: FINALGAMBIT
+      Type: FIGHTING
+      Category: Special
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: The user risks all to attack the foe. The user faints but does
+        damage equal to its HP.
+      moveType: 7
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: FLING
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user flings its held item at the target to attack. Its power
+        and effects depend on the item.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: COVET
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user endearingly approaches the target, then steals the target's
+        held item.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LOWKICK
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A powerful low kick that makes the foe fall over. It inflicts
+        greater damage on heavier foes.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 5
+  - move:
+      Name: MUDSLAP
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 20
+      Accuracy: 100
+      Description: The user hurls mud in the target's face to inflict damage and
+        lower its accuracy.
+      moveType: 9
+      moveCategory: 2
+    level: 8
+  - move:
+      Name: SEISMICTOSS
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: The target is thrown using the power of gravity. It inflicts damage
+        equal to the user's level.
+      moveType: 7
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: RETALIATE
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: Gets revenge for a fainted ally. If an ally fainted in the last
+        turn, this attack's damage increases.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: SWAGGER
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 85
+      Description: The user enrages and confuses the target. However, it also sharply
+        raises the target's Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 19
+  - move:
+      Name: CROSSCHOP
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user delivers a double chop with its forearms crossed. Critical
+        hits land more easily.
+      moveType: 7
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: ASSURANCE
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: If the target has already taken some damage in the same turn,
+        this attack's power is doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 26
+  - move:
+      Name: SKULLBASH
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 130
+      Accuracy: 100
+      Description: The user tucks in its head to raise its Defense in the first turn,
+        then rams the foe on the next turn.
+      moveType: 5
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: THRASH
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 5
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: CLOSECOMBAT
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 100
+      Description: The user fights the foe up close without guarding itself. It also
+        cuts the user's Defense and Sp. Def.
+      moveType: 7
+      moveCategory: 1
+    level: 39
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: STOMPINGTANTRUM
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: The user attacks driven by frustration. Power increases if the
+        user's previous move failed.
+      moveType: 9
+      moveCategory: 1
+    level: 48
+  - move:
+      Name: OUTRAGE
+      Type: DRAGON
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 15
+      moveCategory: 1
+    level: 53
+  habitat: 4
+  evolutionStructs: []
+  Description: When it becomes furious, its blood circulation becomes more robust,
+    and its muscles are made stronger. But it also becomes much less intelligent.
+  Evolutions: 

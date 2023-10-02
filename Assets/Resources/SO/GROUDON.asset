@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GROUDON
+  m_EditorClassIdentifier: 
+  Name: GROUDON
+  ID: 0
+  types: 09000000
+  baseStats: 64000000960000008c0000005a000000640000005a000000
+  genderRatio: 8
+  Ability: DROUGHT
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: MUDSHOT
+      Type: GROUND
+      Category: Special
+      PP: 15
+      Power: 55
+      Accuracy: 95
+      Description: The user attacks by hurling a blob of mud at the target. It also
+        reduces the target's Speed.
+      moveType: 9
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LAVAPLUME
+      Type: FIRE
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: An inferno of scarlet flames torches everything around the user.
+        It may leave targets with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: EARTHPOWER
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user makes the ground under the foe erupt with power. It may
+        also lower the target's Sp. Def.
+      moveType: 9
+      moveCategory: 2
+    level: 9
+  - move:
+      Name: BULKUP
+      Type: FIGHTING
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user tenses its muscles to bulk up its body, boosting both
+        its Attack and Defense stats.
+      moveType: 7
+      moveCategory: 3
+    level: 18
+  - move:
+      Name: EARTHQUAKE
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: "The user sets off an earthquake that strikes every Pok\xC3\xA9mon
+        around it."
+      moveType: 9
+      moveCategory: 1
+    level: 27
+  - move:
+      Name: HAMMERARM
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 90
+      Description: The user swings and hits with its strong and heavy fist. It lowers
+        the user's Speed, however.
+      moveType: 7
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: FISSURE
+      Type: GROUND
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The user opens up a fissure in the ground and drops the foe in.
+        The target instantly faints if it hits.
+      moveType: 9
+      moveCategory: 1
+    level: 45
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 54
+  - move:
+      Name: PRECIPICEBLADES
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 85
+      Description: The user attacks its foes by manifesting the power of the land
+        in fearsome blades of stone.
+      moveType: 9
+      moveCategory: 1
+    level: 63
+  - move:
+      Name: FIREBLAST
+      Type: FIRE
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 85
+      Description: The foe is attacked with an intense blast of all-consuming fire.
+        It may also leave the target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 72
+  - move:
+      Name: SOLARBEAM
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: A two-turn attack. The user gathers light, then blasts a bundled
+        beam on the second turn.
+      moveType: 3
+      moveCategory: 2
+    level: 81
+  - move:
+      Name: ERUPTION
+      Type: FIRE
+      Category: Special
+      PP: 5
+      Power: 150
+      Accuracy: 100
+      Description: The user attacks in an explosive fury. The lower the user's HP,
+        the less powerful this attack becomes.
+      moveType: 1
+      moveCategory: 2
+    level: 90
+  habitat: 6
+  evolutionStructs: []
+  Description: Groudon has appeared in mythology as the creator of the land. It sleeps
+    in magma underground and is said to make volcanoes erupt on awakening.
+  Evolutions: 

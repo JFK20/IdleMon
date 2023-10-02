@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: YANMA
+  m_EditorClassIdentifier: 
+  Name: YANMA
+  ID: 0
+  types: 0b00000006000000
+  baseStats: 41000000410000002d0000005f0000004b0000002d000000
+  genderRatio: 4
+  Ability: SPEEDBOOST,COMPOUNDEYES
+  HiddenAbilities: FRISK
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: DOUBLETEAM
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: By moving rapidly, the user makes illusory copies of itself to
+        raise its evasiveness.
+      moveType: 5
+      moveCategory: 3
+    level: 11
+  - move:
+      Name: AERIALACE
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: The user confounds the foe with speed, then slashes. The attack
+        lands without fail.
+      moveType: 6
+      moveCategory: 1
+    level: 14
+  - move:
+      Name: DETECT
+      Type: FIGHTING
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 17
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 22
+  - move:
+      Name: UPROAR
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user attacks in an uproar for three turns. Over that time,
+        no one can fall asleep.
+      moveType: 5
+      moveCategory: 2
+    level: 27
+  - move:
+      Name: STRINGSHOT
+      Type: BUG
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 95
+      Description: The foe is bound with silk blown from the user's mouth. This silk
+        reduces the target's Speed.
+      moveType: 11
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 33
+  - move:
+      Name: HYPNOSIS
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 60
+      Description: The user employs hypnotic suggestion to make the target fall into
+        a deep sleep.
+      moveType: 13
+      moveCategory: 3
+    level: 38
+  - move:
+      Name: WINGATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 60
+      Accuracy: 100
+      Description: The target is struck with large, imposing wings spread wide to
+        inflict damage.
+      moveType: 6
+      moveCategory: 1
+    level: 43
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 46
+  - move:
+      Name: UTURN
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: "After making its attack, the user rushes back to switch places
+        with a party Pok\xC3\xA9mon in waiting."
+      moveType: 11
+      moveCategory: 1
+    level: 49
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 54
+  - move:
+      Name: BUGBUZZ
+      Type: BUG
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user vibrates its wings to generate a damaging sound wave.
+        It may also lower the target's Sp. Def stat.
+      moveType: 11
+      moveCategory: 2
+    level: 57
+  habitat: 2
+  evolutionStructs: []
+  Description: It can see 360 degrees without moving its eyes. It is a great flier
+    capable of making sudden stops and turning midair to quickly chase down targeted
+    prey.
+  Evolutions: YANMEGA,HasMove,ANCIENTPOWER

@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: MUDKIP
+  m_EditorClassIdentifier: 
+  Name: MUDKIP
+  ID: 0
+  types: 02000000
+  baseStats: 320000004600000032000000280000003200000032000000
+  genderRatio: 2
+  Ability: TORRENT
+  HiddenAbilities: DAMP
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 3
+  - move:
+      Name: ROCKSMASH
+      Type: FIGHTING
+      Category: Physical
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: The user attacks with a punch that can shatter a rock. It may
+        also lower the foe's Defense stat.
+      moveType: 7
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: ROCKTHROW
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 90
+      Description: The user picks up and throws a small rock at the target to attack.
+      moveType: 10
+      moveCategory: 1
+    level: 9
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 18
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 21
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 27
+  - move:
+      Name: SURF
+      Type: WATER
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: It swamps the area around the user with a giant wave. It can also
+        be used for crossing water.
+      moveType: 2
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: ENDEAVOR
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: An attack move that cuts down the target's HP to equal the user's
+        HP.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 39
+  habitat: 9
+  evolutionStructs: []
+  Description: On land, it can powerfully lift large boulders by planting its four
+    feet and heaving. It sleeps by burying itself in soil at the water's edge.
+  Evolutions: MARSHTOMP,Level,16

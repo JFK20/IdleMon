@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: PARAS
+  m_EditorClassIdentifier: 
+  Name: PARAS
+  ID: 0
+  types: 0b00000003000000
+  baseStats: 230000004600000037000000190000002d00000037000000
+  genderRatio: 4
+  Ability: EFFECTSPORE,DRYSKIN
+  HiddenAbilities: DAMP
+  moveSetStructs:
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 6
+  - move:
+      Name: POISONPOWDER
+      Type: POISON
+      Category: Status
+      PP: 35
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of poisonous dust on the target. It
+        may poison the target.
+      moveType: 8
+      moveCategory: 3
+    level: 6
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 11
+  - move:
+      Name: FURYCUTTER
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 40
+      Accuracy: 95
+      Description: The target is slashed with scythes or claws. Its power increases
+        if it hits in succession.
+      moveType: 11
+      moveCategory: 1
+    level: 17
+  - move:
+      Name: SPORE
+      Type: GRASS
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: The user scatters bursts of spores that induce sleep.
+      moveType: 3
+      moveCategory: 3
+    level: 22
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 27
+  - move:
+      Name: GROWTH
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user's body grows all at once, raising the Atk and Sp. Atk
+        stats.
+      moveType: 5
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 38
+  - move:
+      Name: AROMATHERAPY
+      Type: GRASS
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user releases a soothing scent that heals all status problems
+        affecting the user's party.
+      moveType: 3
+      moveCategory: 3
+    level: 43
+  - move:
+      Name: RAGEPOWDER
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user scatters irritating powder to draw attention to itself.
+        Opponents aim only at the user.
+      moveType: 11
+      moveCategory: 3
+    level: 49
+  - move:
+      Name: XSCISSOR
+      Type: BUG
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user slashes at the foe by crossing its scythes or claws as
+        if they were a pair of scissors.
+      moveType: 11
+      moveCategory: 1
+    level: 54
+  habitat: 2
+  evolutionStructs: []
+  Description: A Paras has parasitic tochukaso mushrooms growing on its back. They
+    grow by drawing nutrients from the host. They are valued as a medicine for long
+    life.
+  Evolutions: PARASECT,Level,24

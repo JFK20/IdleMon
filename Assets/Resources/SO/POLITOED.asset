@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: POLITOED
+  m_EditorClassIdentifier: 
+  Name: POLITOED
+  ID: 0
+  types: 02000000
+  baseStats: 5a0000004b0000004b000000460000005a00000064000000
+  genderRatio: 4
+  Ability: WATERABSORB,DAMP
+  HiddenAbilities: DRIZZLE
+  moveSetStructs:
+  - move:
+      Name: BOUNCE
+      Type: FLYING
+      Category: Physical
+      PP: 5
+      Power: 85
+      Accuracy: 85
+      Description: The user bounces up high, then drops on the foe on the second
+        turn. It may also paralyze the foe.
+      moveType: 6
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: SWAGGER
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 85
+      Description: The user enrages and confuses the target. However, it also sharply
+        raises the target's Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: HYPERVOICE
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user lets loose a horribly echoing shout with the power to
+        inflict damage.
+      moveType: 5
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: PERISHSONG
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: "Any Pok\xC3\xA9mon that hears this song faints in three turns,
+        unless it switches out of battle."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BUBBLEBEAM
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: A spray of bubbles is forcefully ejected at the target. It may
+        also lower its Speed stat.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: RAINDANCE
+      Type: WATER
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user summons a heavy rain that falls for five turns, powering
+        up Water-type moves.
+      moveType: 2
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: EARTHPOWER
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user makes the ground under the foe erupt with power. It may
+        also lower the target's Sp. Def.
+      moveType: 9
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: BELLYDRUM
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user maximizes its Attack stat in exchange for HP equal to
+        half its max HP.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: HYPNOSIS
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 60
+      Description: The user employs hypnotic suggestion to make the target fall into
+        a deep sleep.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: MUDSHOT
+      Type: GROUND
+      Category: Special
+      PP: 15
+      Power: 55
+      Accuracy: 95
+      Description: The user attacks by hurling a blob of mud at the target. It also
+        reduces the target's Speed.
+      moveType: 9
+      moveCategory: 2
+    level: 1
+  habitat: 9
+  evolutionStructs: []
+  Description: The curled hair on its head proves its status as a king. It is said
+    that the longer and curlier the hair, the more respect it earns from its peers.
+  Evolutions: 

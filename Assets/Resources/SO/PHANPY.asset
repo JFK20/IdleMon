@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: PHANPY
+  m_EditorClassIdentifier: 
+  Name: PHANPY
+  ID: 0
+  types: 09000000
+  baseStats: 5a0000003c0000003c000000280000002800000028000000
+  genderRatio: 4
+  Ability: PICKUP
+  HiddenAbilities: SANDVEIL
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FLAIL
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user flails about aimlessly to attack. It becomes more powerful
+        the less HP the user has.
+      moveType: 5
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: ROLLOUT
+      Type: ROCK
+      Category: Physical
+      PP: 20
+      Power: 30
+      Accuracy: 90
+      Description: The user continually rolls into the target over five turns. It
+        becomes stronger each time it hits.
+      moveType: 10
+      moveCategory: 1
+    level: 10
+  - move:
+      Name: BULLDOZE
+      Type: GROUND
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: "The user strikes everything around it by stomping on the ground.
+        It reduces hit Pok\xC3\xA9mon's Speed."
+      moveType: 9
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: ENDURE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user endures any attack with at least 1 HP. Its chance of
+        failing rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 19
+  - move:
+      Name: SLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 75
+      Description: The target is slammed with a long tail, vines, etc., to inflict
+        damage.
+      moveType: 5
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: LASTRESORT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 140
+      Accuracy: 100
+      Description: This move can be used only after the user has used all the other
+        moves it knows in the battle.
+      moveType: 5
+      moveCategory: 1
+    level: 37
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 42
+  habitat: 6
+  evolutionStructs: []
+  Description: Phanpy's big ears serve as broad fans. When it becomes hot, it flaps
+    the ears busily to cool down. Even the young are very strong.
+  Evolutions: DONPHAN,Level,25

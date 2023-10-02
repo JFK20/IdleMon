@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: PUPITAR
+  m_EditorClassIdentifier: 
+  Name: PUPITAR
+  ID: 0
+  types: 0a00000009000000
+  baseStats: 460000005400000046000000330000004100000046000000
+  genderRatio: 4
+  Ability: SHEDSKIN
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 0
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ROCKTHROW
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 90
+      Description: The user picks up and throws a small rock at the target to attack.
+      moveType: 10
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: PAYBACK
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: If the user moves after the target, this attack's power will be
+        doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 9
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: STOMPINGTANTRUM
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: The user attacks driven by frustration. Power increases if the
+        user's previous move failed.
+      moveType: 9
+      moveCategory: 1
+    level: 18
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 21
+  - move:
+      Name: DARKPULSE
+      Type: DARK
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user releases a horrible aura imbued with dark thoughts. It
+        may also make the target flinch.
+      moveType: 16
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 27
+  - move:
+      Name: EARTHQUAKE
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: "The user sets off an earthquake that strikes every Pok\xC3\xA9mon
+        around it."
+      moveType: 9
+      moveCategory: 1
+    level: 33
+  - move:
+      Name: STONEEDGE
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user stabs the foe with sharpened stones from below. It has
+        a high critical-hit ratio.
+      moveType: 10
+      moveCategory: 1
+    level: 37
+  - move:
+      Name: THRASH
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 5
+      moveCategory: 1
+    level: 42
+  - move:
+      Name: SANDSTORM
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Summons a five-turn sandstorm to hurt all combatants except the
+        Rock, Ground, and Steel types.
+      moveType: 10
+      moveCategory: 3
+    level: 47
+  - move:
+      Name: HYPERBEAM
+      Type: NORMAL
+      Category: Special
+      PP: 5
+      Power: 150
+      Accuracy: 90
+      Description: The foe is attacked with a powerful beam. The user must rest on
+        the next turn to regain its energy.
+      moveType: 5
+      moveCategory: 2
+    level: 52
+  habitat: 4
+  evolutionStructs: []
+  Description: A Pupitar creates a gas inside its body that it ejects under compression
+    to propel itself like a jet. Its body can withstand a collision with solid steel.
+  Evolutions: TYRANITAR,Level,55

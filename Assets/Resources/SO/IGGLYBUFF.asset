@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: IGGLYBUFF
+  m_EditorClassIdentifier: 
+  Name: IGGLYBUFF
+  ID: 0
+  types: 0500000012000000
+  baseStats: 5a0000001e0000000f0000000f0000002800000014000000
+  genderRatio: 5
+  Ability: CUTECHARM,COMPETITIVE
+  HiddenAbilities: FRIENDGUARD
+  moveSetStructs:
+  - move:
+      Name: SING
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 55
+      Description: A soothing lullaby is sung in a calming voice that puts the target
+        into a deep slumber.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: COPYCAT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user mimics the move used immediately before it. The move
+        fails if no other move has been used yet.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: SWEETKISS
+      Type: FAIRY
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 75
+      Description: The user kisses the target with a sweet, angelic cuteness that
+        causes confusion.
+      moveType: 18
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: DISARMINGVOICE
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 0
+      Description: Letting out a charming cry, the user does emotional damage to
+        foes. This attack never misses.
+      moveType: 18
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: DISABLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: For four turns, this move prevents the target from using the move
+        it last used.
+      moveType: 5
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 20
+  habitat: 3
+  evolutionStructs: []
+  Description: Its soft and pliable body is very bouncy. When it sings continuously
+    with all its might, its body steadily turns a deepening pink color.
+  Evolutions: JIGGLYPUFF,Happiness,

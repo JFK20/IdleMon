@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: CHANSEY
+  m_EditorClassIdentifier: 
+  Name: CHANSEY
+  ID: 0
+  types: 05000000
+  baseStats: fa0000000500000005000000320000002300000069000000
+  genderRatio: 7
+  Ability: NATURALCURE,SERENEGRACE
+  HiddenAbilities: HEALER
+  moveSetStructs:
+  - move:
+      Name: SWEETKISS
+      Type: FAIRY
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 75
+      Description: The user kisses the target with a sweet, angelic cuteness that
+        causes confusion.
+      moveType: 18
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DISARMINGVOICE
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 0
+      Description: Letting out a charming cry, the user does emotional damage to
+        foes. This attack never misses.
+      moveType: 18
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: COVET
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user endearingly approaches the target, then steals the target's
+        held item.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: MINIMIZE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user compresses its body to make itself look smaller, which
+        sharply raises its evasiveness.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: COPYCAT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user mimics the move used immediately before it. The move
+        fails if no other move has been used yet.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: ECHOEDVOICE
+      Type: NORMAL
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: The user attacks the foe with an echoing voice. If this move is
+        used every turn, it does greater damage.
+      moveType: 5
+      moveCategory: 2
+    level: 8
+  - move:
+      Name: LIFEDEW
+      Type: WATER
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user scatters mysterious water around and restores the HP
+        of itself and its allies.
+      moveType: 2
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: SING
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 55
+      Description: A soothing lullaby is sung in a calming voice that puts the target
+        into a deep slumber.
+      moveType: 5
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: FLING
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user flings its held item at the target to attack. Its power
+        and effects depend on the item.
+      moveType: 16
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: HEALPULSE
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user emits a healing pulse which restores the target's HP
+        by up to half of its max HP.
+      moveType: 13
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: HELPINGHAND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user assists an ally by boosting the power of its attack.
+      moveType: 5
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: LIGHTSCREEN
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: A wondrous wall of light is put up to suppress damage from special
+        attacks for five turns.
+      moveType: 13
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: SOFTBOILED
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP by up to half of its maximum HP.
+        May also be used in the field to heal HP.
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: LASTRESORT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 140
+      Accuracy: 100
+      Description: This move can be used only after the user has used all the other
+        moves it knows in the battle.
+      moveType: 5
+      moveCategory: 1
+    level: 48
+  - move:
+      Name: HEALINGWISH
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user faints. In return, the Pok\xC3\xA9mon taking its place
+        will have its HP restored and status cured."
+      moveType: 13
+      moveCategory: 3
+    level: 52
+  habitat: 8
+  evolutionStructs: []
+  Description: Chansey lay nutritionally excellent eggs every day. The eggs are so
+    delicious, they are eagerly devoured by even those who have lost their appetite.
+  Evolutions: BLISSEY,Happiness,

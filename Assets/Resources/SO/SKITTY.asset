@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SKITTY
+  m_EditorClassIdentifier: 
+  Name: SKITTY
+  ID: 0
+  types: 05000000
+  baseStats: 320000002d0000002d000000320000002300000023000000
+  genderRatio: 5
+  Ability: CUTECHARM,NORMALIZE
+  HiddenAbilities: WONDERSKIN
+  moveSetStructs:
+  - move:
+      Name: FAKEOUT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 40
+      Accuracy: 100
+      Description: An attack that hits first and makes the target flinch. It only
+        works the first turn the user is in battle.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 4
+  - move:
+      Name: SING
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 55
+      Description: A soothing lullaby is sung in a calming voice that puts the target
+        into a deep slumber.
+      moveType: 5
+      moveCategory: 3
+    level: 7
+  - move:
+      Name: ATTRACT
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: If it is the opposite gender of the user, the target becomes infatuated
+        and less likely to attack.
+      moveType: 5
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: DISARMINGVOICE
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 0
+      Description: Letting out a charming cry, the user does emotional damage to
+        foes. This attack never misses.
+      moveType: 18
+      moveCategory: 2
+    level: 13
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: COPYCAT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user mimics the move used immediately before it. The move
+        fails if no other move has been used yet.
+      moveType: 5
+      moveCategory: 3
+    level: 19
+  - move:
+      Name: PAYBACK
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: If the user moves after the target, this attack's power will be
+        doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: FACADE
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: An attack move that doubles its power if the user is poisoned,
+        burned, or has paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 31
+  - move:
+      Name: COVET
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user endearingly approaches the target, then steals the target's
+        held item.
+      moveType: 5
+      moveCategory: 1
+    level: 34
+  - move:
+      Name: HEALBELL
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: "The user makes a soothing bell chime to heal the status problems
+        of all the party Pok\xC3\xA9mon."
+      moveType: 5
+      moveCategory: 3
+    level: 37
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: BABYDOLLEYES
+      Type: FAIRY
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user stares with its baby-doll eyes, which lowers the target's
+        Attack stat. Always goes first.
+      moveType: 18
+      moveCategory: 3
+    level: 43
+  - move:
+      Name: PLAYROUGH
+      Type: FAIRY
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user plays rough with the target and attacks it. This may
+        also lower the target's Attack stat.
+      moveType: 18
+      moveCategory: 1
+    level: 46
+  habitat: 2
+  evolutionStructs: []
+  Description: A Skitty's adorably cute behavior makes it highly popular. In battle,
+    it makes its tail puff out. It threatens foes with a sharp growl.
+  Evolutions: DELCATTY,Item,MOONSTONE

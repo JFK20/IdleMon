@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SNORUNT
+  m_EditorClassIdentifier: 
+  Name: SNORUNT
+  ID: 0
+  types: 0e000000
+  baseStats: 320000003200000032000000320000003200000032000000
+  genderRatio: 4
+  Ability: INNERFOCUS,ICEBODY
+  HiddenAbilities: MOODY
+  moveSetStructs:
+  - move:
+      Name: POWDERSNOW
+      Type: ICE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The user attacks with a chilling gust of powdery snow. It may
+        also freeze the targets.
+      moveType: 14
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 5
+  - move:
+      Name: DOUBLETEAM
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: By moving rapidly, the user makes illusory copies of itself to
+        raise its evasiveness.
+      moveType: 5
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: ICESHARD
+      Type: ICE
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user flash freezes chunks of ice and hurls them at the target.
+        This move always goes first.
+      moveType: 14
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: ICYWIND
+      Type: ICE
+      Category: Special
+      PP: 15
+      Power: 55
+      Accuracy: 95
+      Description: The user attacks with a gust of chilled air. It also lowers the
+        targets' Speed stat.
+      moveType: 14
+      moveCategory: 2
+    level: 25
+  - move:
+      Name: FROSTBREATH
+      Type: ICE
+      Category: Special
+      PP: 10
+      Power: 60
+      Accuracy: 90
+      Description: The user blows a cold breath on the target. This attack always
+        results in a critical hit.
+      moveType: 14
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: ICEFANG
+      Type: ICE
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with cold-infused fangs. It may also make the target
+        flinch or leave it frozen.
+      moveType: 14
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: HAIL
+      Type: ICE
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user summons a hail storm lasting five turns. It damages
+        all Pok\xC3\xA9mon except the Ice type."
+      moveType: 14
+      moveCategory: 3
+    level: 45
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 50
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 55
+  - move:
+      Name: BLIZZARD
+      Type: ICE
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 70
+      Description: A howling blizzard is summoned to strike the opposing team. It
+        may also freeze them solid.
+      moveType: 14
+      moveCategory: 2
+    level: 60
+  habitat: 1
+  evolutionStructs: []
+  Description: They tend to move about in groups of around five Snorunt. In snowy
+    regions, it is said that when they are seen late at night, snowfall will arrive
+    by morning.
+  Evolutions: GLALIE,Level,42,FROSLASS,ItemFemale,DAWNSTONE

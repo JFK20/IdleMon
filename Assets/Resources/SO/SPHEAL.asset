@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SPHEAL
+  m_EditorClassIdentifier: 
+  Name: SPHEAL
+  ID: 0
+  types: 0e00000002000000
+  baseStats: 460000002800000032000000190000003700000032000000
+  genderRatio: 4
+  Ability: THICKFAT,ICEBODY
+  HiddenAbilities: OBLIVIOUS
+  moveSetStructs:
+  - move:
+      Name: ROLLOUT
+      Type: ROCK
+      Category: Physical
+      PP: 20
+      Power: 30
+      Accuracy: 90
+      Description: The user continually rolls into the target over five turns. It
+        becomes stronger each time it hits.
+      moveType: 10
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 8
+  - move:
+      Name: POWDERSNOW
+      Type: ICE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The user attacks with a chilling gust of powdery snow. It may
+        also freeze the targets.
+      moveType: 14
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: SNORE
+      Type: NORMAL
+      Category: Special
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: An attack that can be used only if the user is asleep. The harsh
+        noise may also make the target flinch.
+      moveType: 5
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: BRINE
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: If the target's HP is down to about half, this attack will hit
+        with double the power.
+      moveType: 2
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: AURORABEAM
+      Type: ICE
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is hit with a rainbow-colored beam. This may also lower
+        the target's Attack stat.
+      moveType: 14
+      moveCategory: 2
+    level: 28
+  - move:
+      Name: ENCORE
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 100
+      Description: The user compels the target to keep using only the move it last
+        used for three turns.
+      moveType: 5
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: SURF
+      Type: WATER
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: It swamps the area around the user with a giant wave. It can also
+        be used for crossing water.
+      moveType: 2
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: BLIZZARD
+      Type: ICE
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 70
+      Description: A howling blizzard is summoned to strike the opposing team. It
+        may also freeze them solid.
+      moveType: 14
+      moveCategory: 2
+    level: 44
+  - move:
+      Name: HAIL
+      Type: ICE
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user summons a hail storm lasting five turns. It damages
+        all Pok\xC3\xA9mon except the Ice type."
+      moveType: 14
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: SHEERCOLD
+      Type: ICE
+      Category: Special
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The foe is attacked with a blast of absolute-zero cold. The target
+        instantly faints if it hits.
+      moveType: 14
+      moveCategory: 2
+    level: 52
+  habitat: 7
+  evolutionStructs: []
+  Description: It is completely covered with plushy fur. As a result, it never feels
+    the cold even when it is rolling about on ice floes or diving in the sea.
+  Evolutions: SEALEO,Level,32

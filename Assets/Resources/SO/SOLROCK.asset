@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SOLROCK
+  m_EditorClassIdentifier: 
+  Name: SOLROCK
+  ID: 0
+  types: 0a0000000d000000
+  baseStats: 5a0000005f00000055000000460000003700000041000000
+  genderRatio: 8
+  Ability: LEVITATE
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: FLAREBLITZ
+      Type: FIRE
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: The user cloaks itself in fire and charges at the foe. The user
+        also takes damage and may burn the target.
+      moveType: 1
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: MORNINGSUN
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP. The amount of HP regained varies
+        with the weather.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ROCKTHROW
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 90
+      Description: The user picks up and throws a small rock at the target to attack.
+      moveType: 10
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HYPNOSIS
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 60
+      Description: The user employs hypnotic suggestion to make the target fall into
+        a deep sleep.
+      moveType: 13
+      moveCategory: 3
+    level: 5
+  - move:
+      Name: ROCKPOLISH
+      Type: ROCK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user polishes its body to reduce drag. It can sharply raise
+        the Speed stat.
+      moveType: 10
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: COSMICPOWER
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user absorbs a mystical power from space to raise its Defense
+        and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: STONEEDGE
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user stabs the foe with sharpened stones from below. It has
+        a high critical-hit ratio.
+      moveType: 10
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: SOLARBEAM
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: A two-turn attack. The user gathers light, then blasts a bundled
+        beam on the second turn.
+      moveType: 3
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: WONDERROOM
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user creates a bizarre area in which Pok\xC3\xA9mon's Defense
+        and Sp. Def stats are swapped for 5 turns."
+      moveType: 13
+      moveCategory: 3
+    level: 45
+  - move:
+      Name: EXPLOSION
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 250
+      Accuracy: 100
+      Description: The user explodes to inflict damage on those around it. The user
+        faints upon using this move.
+      moveType: 5
+      moveCategory: 1
+    level: 50
+  habitat: 1
+  evolutionStructs: []
+  Description: "Solar energy is the source of this Pok\xC3\xA9mon's power. On sunny
+    days, groups of Solrock line up facing the sun and absorb its light."
+  Evolutions: 

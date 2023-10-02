@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: RATTATA
+  m_EditorClassIdentifier: 
+  Name: RATTATA
+  ID: 0
+  types: 05000000
+  baseStats: 1e0000003800000023000000480000001900000023000000
+  genderRatio: 4
+  Ability: RUNAWAY,GUTS
+  HiddenAbilities: HUSTLE
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 4
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 7
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 10
+  - move:
+      Name: LASERFOCUS
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user focuses intensely. The attack on the next turn always
+        results in a critical hit.
+      moveType: 5
+      moveCategory: 3
+    level: 13
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: ASSURANCE
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: If the target has already taken some damage in the same turn,
+        this attack's power is doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: SUCKERPUNCH
+      Type: DARK
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: This move enables the user to attack first. It fails if the target
+        is not readying an attack, however.
+      moveType: 16
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: SUPERFANG
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 90
+      Description: The user chomps hard on the target with its sharp front fangs.
+        It cuts the target's HP to half.
+      moveType: 5
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 31
+  - move:
+      Name: ENDEAVOR
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: An attack move that cuts down the target's HP to equal the user's
+        HP.
+      moveType: 5
+      moveCategory: 1
+    level: 34
+  habitat: 3
+  evolutionStructs: []
+  Description: A Rattata is cautious in the extreme. Even while it is asleep, it
+    constantly moves its ears and listens for danger. It will make its nest anywhere.
+  Evolutions: RATICATE,Level,20

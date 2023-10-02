@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: WAILORD
+  m_EditorClassIdentifier: 
+  Name: WAILORD
+  ID: 0
+  types: 02000000
+  baseStats: aa0000005a0000002d0000003c0000005a0000002d000000
+  genderRatio: 4
+  Ability: WATERVEIL,OBLIVIOUS
+  HiddenAbilities: PRESSURE
+  moveSetStructs:
+  - move:
+      Name: SOAK
+      Type: WATER
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user shoots a torrent of water at the target and changes the
+        target's type to Water.
+      moveType: 2
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: NOBLEROAR
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: Letting out a noble roar, the user intimidates the target and
+        lowers its Attack and Sp. Atk.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SPLASH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user just flops and splashes around to no effect at all...
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 18
+  - move:
+      Name: HEAVYSLAM
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user slams into the foe with its heavy body. The heavier the
+        user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 21
+  - move:
+      Name: BRINE
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: If the target's HP is down to about half, this attack will hit
+        with double the power.
+      moveType: 2
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: WHIRLPOOL
+      Type: WATER
+      Category: Special
+      PP: 15
+      Power: 35
+      Accuracy: 85
+      Description: Traps foes in a violent swirling whirlpool for four to five turns.
+      moveType: 2
+      moveCategory: 2
+    level: 27
+  - move:
+      Name: DIVE
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: Diving on the first turn, the user rises and hits on the next
+        turn. It can be used to dive in the ocean.
+      moveType: 2
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: BOUNCE
+      Type: FLYING
+      Category: Physical
+      PP: 5
+      Power: 85
+      Accuracy: 85
+      Description: The user bounces up high, then drops on the foe on the second
+        turn. It may also paralyze the foe.
+      moveType: 6
+      moveCategory: 1
+    level: 33
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 39
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 49
+  - move:
+      Name: WATERSPOUT
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 150
+      Accuracy: 100
+      Description: The user spouts water to damage the foe. The lower the user's
+        HP, the less powerful it becomes.
+      moveType: 2
+      moveCategory: 2
+    level: 54
+  habitat: 7
+  evolutionStructs: []
+  Description: It breathes through nostrils that it raises above the sea. By inhaling
+    to its maximum capacity, a Wailord can dive close to 10,000 feet beneath the
+    waves.
+  Evolutions: 

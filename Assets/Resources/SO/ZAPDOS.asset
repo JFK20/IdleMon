@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: ZAPDOS
+  m_EditorClassIdentifier: 
+  Name: ZAPDOS
+  ID: 0
+  types: 0400000006000000
+  baseStats: 5a0000005a00000055000000640000007d0000005a000000
+  genderRatio: 8
+  Ability: PRESSURE
+  HiddenAbilities: STATIC
+  moveSetStructs:
+  - move:
+      Name: PECK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 35
+      Accuracy: 100
+      Description: The target is jabbed with a sharply pointed beak or horn.
+      moveType: 6
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: THUNDERWAVE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 90
+      Description: A weak electric charge is launched at the target. It causes paralysis
+        if it hits.
+      moveType: 4
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: THUNDERSHOCK
+      Type: ELECTRIC
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: A jolt of electricity is hurled at the foe to inflict damage.
+        It may also leave the target with paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 5
+  - move:
+      Name: LIGHTSCREEN
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: A wondrous wall of light is put up to suppress damage from special
+        attacks for five turns.
+      moveType: 13
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: PLUCK
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user pecks the target. If the target is holding a Berry, the
+        user eats it and gains its effect.
+      moveType: 6
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 25
+  - move:
+      Name: CHARGE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user boosts the power of the Electric move it uses next. It
+        also raises the user's Sp. Def stat.
+      moveType: 4
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: DRILLPECK
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: A corkscrewing attack with the sharp beak acting as a drill.
+      moveType: 6
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: ROOST
+      Type: FLYING
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lands and rests its body. It restores the user's HP by
+        up to half of its max HP.
+      moveType: 6
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: DISCHARGE
+      Type: ELECTRIC
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: A flare of electricity is loosed to strike the area around the
+        user. It may also cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 45
+  - move:
+      Name: RAINDANCE
+      Type: WATER
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user summons a heavy rain that falls for five turns, powering
+        up Water-type moves.
+      moveType: 2
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: THUNDER
+      Type: ELECTRIC
+      Category: Special
+      PP: 10
+      Power: 110
+      Accuracy: 70
+      Description: A wicked thunderbolt is dropped on the foe to inflict damage.
+        It may also leave the target paralyzed.
+      moveType: 4
+      moveCategory: 2
+    level: 55
+  - move:
+      Name: DETECT
+      Type: FIGHTING
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 60
+  - move:
+      Name: MAGNETICFLUX
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: Manipulates magnetic fields to raise the Defense and Sp. Def stats
+        of allies with Plus or Minus Abilities.
+      moveType: 4
+      moveCategory: 3
+    level: 65
+  - move:
+      Name: ZAPCANNON
+      Type: ELECTRIC
+      Category: Special
+      PP: 5
+      Power: 120
+      Accuracy: 50
+      Description: The user fires an electric blast like a cannon to inflict damage
+        and cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 70
+  habitat: 5
+  evolutionStructs: []
+  Description: "Zapdos is a legendary bird Pok\xC3\xA9mon that has the ability to
+    control electricity. It usually lives in thunderclouds. It gains power if it
+    is stricken by lightning bolts."
+  Evolutions: 

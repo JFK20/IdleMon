@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: HOOH
+  m_EditorClassIdentifier: 
+  Name: HOOH
+  ID: 0
+  types: 0100000006000000
+  baseStats: 6a000000820000005a0000005a0000006e0000009a000000
+  genderRatio: 8
+  Ability: PRESSURE
+  HiddenAbilities: REGENERATOR
+  moveSetStructs:
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: WHIRLWIND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The foe is blown away, to be replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WEATHERBALL
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: An attack move that varies in power and type depending on the
+        weather.
+      moveType: 5
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LIFEDEW
+      Type: WATER
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user scatters mysterious water around and restores the HP
+        of itself and its allies.
+      moveType: 2
+      moveCategory: 3
+    level: 9
+  - move:
+      Name: SAFEGUARD
+      Type: NORMAL
+      Category: Status
+      PP: 25
+      Power: 0
+      Accuracy: 0
+      Description: The user creates a protective field that prevents status problems
+        for five turns.
+      moveType: 5
+      moveCategory: 3
+    level: 18
+  - move:
+      Name: CALMMIND
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user quietly focuses its mind and calms its spirit to raise
+        its Sp. Atk and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 27
+  - move:
+      Name: EXTRASENSORY
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The user attacks with an odd, unseeable power. It may also make
+        the target flinch.
+      moveType: 13
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: RECOVER
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Restoring its own cells, the user restores its own HP by half
+        of its max HP.
+      moveType: 5
+      moveCategory: 3
+    level: 45
+  - move:
+      Name: SACREDFIRE
+      Type: FIRE
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 95
+      Description: The target is razed with a mystical fire of great intensity. It
+        may also leave the target with a burn.
+      moveType: 1
+      moveCategory: 1
+    level: 54
+  - move:
+      Name: SUNNYDAY
+      Type: FIRE
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user intensifies the sun for five turns, powering up Fire-type
+        moves.
+      moveType: 1
+      moveCategory: 3
+    level: 63
+  - move:
+      Name: FIREBLAST
+      Type: FIRE
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 85
+      Description: The foe is attacked with an intense blast of all-consuming fire.
+        It may also leave the target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 72
+  - move:
+      Name: FUTURESIGHT
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: Two turns after this move is used, a hunk of psychic energy attacks
+        the target.
+      moveType: 13
+      moveCategory: 2
+    level: 81
+  - move:
+      Name: SKYATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 5
+      Power: 140
+      Accuracy: 90
+      Description: A second-turn attack move where critical hits land more easily.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 1
+    level: 90
+  - move:
+      Name: BURNUP
+      Type: FIRE
+      Category: Special
+      PP: 5
+      Power: 130
+      Accuracy: 100
+      Description: To inflict massive damage, the user burns itself out. The user
+        will no longer be Fire type.
+      moveType: 1
+      moveCategory: 2
+    level: 99
+  habitat: 5
+  evolutionStructs: []
+  Description: Its feathers--which glow in seven colors depending on the angle at
+    which light strikes them--are thought to bring joy. It is said to live at the
+    foot of a rainbow.
+  Evolutions: 

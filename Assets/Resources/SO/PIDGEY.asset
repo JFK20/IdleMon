@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: PIDGEY
+  m_EditorClassIdentifier: 
+  Name: PIDGEY
+  ID: 0
+  types: 0500000006000000
+  baseStats: 280000002d00000028000000380000002300000023000000
+  genderRatio: 4
+  Ability: KEENEYE,TANGLEDFEET
+  HiddenAbilities: BIGPECKS
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 5
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 9
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 13
+  - move:
+      Name: WHIRLWIND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The foe is blown away, to be replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 17
+  - move:
+      Name: TWISTER
+      Type: DRAGON
+      Category: Special
+      PP: 20
+      Power: 40
+      Accuracy: 100
+      Description: The user whips up a vicious tornado to tear at the opposing team.
+        It may also make targets flinch.
+      moveType: 15
+      moveCategory: 2
+    level: 21
+  - move:
+      Name: FEATHERDANCE
+      Type: FLYING
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: The user covers the target's body with a mass of down that harshly
+        lowers its Attack stat.
+      moveType: 6
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: WINGATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 60
+      Accuracy: 100
+      Description: The target is struck with large, imposing wings spread wide to
+        inflict damage.
+      moveType: 6
+      moveCategory: 1
+    level: 33
+  - move:
+      Name: ROOST
+      Type: FLYING
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lands and rests its body. It restores the user's HP by
+        up to half of its max HP.
+      moveType: 6
+      moveCategory: 3
+    level: 37
+  - move:
+      Name: TAILWIND
+      Type: FLYING
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: "The user whips up a turbulent whirlwind that ups the Speed of
+        all party Pok\xC3\xA9mon for four turns."
+      moveType: 6
+      moveCategory: 3
+    level: 41
+  - move:
+      Name: AERIALACE
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: The user confounds the foe with speed, then slashes. The attack
+        lands without fail.
+      moveType: 6
+      moveCategory: 1
+    level: 45
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 49
+  - move:
+      Name: HURRICANE
+      Type: FLYING
+      Category: Special
+      PP: 10
+      Power: 110
+      Accuracy: 70
+      Description: The user wraps its foe in a fierce wind that flies up into the
+        sky. It may also confuse the foe.
+      moveType: 6
+      moveCategory: 2
+    level: 53
+  habitat: 2
+  evolutionStructs: []
+  Description: It has an extremely sharp sense of direction. It can unerringly return
+    home to its nest, however far it may be removed from its familiar surroundings.
+  Evolutions: PIDGEOTTO,Level,18

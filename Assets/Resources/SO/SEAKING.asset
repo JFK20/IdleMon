@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SEAKING
+  m_EditorClassIdentifier: 
+  Name: SEAKING
+  ID: 0
+  types: 02000000
+  baseStats: 500000005c00000041000000440000004100000050000000
+  genderRatio: 4
+  Ability: SWIFTSWIM,WATERVEIL
+  HiddenAbilities: LIGHTNINGROD
+  moveSetStructs:
+  - move:
+      Name: PECK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 35
+      Accuracy: 100
+      Description: The target is jabbed with a sharply pointed beak or horn.
+      moveType: 6
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: HORNATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 65
+      Accuracy: 100
+      Description: The target is jabbed with a sharply pointed horn to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: AQUARING
+      Type: WATER
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user envelops itself in a veil made of water. It regains some
+        HP on every turn.
+      moveType: 2
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: FLAIL
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user flails about aimlessly to attack. It becomes more powerful
+        the less HP the user has.
+      moveType: 5
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: WATERFALL
+      Type: WATER
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user charges at the target and may make it flinch. It can
+        also be used to climb a waterfall.
+      moveType: 2
+      moveCategory: 1
+    level: 37
+  - move:
+      Name: SOAK
+      Type: WATER
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user shoots a torrent of water at the target and changes the
+        target's type to Water.
+      moveType: 2
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: MEGAHORN
+      Type: BUG
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 85
+      Description: Using its tough and impressive horn, the user rams into the target
+        with no letup.
+      moveType: 11
+      moveCategory: 1
+    level: 51
+  - move:
+      Name: HORNDRILL
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The user stabs the foe with a horn that rotates like a drill.
+        If it hits, the target faints instantly.
+      moveType: 5
+      moveCategory: 1
+    level: 58
+  habitat: 9
+  evolutionStructs: []
+  Description: It punches holes in boulders on stream- beds. This is a clever innovation
+    that prevents its eggs from being attacked or washed away by the current.
+  Evolutions: 

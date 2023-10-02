@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: HARIYAMA
+  m_EditorClassIdentifier: 
+  Name: HARIYAMA
+  ID: 0
+  types: 07000000
+  baseStats: 90000000780000003c00000032000000280000003c000000
+  genderRatio: 3
+  Ability: THICKFAT,GUTS
+  HiddenAbilities: SHEERFORCE
+  moveSetStructs:
+  - move:
+      Name: BRINE
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: If the target's HP is down to about half, this attack will hit
+        with double the power.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ARMTHRUST
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 100
+      Description: The user looses a flurry of open-palmed arm thrusts that hit two
+        to five times in a row.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FAKEOUT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 40
+      Accuracy: 100
+      Description: An attack that hits first and makes the target flinch. It only
+        works the first turn the user is in battle.
+      moveType: 5
+      moveCategory: 1
+    level: 10
+  - move:
+      Name: FORCEPALM
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: The target is attacked with a shock wave. It may also leave the
+        target with paralysis.
+      moveType: 7
+      moveCategory: 1
+    level: 13
+  - move:
+      Name: WHIRLWIND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The foe is blown away, to be replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: KNOCKOFF
+      Type: DARK
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The user slaps down the target's held item, preventing that item
+        from being used in the battle.
+      moveType: 16
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: VITALTHROW
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 70
+      Accuracy: 0
+      Description: The user attacks last. In return, this throw move is guaranteed
+        not to miss.
+      moveType: 7
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: BELLYDRUM
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user maximizes its Attack stat in exchange for HP equal to
+        half its max HP.
+      moveType: 5
+      moveCategory: 3
+    level: 26
+  - move:
+      Name: DETECT
+      Type: FIGHTING
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: SEISMICTOSS
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: The target is thrown using the power of gravity. It inflicts damage
+        equal to the user's level.
+      moveType: 7
+      moveCategory: 1
+    level: 34
+  - move:
+      Name: FOCUSPUNCH
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 150
+      Accuracy: 100
+      Description: The user focuses its mind before launching a punch. It will fail
+        if the user is hit before it is used.
+      moveType: 7
+      moveCategory: 1
+    level: 38
+  - move:
+      Name: ENDURE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user endures any attack with at least 1 HP. Its chance of
+        failing rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 42
+  - move:
+      Name: CLOSECOMBAT
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 100
+      Description: The user fights the foe up close without guarding itself. It also
+        cuts the user's Defense and Sp. Def.
+      moveType: 7
+      moveCategory: 1
+    level: 46
+  - move:
+      Name: REVERSAL
+      Type: FIGHTING
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: An all-out attack that becomes more powerful the less HP the user
+        has.
+      moveType: 7
+      moveCategory: 1
+    level: 50
+  - move:
+      Name: HEAVYSLAM
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user slams into the foe with its heavy body. The heavier the
+        user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 54
+  habitat: 4
+  evolutionStructs: []
+  Description: It has the habit of challenging others without hesitation to tests
+    of strength. It's been known to stand on train tracks and stop trains using forearm
+    thrusts.
+  Evolutions: 

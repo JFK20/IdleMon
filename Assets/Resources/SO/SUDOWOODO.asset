@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SUDOWOODO
+  m_EditorClassIdentifier: 
+  Name: SUDOWOODO
+  ID: 0
+  types: 0a000000
+  baseStats: 4600000064000000730000001e0000001e00000041000000
+  genderRatio: 4
+  Ability: STURDY,ROCKHEAD
+  HiddenAbilities: RATTLED
+  moveSetStructs:
+  - move:
+      Name: SLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 75
+      Description: The target is slammed with a long tail, vines, etc., to inflict
+        damage.
+      moveType: 5
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: STONEEDGE
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user stabs the foe with sharpened stones from below. It has
+        a high critical-hit ratio.
+      moveType: 10
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HAMMERARM
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 90
+      Description: The user swings and hits with its strong and heavy fist. It lowers
+        the user's Speed, however.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: WOODHAMMER
+      Type: GRASS
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: The user slams its rugged body into the target to attack. The
+        user also sustains serious damage.
+      moveType: 3
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FAKETEARS
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user feigns crying to fluster the target, harshly lowering
+        its Sp. Def stat.
+      moveType: 16
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: COPYCAT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user mimics the move used immediately before it. The move
+        fails if no other move has been used yet.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FLAIL
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user flails about aimlessly to attack. It becomes more powerful
+        the less HP the user has.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ROCKTHROW
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 90
+      Description: The user picks up and throws a small rock at the target to attack.
+      moveType: 10
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BLOCK
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user blocks the target's way with arms spread wide to prevent
+        escape.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: MIMIC
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user copies the move last used by the foe. The move can be
+        used until the user is switched out.
+      moveType: 5
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: ROCKTOMB
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 60
+      Accuracy: 95
+      Description: Boulders are hurled at the target. It also lowers the target's
+        Speed by preventing its movement.
+      moveType: 10
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: TEARFULLOOK
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: Gets teary eyed to make the target lose its will to fight. Lowers
+        the target's Attack and Sp. Atk.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: SUCKERPUNCH
+      Type: DARK
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: This move enables the user to attack first. It fails if the target
+        is not readying an attack, however.
+      moveType: 16
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: LOWKICK
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A powerful low kick that makes the foe fall over. It inflicts
+        greater damage on heavier foes.
+      moveType: 7
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: COUNTER
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A retaliation move that counters any physical attack, inflicting
+        double the damage taken.
+      moveType: 7
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: HEADSMASH
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 150
+      Accuracy: 80
+      Description: The user attacks the foe with a hazardous, full-power headbutt.
+        The user also takes terrible damage.
+      moveType: 10
+      moveCategory: 1
+    level: 48
+  habitat: 2
+  evolutionStructs: []
+  Description: It mimics a tree to avoid being attacked by enemies. But since its
+    forelegs remain green throughout the year, it is easily identified as a fake
+    in the winter.
+  Evolutions: 

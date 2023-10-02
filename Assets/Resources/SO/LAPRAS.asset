@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: LAPRAS
+  m_EditorClassIdentifier: 
+  Name: LAPRAS
+  ID: 0
+  types: 020000000e000000
+  baseStats: 8200000055000000500000003c000000550000005f000000
+  genderRatio: 4
+  Ability: WATERABSORB,SHELLARMOR
+  HiddenAbilities: HYDRATION
+  moveSetStructs:
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SING
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 55
+      Description: A soothing lullaby is sung in a calming voice that puts the target
+        into a deep slumber.
+      moveType: 5
+      moveCategory: 3
+    level: 5
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: LIFEDEW
+      Type: WATER
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user scatters mysterious water around and restores the HP
+        of itself and its allies.
+      moveType: 2
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: ICESHARD
+      Type: ICE
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user flash freezes chunks of ice and hurls them at the target.
+        This move always goes first.
+      moveType: 14
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: CONFUSERAY
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The target is exposed to a sinister ray that triggers confusion.
+      moveType: 12
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: BRINE
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: If the target's HP is down to about half, this attack will hit
+        with double the power.
+      moveType: 2
+      moveCategory: 2
+    level: 35
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: ICEBEAM
+      Type: ICE
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is struck with an icy-cold beam of energy. It may also
+        freeze the target solid.
+      moveType: 14
+      moveCategory: 2
+    level: 45
+  - move:
+      Name: RAINDANCE
+      Type: WATER
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user summons a heavy rain that falls for five turns, powering
+        up Water-type moves.
+      moveType: 2
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 55
+  - move:
+      Name: PERISHSONG
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: "Any Pok\xC3\xA9mon that hears this song faints in three turns,
+        unless it switches out of battle."
+      moveType: 5
+      moveCategory: 3
+    level: 60
+  - move:
+      Name: SHEERCOLD
+      Type: ICE
+      Category: Special
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The foe is attacked with a blast of absolute-zero cold. The target
+        instantly faints if it hits.
+      moveType: 14
+      moveCategory: 2
+    level: 65
+  habitat: 7
+  evolutionStructs: []
+  Description: People have driven Lapras almost to the point of extinction. In the
+    evenings, it is said to sing plaintively as it seeks what few others of its kind
+    still remain.
+  Evolutions: 

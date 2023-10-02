@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: CAMERUPT
+  m_EditorClassIdentifier: 
+  Name: CAMERUPT
+  ID: 0
+  types: 0100000009000000
+  baseStats: 46000000640000004600000028000000690000004b000000
+  genderRatio: 4
+  Ability: MAGMAARMOR,SOLIDROCK
+  HiddenAbilities: ANGERPOINT
+  moveSetStructs:
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: FISSURE
+      Type: GROUND
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The user opens up a fissure in the ground and drops the foe in.
+        The target instantly faints if it hits.
+      moveType: 9
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ERUPTION
+      Type: FIRE
+      Category: Special
+      PP: 5
+      Power: 150
+      Accuracy: 100
+      Description: The user attacks in an explosive fury. The lower the user's HP,
+        the less powerful this attack becomes.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: FLAMETHROWER
+      Type: FIRE
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: The target is scorched with an intense blast of fire. It may also
+        leave the target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: EMBER
+      Type: FIRE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is attacked with small flames. It may also leave the
+        target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BULLDOZE
+      Type: GROUND
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: "The user strikes everything around it by stomping on the ground.
+        It reduces hit Pok\xC3\xA9mon's Speed."
+      moveType: 9
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: FLAMEWHEEL
+      Type: FIRE
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user cloaks itself in fire and charges at the target. It may
+        also leave the target with a burn.
+      moveType: 1
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 19
+  - move:
+      Name: LAVAPLUME
+      Type: FIRE
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: An inferno of scarlet flames torches everything around the user.
+        It may leave targets with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 22
+  - move:
+      Name: EARTHPOWER
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user makes the ground under the foe erupt with power. It may
+        also lower the target's Sp. Def.
+      moveType: 9
+      moveCategory: 2
+    level: 26
+  - move:
+      Name: CURSE
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: A move that works differently for the Ghost type than for all
+        the other types.
+      moveType: 12
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 31
+  - move:
+      Name: YAWN
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lets loose a huge yawn that lulls the target into falling
+        asleep on the next turn.
+      moveType: 5
+      moveCategory: 3
+    level: 39
+  - move:
+      Name: EARTHQUAKE
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: "The user sets off an earthquake that strikes every Pok\xC3\xA9mon
+        around it."
+      moveType: 9
+      moveCategory: 1
+    level: 46
+  habitat: 4
+  evolutionStructs: []
+  Description: "A Pok\xC3\xA9mon that lives in the crater of a volcano. Every 10
+    years, the volcanoes on its back erupt violently. Research is under way on the
+    cause of eruption."
+  Evolutions: 

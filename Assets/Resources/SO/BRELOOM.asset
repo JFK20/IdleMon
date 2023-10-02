@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: BRELOOM
+  m_EditorClassIdentifier: 
+  Name: BRELOOM
+  ID: 0
+  types: 0300000007000000
+  baseStats: 3c0000008200000050000000460000003c0000003c000000
+  genderRatio: 4
+  Ability: EFFECTSPORE,POISONHEAL
+  HiddenAbilities: TECHNICIAN
+  moveSetStructs:
+  - move:
+      Name: MACHPUNCH
+      Type: FIGHTING
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user throws a punch at blinding speed. It is certain to strike
+        first.
+      moveType: 7
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: POISONPOWDER
+      Type: POISON
+      Category: Status
+      PP: 35
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of poisonous dust on the target. It
+        may poison the target.
+      moveType: 8
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WORRYSEED
+      Type: GRASS
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: A seed that causes worry is planted on the foe. It prevents sleep
+        by making its Ability Insomnia.
+      moveType: 3
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: GROWTH
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user's body grows all at once, raising the Atk and Sp. Atk
+        stats.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TOXIC
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 90
+      Description: A move that leaves the target badly poisoned. Its poison damage
+        worsens every turn.
+      moveType: 8
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SPORE
+      Type: GRASS
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: The user scatters bursts of spores that induce sleep.
+      moveType: 3
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: LEECHSEED
+      Type: GRASS
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 90
+      Description: A seed is planted on the target. It steals some HP from the target
+        every turn.
+      moveType: 3
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: FEINT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 30
+      Accuracy: 100
+      Description: An attack that hits a target using Protect or Detect. It also
+        lifts the effects of those moves.
+      moveType: 5
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: COUNTER
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A retaliation move that counters any physical attack, inflicting
+        double the damage taken.
+      moveType: 7
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: FORCEPALM
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: The target is attacked with a shock wave. It may also leave the
+        target with paralysis.
+      moveType: 7
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: MINDREADER
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user senses the foe's movements with its mind to ensure its
+        next attack does not miss the foe.
+      moveType: 5
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: DRAINPUNCH
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: An energy-draining punch. The user's HP is restored by half the
+        damage taken by the target.
+      moveType: 7
+      moveCategory: 1
+    level: 39
+  - move:
+      Name: SEEDBOMB
+      Type: GRASS
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user slams a barrage of hard-shelled seeds down on the target
+        from above.
+      moveType: 3
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: DYNAMICPUNCH
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 50
+      Description: The user punches the target with full, concentrated power. It
+        confuses the target if it hits.
+      moveType: 7
+      moveCategory: 1
+    level: 50
+  habitat: 2
+  evolutionStructs: []
+  Description: It scatters spores from holes in the cap on its head. It loves warm
+    and humid climates. It feeds on trees and plants in fields and forests.
+  Evolutions: 

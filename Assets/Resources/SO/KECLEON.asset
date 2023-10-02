@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: KECLEON
+  m_EditorClassIdentifier: 
+  Name: KECLEON
+  ID: 0
+  types: 05000000
+  baseStats: 3c0000005a00000046000000280000003c00000078000000
+  genderRatio: 4
+  Ability: COLORCHANGE
+  HiddenAbilities: PROTEAN
+  moveSetStructs:
+  - move:
+      Name: THIEF
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks and steals the foe's held item simultaneously.
+        It can't steal if the user holds an item.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LICK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is licked with a long tongue, causing damage. It may
+        also leave the target with paralysis.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BIND
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 85
+      Description: Things such as long bodies or tentacles are used to bind and squeeze
+        the foe for four to five turns.
+      moveType: 5
+      moveCategory: 1
+    level: 4
+  - move:
+      Name: SHADOWSNEAK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user extends its shadow and attacks the target from behind.
+        This move always goes first.
+      moveType: 12
+      moveCategory: 1
+    level: 7
+  - move:
+      Name: FEINT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 30
+      Accuracy: 100
+      Description: An attack that hits a target using Protect or Detect. It also
+        lifts the effects of those moves.
+      moveType: 5
+      moveCategory: 1
+    level: 10
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 13
+  - move:
+      Name: DISABLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: For four turns, this move prevents the target from using the move
+        it last used.
+      moveType: 5
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: PSYBEAM
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is attacked with a peculiar ray. It may also cause
+        confusion.
+      moveType: 13
+      moveCategory: 2
+    level: 18
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 21
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: DETECT
+      Type: FIGHTING
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: SHADOWCLAW
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user slashes with a sharp claw made from shadows. Critical
+        hits land more easily.
+      moveType: 12
+      moveCategory: 1
+    level: 33
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 38
+  - move:
+      Name: SUBSTITUTE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user makes a copy of itself using some of its HP. The copy
+        serves as the user's decoy.
+      moveType: 5
+      moveCategory: 3
+    level: 42
+  - move:
+      Name: SUCKERPUNCH
+      Type: DARK
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: This move enables the user to attack first. It fails if the target
+        is not readying an attack, however.
+      moveType: 16
+      moveCategory: 1
+    level: 46
+  - move:
+      Name: FOULPLAY
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 95
+      Accuracy: 100
+      Description: The user turns the foe's power against it. It does more damage
+        the higher the target's Attack stat.
+      moveType: 16
+      moveCategory: 1
+    level: 50
+  habitat: 2
+  evolutionStructs: []
+  Description: "A Pok\xC3\xA9mon that has the ability to alter its body colors to
+    match its surroundings. A Kecleon reverts to its original colors if it is startled."
+  Evolutions: 

@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: RALTS
+  m_EditorClassIdentifier: 
+  Name: RALTS
+  ID: 0
+  types: 0d00000012000000
+  baseStats: 1c0000001900000019000000280000002d00000023000000
+  genderRatio: 4
+  Ability: SYNCHRONIZE,TRACE
+  HiddenAbilities: TELEPATHY
+  moveSetStructs:
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DISARMINGVOICE
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 0
+      Description: Letting out a charming cry, the user does emotional damage to
+        foes. This attack never misses.
+      moveType: 18
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: DOUBLETEAM
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: By moving rapidly, the user makes illusory copies of itself to
+        raise its evasiveness.
+      moveType: 5
+      moveCategory: 3
+    level: 3
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 6
+  - move:
+      Name: HYPNOSIS
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 60
+      Description: The user employs hypnotic suggestion to make the target fall into
+        a deep sleep.
+      moveType: 13
+      moveCategory: 3
+    level: 9
+  - move:
+      Name: DRAININGKISS
+      Type: FAIRY
+      Category: Special
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: The user steals the target's HP with a kiss. The user's HP is
+        restored by over half of the damage dealt.
+      moveType: 18
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: TELEPORT
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The user switches place with a party Pok\xC3\xA9mon. Also warps
+        to the last Pok\xC3\xA9mon Center visited."
+      moveType: 13
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: PSYBEAM
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is attacked with a peculiar ray. It may also cause
+        confusion.
+      moveType: 13
+      moveCategory: 2
+    level: 18
+  - move:
+      Name: LIFEDEW
+      Type: WATER
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user scatters mysterious water around and restores the HP
+        of itself and its allies.
+      moveType: 2
+      moveCategory: 3
+    level: 21
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: CALMMIND
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user quietly focuses its mind and calms its spirit to raise
+        its Sp. Atk and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 27
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: HEALPULSE
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user emits a healing pulse which restores the target's HP
+        by up to half of its max HP.
+      moveType: 13
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: DREAMEATER
+      Type: PSYCHIC
+      Category: Special
+      PP: 15
+      Power: 100
+      Accuracy: 100
+      Description: The user eats the dreams of a sleeping foe. It absorbs half the
+        damage caused to heal the user's HP.
+      moveType: 13
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: FUTURESIGHT
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: Two turns after this move is used, a hunk of psychic energy attacks
+        the target.
+      moveType: 13
+      moveCategory: 2
+    level: 39
+  habitat: 8
+  evolutionStructs: []
+  Description: "A Ralts has the power to sense the emotions of people and Pok\xC3\xA9mon
+    with the horns on its head. It takes cover if it senses any hostility."
+  Evolutions: KIRLIA,Level,20

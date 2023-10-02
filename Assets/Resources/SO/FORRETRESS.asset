@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: FORRETRESS
+  m_EditorClassIdentifier: 
+  Name: FORRETRESS
+  ID: 0
+  types: 0b00000011000000
+  baseStats: 4b0000005a0000008c000000280000003c0000003c000000
+  genderRatio: 4
+  Ability: STURDY
+  HiddenAbilities: OVERCOAT
+  moveSetStructs:
+  - move:
+      Name: AUTOTOMIZE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user sheds part of its body to make itself lighter and sharply
+        raise its Speed stat.
+      moveType: 17
+      moveCategory: 3
+    level: 0
+  - move:
+      Name: HEAVYSLAM
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user slams into the foe with its heavy body. The heavier the
+        user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ZAPCANNON
+      Type: ELECTRIC
+      Category: Special
+      PP: 5
+      Power: 120
+      Accuracy: 50
+      Description: The user fires an electric blast like a cannon to inflict damage
+        and cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: MAGNETRISE
+      Type: ELECTRIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user levitates using electrically generated magnetism for
+        five turns.
+      moveType: 4
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TOXICSPIKES
+      Type: POISON
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays a trap of poison spikes at the foe's feet. They
+        poison foes that switch into battle.
+      moveType: 8
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SELFDESTRUCT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 200
+      Accuracy: 100
+      Description: "The user blows up to inflict damage on all Pok\xC3\xA9mon in
+        battle. The user faints upon using this move."
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BUGBITE
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user bites the target. If the target is holding a Berry, the
+        user eats it and gains its effect.
+      moveType: 11
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: RAPIDSPIN
+      Type: NORMAL
+      Category: Physical
+      PP: 40
+      Power: 50
+      Accuracy: 100
+      Description: A spin attack that raises the user's Speed and eliminates the
+        effects of Bind, Spikes, etc.
+      moveType: 5
+      moveCategory: 1
+    level: 17
+  - move:
+      Name: REFLECT
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: A wondrous wall of light is put up to suppress damage from physical
+        attacks for five turns.
+      moveType: 13
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: ROLLOUT
+      Type: ROCK
+      Category: Physical
+      PP: 20
+      Power: 30
+      Accuracy: 90
+      Description: The user continually rolls into the target over five turns. It
+        becomes stronger each time it hits.
+      moveType: 10
+      moveCategory: 1
+    level: 23
+  - move:
+      Name: SPIKES
+      Type: GROUND
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays a trap of spikes at the foe's feet. The trap hurts
+        foes that switch into battle.
+      moveType: 9
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: PAYBACK
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: If the user moves after the target, this attack's power will be
+        doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: EXPLOSION
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 250
+      Accuracy: 100
+      Description: The user explodes to inflict damage on those around it. The user
+        faints upon using this move.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 42
+  - move:
+      Name: GYROBALL
+      Type: STEEL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: The user tackles the target with a high-speed spin. The slower
+        the user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 46
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 50
+  habitat: 2
+  evolutionStructs: []
+  Description: It keeps itself inside its steel shell. The shell is opened when it
+    is catching prey, but it is so quick that the shell's inside cannot be seen.
+  Evolutions: 

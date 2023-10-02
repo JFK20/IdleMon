@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: TROPIUS
+  m_EditorClassIdentifier: 
+  Name: TROPIUS
+  ID: 0
+  types: 0300000006000000
+  baseStats: 630000004400000053000000330000004800000057000000
+  genderRatio: 4
+  Ability: CHLOROPHYLL,SOLARPOWER
+  HiddenAbilities: HARVEST
+  moveSetStructs:
+  - move:
+      Name: LEAFSTORM
+      Type: GRASS
+      Category: Special
+      PP: 5
+      Power: 130
+      Accuracy: 90
+      Description: A storm of sharp is whipped up. The attack's recoil harshly reduces
+        the user's Sp. Atk stat.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: GROWTH
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user's body grows all at once, raising the Atk and Sp. Atk
+        stats.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: RAZORLEAF
+      Type: GRASS
+      Category: Physical
+      PP: 25
+      Power: 55
+      Accuracy: 95
+      Description: Sharp-edged leaves are launched to slash at the opposing team.
+        Critical hits land more easily.
+      moveType: 3
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SWEETSCENT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: "A sweet scent that lowers the foe's evasiveness. It also lures
+        wild Pok\xC3\xA9mon if used in grass, etc."
+      moveType: 5
+      moveCategory: 3
+    level: 6
+  - move:
+      Name: STOMP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is stomped with a big foot. It may also make the target
+        flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 10
+  - move:
+      Name: MAGICALLEAF
+      Type: GRASS
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: The user scatters curious leaves that chase the target. This attack
+        will not miss.
+      moveType: 3
+      moveCategory: 2
+    level: 16
+  - move:
+      Name: WHIRLWIND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The foe is blown away, to be replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 21
+  - move:
+      Name: LEAFTORNADO
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 90
+      Description: The user attacks its foe by encircling it in sharp leaves. This
+        attack may also lower the foe's accuracy.
+      moveType: 3
+      moveCategory: 2
+    level: 26
+  - move:
+      Name: DRAGONDANCE
+      Type: DRAGON
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user vigorously performs a mystic, powerful dance that boosts
+        its Attack and Speed stats.
+      moveType: 15
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 41
+  - move:
+      Name: DRAGONHAMMER
+      Type: DRAGON
+      Category: Physical
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: The user uses its body like a hammer to attack the target and
+        inflict damage.
+      moveType: 15
+      moveCategory: 1
+    level: 46
+  - move:
+      Name: SYNTHESIS
+      Type: GRASS
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP. The amount of HP regained varies
+        with the weather.
+      moveType: 3
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: SOLARBEAM
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: A two-turn attack. The user gathers light, then blasts a bundled
+        beam on the second turn.
+      moveType: 3
+      moveCategory: 2
+    level: 56
+  habitat: 2
+  evolutionStructs: []
+  Description: It flies by flapping its broad leaves. The bunch of fruit that grows
+    around its neck is deliciously sweet. In the spring, it scatters pollen from
+    its neck.
+  Evolutions: 

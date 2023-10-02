@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SPINARAK
+  m_EditorClassIdentifier: 
+  Name: SPINARAK
+  ID: 0
+  types: 0b00000008000000
+  baseStats: 280000003c000000280000001e0000002800000028000000
+  genderRatio: 4
+  Ability: SWARM,INSOMNIA
+  HiddenAbilities: SNIPER
+  moveSetStructs:
+  - move:
+      Name: POISONSTING
+      Type: POISON
+      Category: Physical
+      PP: 35
+      Power: 15
+      Accuracy: 100
+      Description: The user stabs the target with a poisonous stinger. This may also
+        poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: STRINGSHOT
+      Type: BUG
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 95
+      Description: The foe is bound with silk blown from the user's mouth. This silk
+        reduces the target's Speed.
+      moveType: 11
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 5
+  - move:
+      Name: INFESTATION
+      Type: BUG
+      Category: Special
+      PP: 20
+      Power: 20
+      Accuracy: 100
+      Description: The target is infested and unable to flee for four to five turns.
+      moveType: 11
+      moveCategory: 2
+    level: 8
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: NIGHTSHADE
+      Type: GHOST
+      Category: Special
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user makes the foe see a frightening mirage. It inflicts damage
+        matching the user's level.
+      moveType: 12
+      moveCategory: 2
+    level: 15
+  - move:
+      Name: SHADOWSNEAK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user extends its shadow and attacks the target from behind.
+        This move always goes first.
+      moveType: 12
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: SUCKERPUNCH
+      Type: DARK
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: This move enables the user to attack first. It fails if the target
+        is not readying an attack, however.
+      moveType: 16
+      moveCategory: 1
+    level: 26
+  - move:
+      Name: LEECHLIFE
+      Type: BUG
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user drains the target's blood. The user's HP is restored
+        by half the damage taken by the target.
+      moveType: 11
+      moveCategory: 1
+    level: 29
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: PINMISSILE
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 25
+      Accuracy: 95
+      Description: Sharp spikes are shot at the target in rapid succession. They
+        hit two to five times in a row.
+      moveType: 11
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: POISONJAB
+      Type: POISON
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The target is stabbed with a tentacle or arm seeped with poison.
+        It may also poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 43
+  - move:
+      Name: CROSSPOISON
+      Type: POISON
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: A slashing attack with a poisonous blade that may also poison
+        the foe. Critical hits land more easily.
+      moveType: 8
+      moveCategory: 1
+    level: 47
+  - move:
+      Name: STICKYWEB
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: Weaves a sticky net around the opposing team, which lowers their
+        Speed stats upon switching in.
+      moveType: 11
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: TOXICTHREAD
+      Type: POISON
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user shoots poisonous threads to poison the target and lower
+        the target's Speed stat.
+      moveType: 8
+      moveCategory: 3
+    level: 54
+  habitat: 2
+  evolutionStructs: []
+  Description: The web it spins can be considered its second nervous system. It is
+    said that a Spinarak determines its prey by the tiny vibrations it feels through
+    the web.
+  Evolutions: ARIADOS,Level,22

@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: VOLBEAT
+  m_EditorClassIdentifier: 
+  Name: VOLBEAT
+  ID: 0
+  types: 0b000000
+  baseStats: 41000000490000004b000000550000002f00000055000000
+  genderRatio: 1
+  Ability: ILLUMINATE,SWARM
+  HiddenAbilities: PRANKSTER
+  moveSetStructs:
+  - move:
+      Name: PLAYNICE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user and target become friends. The target loses its will
+        to fight, lowering its Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DOUBLETEAM
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: By moving rapidly, the user makes illusory copies of itself to
+        raise its evasiveness.
+      moveType: 5
+      moveCategory: 3
+    level: 5
+  - move:
+      Name: CONFUSERAY
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The target is exposed to a sinister ray that triggers confusion.
+      moveType: 12
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: STRUGGLEBUG
+      Type: BUG
+      Category: Special
+      PP: 20
+      Power: 50
+      Accuracy: 100
+      Description: "While resisting, the user attacks the opposing Pok\xC3\xA9mon.
+        The targets' Sp. Atk stat is reduced."
+      moveType: 11
+      moveCategory: 2
+    level: 15
+  - move:
+      Name: MOONLIGHT
+      Type: FAIRY
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP. The amount of HP regained varies
+        with the weather.
+      moveType: 18
+      moveCategory: 3
+    level: 19
+  - move:
+      Name: TAILGLOW
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user stares at flashing lights to focus its mind, drastically
+        raising its Sp. Atk stat.
+      moveType: 11
+      moveCategory: 3
+    level: 22
+  - move:
+      Name: ENCORE
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 100
+      Description: The user compels the target to keep using only the move it last
+        used for three turns.
+      moveType: 5
+      moveCategory: 3
+    level: 26
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 33
+  - move:
+      Name: HELPINGHAND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user assists an ally by boosting the power of its attack.
+      moveType: 5
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: BUGBUZZ
+      Type: BUG
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user vibrates its wings to generate a damaging sound wave.
+        It may also lower the target's Sp. Def stat.
+      moveType: 11
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: PLAYROUGH
+      Type: FAIRY
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user plays rough with the target and attacks it. This may
+        also lower the target's Attack stat.
+      moveType: 18
+      moveCategory: 1
+    level: 43
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 47
+  - move:
+      Name: INFESTATION
+      Type: BUG
+      Category: Special
+      PP: 20
+      Power: 20
+      Accuracy: 100
+      Description: The target is infested and unable to flee for four to five turns.
+      moveType: 11
+      moveCategory: 2
+    level: 50
+  habitat: 2
+  evolutionStructs: []
+  Description: With their taillights lit, Volbeat fly in a swarm, drawing geometric
+    designs in the night sky. They move their nests if their pond water becomes dirty.
+  Evolutions: 

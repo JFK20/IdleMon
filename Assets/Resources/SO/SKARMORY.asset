@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SKARMORY
+  m_EditorClassIdentifier: 
+  Name: SKARMORY
+  ID: 0
+  types: 1100000006000000
+  baseStats: 41000000500000008c000000460000002800000046000000
+  genderRatio: 4
+  Ability: KEENEYE,STURDY
+  HiddenAbilities: WEAKARMOR
+  moveSetStructs:
+  - move:
+      Name: PECK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 35
+      Accuracy: 100
+      Description: The target is jabbed with a sharply pointed beak or horn.
+      moveType: 6
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: FURYATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 85
+      Description: The target is jabbed repeatedly with a horn or beak two to five
+        times in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: METALCLAW
+      Type: STEEL
+      Category: Physical
+      PP: 35
+      Power: 50
+      Accuracy: 95
+      Description: The target is raked with steel claws. It may also raise the user's
+        Attack stat.
+      moveType: 17
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: WINGATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 60
+      Accuracy: 100
+      Description: The target is struck with large, imposing wings spread wide to
+        inflict damage.
+      moveType: 6
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: STEELWING
+      Type: STEEL
+      Category: Physical
+      PP: 25
+      Power: 70
+      Accuracy: 90
+      Description: The target is hit with wings of steel. It may also raise the user's
+        Defense stat.
+      moveType: 17
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: AUTOTOMIZE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user sheds part of its body to make itself lighter and sharply
+        raise its Speed stat.
+      moveType: 17
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: DRILLPECK
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: A corkscrewing attack with the sharp beak acting as a drill.
+      moveType: 6
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: METALSOUND
+      Type: STEEL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: A horrible sound like scraping metal harshly reduces the target's
+        Sp. Def stat.
+      moveType: 17
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: SPIKES
+      Type: GROUND
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays a trap of spikes at the foe's feet. The trap hurts
+        foes that switch into battle.
+      moveType: 9
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: BRAVEBIRD
+      Type: FLYING
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: The user tucks in its wings and charges from a low altitude. The
+        user also takes serious damage.
+      moveType: 6
+      moveCategory: 1
+    level: 52
+  habitat: 6
+  evolutionStructs: []
+  Description: "A Pok\xC3\xA9mon that has a body and wings of steel. People in the
+    past used feathers fallen from Skarmory to make swords and knives."
+  Evolutions: 

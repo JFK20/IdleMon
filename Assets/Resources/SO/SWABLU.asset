@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SWABLU
+  m_EditorClassIdentifier: 
+  Name: SWABLU
+  ID: 0
+  types: 0500000006000000
+  baseStats: 2d000000280000003c00000032000000280000004b000000
+  genderRatio: 4
+  Ability: NATURALCURE
+  HiddenAbilities: CLOUDNINE
+  moveSetStructs:
+  - move:
+      Name: PECK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 35
+      Accuracy: 100
+      Description: The target is jabbed with a sharply pointed beak or horn.
+      moveType: 6
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DISARMINGVOICE
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 0
+      Description: Letting out a charming cry, the user does emotional damage to
+        foes. This attack never misses.
+      moveType: 18
+      moveCategory: 2
+    level: 4
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: FURYATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 85
+      Description: The target is jabbed repeatedly with a horn or beak two to five
+        times in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: ROUND
+      Type: NORMAL
+      Category: Special
+      PP: 15
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a song. Others can join in the Round and
+        make the attack do greater damage.
+      moveType: 5
+      moveCategory: 2
+    level: 16
+  - move:
+      Name: DRAGONBREATH
+      Type: DRAGON
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user exhales a mighty gust that inflicts damage. It may also
+        leave the target with paralysis.
+      moveType: 15
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: SAFEGUARD
+      Type: NORMAL
+      Category: Status
+      PP: 25
+      Power: 0
+      Accuracy: 0
+      Description: The user creates a protective field that prevents status problems
+        for five turns.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: SING
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 55
+      Description: A soothing lullaby is sung in a calming voice that puts the target
+        into a deep slumber.
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: COTTONGUARD
+      Type: GRASS
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user protects itself by wrapping its body in soft cotton,
+        drastically raising its Defense stat.
+      moveType: 3
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: MOONBLAST
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 95
+      Accuracy: 100
+      Description: The user attacks by borrowing the power of the moon. This may
+        also lower the target's Sp. Atk stat.
+      moveType: 18
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: PERISHSONG
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: "Any Pok\xC3\xA9mon that hears this song faints in three turns,
+        unless it switches out of battle."
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  habitat: 2
+  evolutionStructs: []
+  Description: "A Pok\xC3\xA9mon that has wings like cottony clouds. After enduring
+    winter, in which little food is available, Swablu flocks move closer to towns
+    in the spring."
+  Evolutions: ALTARIA,Level,35

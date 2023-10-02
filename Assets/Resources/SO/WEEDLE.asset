@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: WEEDLE
+  m_EditorClassIdentifier: 
+  Name: WEEDLE
+  ID: 0
+  types: 0b00000008000000
+  baseStats: 28000000230000001e000000320000001400000014000000
+  genderRatio: 4
+  Ability: SHIELDDUST
+  HiddenAbilities: RUNAWAY
+  moveSetStructs:
+  - move:
+      Name: POISONSTING
+      Type: POISON
+      Category: Physical
+      PP: 35
+      Power: 15
+      Accuracy: 100
+      Description: The user stabs the target with a poisonous stinger. This may also
+        poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: STRINGSHOT
+      Type: BUG
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 95
+      Description: The foe is bound with silk blown from the user's mouth. This silk
+        reduces the target's Speed.
+      moveType: 11
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BUGBITE
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user bites the target. If the target is holding a Berry, the
+        user eats it and gains its effect.
+      moveType: 11
+      moveCategory: 1
+    level: 9
+  habitat: 2
+  evolutionStructs: []
+  Description: A Weedle has an extremely acute sense of smell. It distinguishes its
+    favorite kinds of leaves from those it dislikes by sniffing with its big red
+    proboscis (nose).
+  Evolutions: KAKUNA,Level,7

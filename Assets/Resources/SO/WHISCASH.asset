@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: WHISCASH
+  m_EditorClassIdentifier: 
+  Name: WHISCASH
+  ID: 0
+  types: 0200000009000000
+  baseStats: 6e0000004e000000490000003c0000004c00000047000000
+  genderRatio: 4
+  Ability: OBLIVIOUS,ANTICIPATION
+  HiddenAbilities: HYDRATION
+  moveSetStructs:
+  - move:
+      Name: THRASH
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 5
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: BELCH
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 90
+      Description: The user lets out a damaging belch at the target. The user must
+        eat a held Berry to use this move.
+      moveType: 8
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TICKLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user tickles the target into laughing, reducing its Attack
+        and Defense stats.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: MUDSLAP
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 20
+      Accuracy: 100
+      Description: The user hurls mud in the target's face to inflict damage and
+        lower its accuracy.
+      moveType: 9
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SNORE
+      Type: NORMAL
+      Category: Special
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: An attack that can be used only if the user is asleep. The harsh
+        noise may also make the target flinch.
+      moveType: 5
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 18
+  - move:
+      Name: AQUATAIL
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user attacks by swinging its tail as if it were a vicious
+        wave in a raging storm.
+      moveType: 2
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: MUDDYWATER
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 85
+      Description: The user attacks by shooting muddy water at the opposing team.
+        It may also lower the target's accuracy.
+      moveType: 2
+      moveCategory: 2
+    level: 33
+  - move:
+      Name: EARTHQUAKE
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: "The user sets off an earthquake that strikes every Pok\xC3\xA9mon
+        around it."
+      moveType: 9
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: FUTURESIGHT
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: Two turns after this move is used, a hunk of psychic energy attacks
+        the target.
+      moveType: 13
+      moveCategory: 2
+    level: 48
+  - move:
+      Name: FISSURE
+      Type: GROUND
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The user opens up a fissure in the ground and drops the foe in.
+        The target instantly faints if it hits.
+      moveType: 9
+      moveCategory: 1
+    level: 56
+  habitat: 9
+  evolutionStructs: []
+  Description: Mysteriously, it can foretell earthquakes. In the daytime, it sleeps
+    in mud at the bottom of a pond. When it awakens, it continually feeds throughout
+    the night.
+  Evolutions: 

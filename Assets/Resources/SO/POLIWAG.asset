@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: POLIWAG
+  m_EditorClassIdentifier: 
+  Name: POLIWAG
+  ID: 0
+  types: 02000000
+  baseStats: 2800000032000000280000005a0000002800000028000000
+  genderRatio: 4
+  Ability: WATERABSORB,DAMP
+  HiddenAbilities: SWIFTSWIM
+  moveSetStructs:
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: HYPNOSIS
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 60
+      Description: The user employs hypnotic suggestion to make the target fall into
+        a deep sleep.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: MUDSHOT
+      Type: GROUND
+      Category: Special
+      PP: 15
+      Power: 55
+      Accuracy: 95
+      Description: The user attacks by hurling a blob of mud at the target. It also
+        reduces the target's Speed.
+      moveType: 9
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: BUBBLEBEAM
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: A spray of bubbles is forcefully ejected at the target. It may
+        also lower its Speed stat.
+      moveType: 2
+      moveCategory: 2
+    level: 18
+  - move:
+      Name: RAINDANCE
+      Type: WATER
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user summons a heavy rain that falls for five turns, powering
+        up Water-type moves.
+      moveType: 2
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: EARTHPOWER
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user makes the ground under the foe erupt with power. It may
+        also lower the target's Sp. Def.
+      moveType: 9
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 42
+  - move:
+      Name: BELLYDRUM
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user maximizes its Attack stat in exchange for HP equal to
+        half its max HP.
+      moveType: 5
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 54
+  habitat: 9
+  evolutionStructs: []
+  Description: "It is possible to see this Pok\xC3\xA9mon's spiral innards right
+    through its thin skin. However, the skin is also very flexible. Even sharp fangs
+    bounce right off it."
+  Evolutions: POLIWHIRL,Level,25

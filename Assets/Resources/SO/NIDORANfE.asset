@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: NIDORANfE
+  m_EditorClassIdentifier: 
+  Name: NIDORANfE
+  ID: 0
+  types: 08000000
+  baseStats: 370000002f00000034000000290000002800000028000000
+  genderRatio: 7
+  Ability: POISONPOINT,RIVALRY
+  HiddenAbilities: HUSTLE
+  moveSetStructs:
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POISONSTING
+      Type: POISON
+      Category: Physical
+      PP: 35
+      Power: 15
+      Accuracy: 100
+      Description: The user stabs the target with a poisonous stinger. This may also
+        poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 5
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: TOXICSPIKES
+      Type: POISON
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays a trap of poison spikes at the foe's feet. They
+        poison foes that switch into battle.
+      moveType: 8
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: DOUBLEKICK
+      Type: FIGHTING
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is quickly kicked twice in succession using both feet.
+      moveType: 7
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: HELPINGHAND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user assists an ally by boosting the power of its attack.
+      moveType: 5
+      moveCategory: 3
+    level: 35
+  - move:
+      Name: TOXIC
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 90
+      Description: A move that leaves the target badly poisoned. Its poison damage
+        worsens every turn.
+      moveType: 8
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: FLATTER
+      Type: DARK
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Flattery is used to confuse the target. However, it also raises
+        the target's Sp. Atk stat.
+      moveType: 16
+      moveCategory: 3
+    level: 45
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 50
+  - move:
+      Name: EARTHPOWER
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user makes the ground under the foe erupt with power. It may
+        also lower the target's Sp. Def.
+      moveType: 9
+      moveCategory: 2
+    level: 55
+  habitat: 3
+  evolutionStructs: []
+  Description: "Its highly toxic barbs are thought to have developed as protection
+    for this small-bodied Pok\xC3\xA9mon. When enraged, it releases a horrible toxin
+    from its horn."
+  Evolutions: NIDORINA,Level,16

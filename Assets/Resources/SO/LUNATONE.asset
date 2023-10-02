@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: LUNATONE
+  m_EditorClassIdentifier: 
+  Name: LUNATONE
+  ID: 0
+  types: 0a0000000d000000
+  baseStats: 5a0000003700000041000000460000005f00000055000000
+  genderRatio: 8
+  Ability: LEVITATE
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: MOONBLAST
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 95
+      Accuracy: 100
+      Description: The user attacks by borrowing the power of the moon. This may
+        also lower the target's Sp. Atk stat.
+      moveType: 18
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: MOONLIGHT
+      Type: FAIRY
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP. The amount of HP regained varies
+        with the weather.
+      moveType: 18
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ROCKTHROW
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 90
+      Description: The user picks up and throws a small rock at the target to attack.
+      moveType: 10
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HYPNOSIS
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 60
+      Description: The user employs hypnotic suggestion to make the target fall into
+        a deep sleep.
+      moveType: 13
+      moveCategory: 3
+    level: 5
+  - move:
+      Name: ROCKPOLISH
+      Type: ROCK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user polishes its body to reduce drag. It can sharply raise
+        the Speed stat.
+      moveType: 10
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: PSYSHOCK
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user materializes an odd psychic wave to attack the target.
+        This attack does physical damage.
+      moveType: 13
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: COSMICPOWER
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user absorbs a mystical power from space to raise its Defense
+        and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: STONEEDGE
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user stabs the foe with sharpened stones from below. It has
+        a high critical-hit ratio.
+      moveType: 10
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: FUTURESIGHT
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: Two turns after this move is used, a hunk of psychic energy attacks
+        the target.
+      moveType: 13
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: MAGICROOM
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user creates a bizarre area in which Pok\xC3\xA9mon's held
+        items lose their effects for five turns."
+      moveType: 13
+      moveCategory: 3
+    level: 45
+  - move:
+      Name: EXPLOSION
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 250
+      Accuracy: 100
+      Description: The user explodes to inflict damage on those around it. The user
+        faints upon using this move.
+      moveType: 5
+      moveCategory: 1
+    level: 50
+  habitat: 1
+  evolutionStructs: []
+  Description: "It becomes very active on the night of a full moon. This Pok\xC3\xA9mon
+    was first discovered 40 years ago at the site of a meteor strike."
+  Evolutions: 

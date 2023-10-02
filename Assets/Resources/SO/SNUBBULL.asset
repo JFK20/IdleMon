@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SNUBBULL
+  m_EditorClassIdentifier: 
+  Name: SNUBBULL
+  ID: 0
+  types: 12000000
+  baseStats: 3c00000050000000320000001e0000002800000028000000
+  genderRatio: 5
+  Ability: INTIMIDATE,RUNAWAY
+  HiddenAbilities: RATTLED
+  moveSetStructs:
+  - move:
+      Name: ICEFANG
+      Type: ICE
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with cold-infused fangs. It may also make the target
+        flinch or leave it frozen.
+      moveType: 14
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FIREFANG
+      Type: FIRE
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with flame-cloaked fangs. It may also make the
+        target flinch or leave it burned.
+      moveType: 1
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: THUNDERFANG
+      Type: ELECTRIC
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with electrified fangs. It may also make the target
+        flinch or leave it with paralysis.
+      moveType: 4
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 7
+  - move:
+      Name: LICK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is licked with a long tongue, causing damage. It may
+        also leave the target with paralysis.
+      moveType: 12
+      moveCategory: 1
+    level: 13
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: ROAR
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The target is scared off and replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: TAUNT
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The target is taunted into a rage that allows it to use only attack
+        moves for three turns.
+      moveType: 16
+      moveCategory: 3
+    level: 31
+  - move:
+      Name: PLAYROUGH
+      Type: FAIRY
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user plays rough with the target and attacks it. This may
+        also lower the target's Attack stat.
+      moveType: 18
+      moveCategory: 1
+    level: 37
+  - move:
+      Name: PAYBACK
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: If the user moves after the target, this attack's power will be
+        doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 43
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 49
+  habitat: 8
+  evolutionStructs: []
+  Description: "By baring its fangs and making a scary face, it sends smaller Pok\xC3\xA9mon
+    scurrying in terror. The Snubbull does seem a little sad at making its foes flee."
+  Evolutions: GRANBULL,Level,23

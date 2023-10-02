@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GRIMER
+  m_EditorClassIdentifier: 
+  Name: GRIMER
+  ID: 0
+  types: 08000000
+  baseStats: 500000005000000032000000190000002800000032000000
+  genderRatio: 4
+  Ability: STENCH,STICKYHOLD
+  HiddenAbilities: POISONTOUCH
+  moveSetStructs:
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: POISONGAS
+      Type: POISON
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 90
+      Description: "A cloud of poison gas is sprayed in the face of opposing Pok\xC3\xA9mon.
+        It may poison those hit."
+      moveType: 8
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: MUDSLAP
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 20
+      Accuracy: 100
+      Description: The user hurls mud in the target's face to inflict damage and
+        lower its accuracy.
+      moveType: 9
+      moveCategory: 2
+    level: 7
+  - move:
+      Name: DISABLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: For four turns, this move prevents the target from using the move
+        it last used.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: SLUDGE
+      Type: POISON
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: Unsanitary sludge is hurled at the target. It may also poison
+        the target.
+      moveType: 8
+      moveCategory: 2
+    level: 15
+  - move:
+      Name: SMOG
+      Type: POISON
+      Category: Special
+      PP: 20
+      Power: 30
+      Accuracy: 70
+      Description: The target is attacked with a discharge of filthy gases. It may
+        also poison the target.
+      moveType: 8
+      moveCategory: 2
+    level: 18
+  - move:
+      Name: MINIMIZE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user compresses its body to make itself look smaller, which
+        sharply raises its evasiveness.
+      moveType: 5
+      moveCategory: 3
+    level: 21
+  - move:
+      Name: FLING
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user flings its held item at the target to attack. Its power
+        and effects depend on the item.
+      moveType: 16
+      moveCategory: 1
+    level: 26
+  - move:
+      Name: SLUDGEBOMB
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: Unsanitary sludge is hurled at the target. It may also poison
+        the target.
+      moveType: 8
+      moveCategory: 2
+    level: 29
+  - move:
+      Name: SLUDGEWAVE
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 95
+      Accuracy: 100
+      Description: It swamps the area around the user with a giant sludge wave. It
+        may also poison those hit.
+      moveType: 8
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 37
+  - move:
+      Name: GUNKSHOT
+      Type: POISON
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 80
+      Description: The user shoots filthy garbage at the target to attack. It may
+        also poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: ACIDARMOR
+      Type: POISON
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user alters its cellular structure to liquefy itself, sharply
+        raising its Defense stat.
+      moveType: 8
+      moveCategory: 3
+    level: 43
+  - move:
+      Name: BELCH
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 90
+      Description: The user lets out a damaging belch at the target. The user must
+        eat a held Berry to use this move.
+      moveType: 8
+      moveCategory: 2
+    level: 46
+  - move:
+      Name: MEMENTO
+      Type: DARK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user faints when using this move. In return, it harshly lowers
+        the target's Attack and Sp. Atk.
+      moveType: 16
+      moveCategory: 3
+    level: 48
+  habitat: 8
+  evolutionStructs: []
+  Description: Born from polluted sludge in the sea, Grimer's favorite food is anything
+    filthy. They feed on wastewater pumped out from factories.
+  Evolutions: MUK,Level,38

@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: ELECTABUZZ
+  m_EditorClassIdentifier: 
+  Name: ELECTABUZZ
+  ID: 0
+  types: 04000000
+  baseStats: 410000005300000039000000690000005f00000055000000
+  genderRatio: 3
+  Ability: STATIC
+  HiddenAbilities: VITALSPIRIT
+  moveSetStructs:
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: THUNDERSHOCK
+      Type: ELECTRIC
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: A jolt of electricity is hurled at the foe to inflict damage.
+        It may also leave the target with paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: CHARGE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user boosts the power of the Electric move it uses next. It
+        also raises the user's Sp. Def stat.
+      moveType: 4
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SWIFT
+      Type: NORMAL
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: Star-shaped rays are shot at the opposing team. This attack never
+        misses.
+      moveType: 5
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: SHOCKWAVE
+      Type: ELECTRIC
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: The user strikes the target with a quick jolt of electricity.
+        This attack cannot be evaded.
+      moveType: 4
+      moveCategory: 2
+    level: 16
+  - move:
+      Name: THUNDERWAVE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 90
+      Description: A weak electric charge is launched at the target. It causes paralysis
+        if it hits.
+      moveType: 4
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: THUNDERPUNCH
+      Type: ELECTRIC
+      Category: Physical
+      PP: 15
+      Power: 75
+      Accuracy: 100
+      Description: The target is punched with an electrified fist. It may also leave
+        the target with paralysis.
+      moveType: 4
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: DISCHARGE
+      Type: ELECTRIC
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: A flare of electricity is loosed to strike the area around the
+        user. It may also cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 34
+  - move:
+      Name: LOWKICK
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A powerful low kick that makes the foe fall over. It inflicts
+        greater damage on heavier foes.
+      moveType: 7
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: THUNDERBOLT
+      Type: ELECTRIC
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: A strong electric blast is loosed at the target. It may also leave
+        the target with paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 46
+  - move:
+      Name: LIGHTSCREEN
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: A wondrous wall of light is put up to suppress damage from special
+        attacks for five turns.
+      moveType: 13
+      moveCategory: 3
+    level: 52
+  - move:
+      Name: THUNDER
+      Type: ELECTRIC
+      Category: Special
+      PP: 10
+      Power: 110
+      Accuracy: 70
+      Description: A wicked thunderbolt is dropped on the foe to inflict damage.
+        It may also leave the target paralyzed.
+      moveType: 4
+      moveCategory: 2
+    level: 58
+  - move:
+      Name: GIGAIMPACT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 150
+      Accuracy: 90
+      Description: The user charges at the target using every bit of its power. The
+        user must rest on the next turn.
+      moveType: 5
+      moveCategory: 1
+    level: 64
+  habitat: 3
+  evolutionStructs: []
+  Description: When a storm approaches, it competes with others to scale heights
+    that are likely to be stricken by lightning. Some towns use Electabuzz as lightning
+    rods.
+  Evolutions: ELECTIVIRE,TradeItem,ELECTIRIZER

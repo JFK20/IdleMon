@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: LOTAD
+  m_EditorClassIdentifier: 
+  Name: LOTAD
+  ID: 0
+  types: 0200000003000000
+  baseStats: 280000001e0000001e0000001e0000002800000032000000
+  genderRatio: 4
+  Ability: SWIFTSWIM,RAINDISH
+  HiddenAbilities: OWNTEMPO
+  moveSetStructs:
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 3
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 6
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 9
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: FLAIL
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user flails about aimlessly to attack. It becomes more powerful
+        the less HP the user has.
+      moveType: 5
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: BUBBLEBEAM
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: A spray of bubbles is forcefully ejected at the target. It may
+        also lower its Speed stat.
+      moveType: 2
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: NATUREPOWER
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: An attack that makes use of nature's power. Its effects vary depending
+        on the user's environment.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 28
+  - move:
+      Name: RAINDANCE
+      Type: WATER
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user summons a heavy rain that falls for five turns, powering
+        up Water-type moves.
+      moveType: 2
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 38
+  - move:
+      Name: ENERGYBALL
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user draws power from nature and fires it at the target. It
+        may also lower the target's Sp. Def.
+      moveType: 3
+      moveCategory: 2
+    level: 43
+  habitat: 9
+  evolutionStructs: []
+  Description: "This Pok\xC3\xA9mon lives in ponds with clean water. It is known
+    to ferry small Pok\xC3\xA9mon across ponds by carrying them on the broad leaf
+    on its head."
+  Evolutions: LOMBRE,Level,14

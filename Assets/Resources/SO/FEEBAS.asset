@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: FEEBAS
+  m_EditorClassIdentifier: 
+  Name: FEEBAS
+  ID: 0
+  types: 02000000
+  baseStats: 140000000f00000014000000500000000a00000037000000
+  genderRatio: 4
+  Ability: SWIFTSWIM,OBLIVIOUS
+  HiddenAbilities: ADAPTABILITY
+  moveSetStructs:
+  - move:
+      Name: SPLASH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user just flops and splashes around to no effect at all...
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: FLAIL
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user flails about aimlessly to attack. It becomes more powerful
+        the less HP the user has.
+      moveType: 5
+      moveCategory: 1
+    level: 25
+  habitat: 9
+  evolutionStructs: []
+  Description: Feebas live in ponds that are heavily infested with weeds. Because
+    of its hopelessly shabby appearance, it seems as if few trainers raise it.
+  Evolutions: MILOTIC,TradeItem,PRISMSCALE,MILOTIC,Beauty,170

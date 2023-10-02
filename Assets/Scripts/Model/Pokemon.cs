@@ -8,6 +8,7 @@ using UnityEngine.Serialization;
 public class Pokemon
 {
     private MovesManager movesManager;
+    private PokemonManager pokemonManager;
     
     public string Name;
     public string Types;
@@ -81,6 +82,52 @@ public class Pokemon
     private Dictionary<Move, int> moveSet;
     private Habitat habitat;
     private Dictionary<Pokemon, int> evolutions;
+    
+    public List<MoveType> GetTypes() {
+        return types;
+    }
+    
+    public GenderRatio GetGenderRatio() {
+        return genderRatio;
+    }
+    
+    public List<PokemonSO.moveSetStruct> GetMoveSetStruct() {
+        List<PokemonSO.moveSetStruct> moveSetStructs = new List<PokemonSO.moveSetStruct>();
+        foreach (var VARIABLE in moveSet) {
+            PokemonSO.moveSetStruct moveSetStruct = new PokemonSO.moveSetStruct();
+            moveSetStruct.move = VARIABLE.Key;
+            moveSetStruct.level = VARIABLE.Value;
+            moveSetStructs.Add(moveSetStruct);
+        }
+        return moveSetStructs;
+    }
+    
+    public List<int> GetBaseStats() {
+        List<int> tmpList = new List<int>();
+        foreach (var VARIABLE in baseStats) {
+            tmpList.Add(VARIABLE.Value);
+        }
+        return tmpList;
+    }
+    
+    public Habitat GetHabitat() {
+        return habitat;
+    }
+    
+    /*public List<PokemonSO.evolutionStruct> GetEvolutionStruct() {
+        List<PokemonSO.evolutionStruct> evolutionStructs = new List<PokemonSO.evolutionStruct>();
+        if (evolutions == null) {
+            Debug.Log("No evolutions");
+            return evolutionStructs;
+        }
+        foreach (var VARIABLE in evolutions) {
+            PokemonSO.evolutionStruct evolutionStruct = new PokemonSO.evolutionStruct();
+            evolutionStruct.pokemon = VARIABLE.Key;
+            evolutionStruct.level = VARIABLE.Value;
+            evolutionStructs.Add(evolutionStruct);
+        }
+        return evolutionStructs;
+    }*/
 
     public void SetData() {
         this.types = InitTypes(Types);

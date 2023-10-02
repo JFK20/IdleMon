@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SNEASEL
+  m_EditorClassIdentifier: 
+  Name: SNEASEL
+  ID: 0
+  types: 100000000e000000
+  baseStats: 370000005f0000003700000073000000230000004b000000
+  genderRatio: 4
+  Ability: INNERFOCUS,KEENEYE
+  HiddenAbilities: PICKPOCKET
+  moveSetStructs:
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TAUNT
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The target is taunted into a rage that allows it to use only attack
+        moves for three turns.
+      moveType: 16
+      moveCategory: 3
+    level: 6
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: METALCLAW
+      Type: STEEL
+      Category: Physical
+      PP: 35
+      Power: 50
+      Accuracy: 95
+      Description: The target is raked with steel claws. It may also raise the user's
+        Attack stat.
+      moveType: 17
+      moveCategory: 1
+    level: 18
+  - move:
+      Name: ICYWIND
+      Type: ICE
+      Category: Special
+      PP: 15
+      Power: 55
+      Accuracy: 95
+      Description: The user attacks with a gust of chilled air. It also lowers the
+        targets' Speed stat.
+      moveType: 14
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: HONECLAWS
+      Type: DARK
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user sharpens its claws to boost its Attack stat and accuracy.
+      moveType: 16
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: BEATUP
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: "The user gets all the party Pok\xC3\xA9mon to attack the foe.
+        The more party Pok\xC3\xA9mon, the more damage."
+      moveType: 16
+      moveCategory: 1
+    level: 42
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 54
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 60
+  habitat: 2
+  evolutionStructs: []
+  Description: A Sneasel scales trees by punching its hooked claws into the bark.
+    It seeks out unguarded nests and steals eggs for food while the parents are away.
+  Evolutions: WEAVILE,NightHoldItem,RAZORCLAW

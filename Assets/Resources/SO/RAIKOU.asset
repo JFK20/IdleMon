@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: RAIKOU
+  m_EditorClassIdentifier: 
+  Name: RAIKOU
+  ID: 0
+  types: 04000000
+  baseStats: 5a000000550000004b000000730000007300000064000000
+  genderRatio: 8
+  Ability: PRESSURE
+  HiddenAbilities: INNERFOCUS
+  moveSetStructs:
+  - move:
+      Name: EXTREMESPEED
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 80
+      Accuracy: 100
+      Description: The user charges the target at blinding speed. This attack always
+        goes before any other move.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: THUNDERSHOCK
+      Type: ELECTRIC
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: A jolt of electricity is hurled at the foe to inflict damage.
+        It may also leave the target with paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CHARGE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user boosts the power of the Electric move it uses next. It
+        also raises the user's Sp. Def stat.
+      moveType: 4
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SPARK
+      Type: ELECTRIC
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The user throws an electrically charged tackle at the target.
+        It may also leave the target with paralysis.
+      moveType: 4
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: CALMMIND
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user quietly focuses its mind and calms its spirit to raise
+        its Sp. Atk and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 18
+  - move:
+      Name: ROAR
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The target is scared off and replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: THUNDERFANG
+      Type: ELECTRIC
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with electrified fangs. It may also make the target
+        flinch or leave it with paralysis.
+      moveType: 4
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: HOWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user howls loudly to raise the spirit of itself and allies,
+        boosting their Attack stats.
+      moveType: 5
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 42
+  - move:
+      Name: EXTRASENSORY
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The user attacks with an odd, unseeable power. It may also make
+        the target flinch.
+      moveType: 13
+      moveCategory: 2
+    level: 48
+  - move:
+      Name: DISCHARGE
+      Type: ELECTRIC
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: A flare of electricity is loosed to strike the area around the
+        user. It may also cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 54
+  - move:
+      Name: REFLECT
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: A wondrous wall of light is put up to suppress damage from physical
+        attacks for five turns.
+      moveType: 13
+      moveCategory: 3
+    level: 60
+  - move:
+      Name: RAINDANCE
+      Type: WATER
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user summons a heavy rain that falls for five turns, powering
+        up Water-type moves.
+      moveType: 2
+      moveCategory: 3
+    level: 66
+  - move:
+      Name: THUNDER
+      Type: ELECTRIC
+      Category: Special
+      PP: 10
+      Power: 110
+      Accuracy: 70
+      Description: A wicked thunderbolt is dropped on the foe to inflict damage.
+        It may also leave the target paralyzed.
+      moveType: 4
+      moveCategory: 2
+    level: 72
+  - move:
+      Name: ZAPCANNON
+      Type: ELECTRIC
+      Category: Special
+      PP: 5
+      Power: 120
+      Accuracy: 50
+      Description: The user fires an electric blast like a cannon to inflict damage
+        and cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 78
+  habitat: 3
+  evolutionStructs: []
+  Description: Raikou embodies the speed of lightning. Its roars send shock waves
+    shuddering through the air and ground as if lightning bolts were crashing down.
+  Evolutions: 

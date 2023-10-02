@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: MASQUERAIN
+  m_EditorClassIdentifier: 
+  Name: MASQUERAIN
+  ID: 0
+  types: 0b00000006000000
+  baseStats: 460000003c0000003e000000500000006400000052000000
+  genderRatio: 4
+  Ability: INTIMIDATE
+  HiddenAbilities: UNNERVE
+  moveSetStructs:
+  - move:
+      Name: QUIVERDANCE
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user performs a beautiful dance. It boosts the user's Sp.
+        Atk, Sp. Def, and Speed stats.
+      moveType: 11
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WHIRLWIND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The foe is blown away, to be replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BUGBUZZ
+      Type: BUG
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user vibrates its wings to generate a damaging sound wave.
+        It may also lower the target's Sp. Def stat.
+      moveType: 11
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: BUBBLEBEAM
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: A spray of bubbles is forcefully ejected at the target. It may
+        also lower its Speed stat.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: HAZE
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: "The user creates a haze that eliminates every stat change among
+        all the Pok\xC3\xA9mon engaged in battle."
+      moveType: 14
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: AQUAJET
+      Type: WATER
+      Category: Physical
+      PP: 20
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 2
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BATONPASS
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: "The user switches places with a party Pok\xC3\xA9mon in waiting,
+        passing along any stat changes."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: STICKYWEB
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: Weaves a sticky net around the opposing team, which lowers their
+        Speed stats upon switching in.
+      moveType: 11
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SWEETSCENT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: "A sweet scent that lowers the foe's evasiveness. It also lures
+        wild Pok\xC3\xA9mon if used in grass, etc."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SOAK
+      Type: WATER
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user shoots a torrent of water at the target and changes the
+        target's type to Water.
+      moveType: 2
+      moveCategory: 3
+    level: 14
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 17
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 22
+  - move:
+      Name: AIRCUTTER
+      Type: FLYING
+      Category: Special
+      PP: 25
+      Power: 60
+      Accuracy: 95
+      Description: The user launches razor-like wind to slash the opposing team.
+        Critical hits land more easily.
+      moveType: 6
+      moveCategory: 2
+    level: 22
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 26
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 38
+  habitat: 9
+  evolutionStructs: []
+  Description: It intimidates foes with the large eyelike patterns on its antennae.
+    Because it can't fly if its wings get wet, it shelters from rain under large
+    trees and eaves.
+  Evolutions: 

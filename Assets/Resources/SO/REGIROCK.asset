@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: REGIROCK
+  m_EditorClassIdentifier: 
+  Name: REGIROCK
+  ID: 0
+  types: 0a000000
+  baseStats: 5000000064000000c8000000320000003200000064000000
+  genderRatio: 8
+  Ability: CLEARBODY
+  HiddenAbilities: STURDY
+  moveSetStructs:
+  - move:
+      Name: CHARGEBEAM
+      Type: ELECTRIC
+      Category: Special
+      PP: 10
+      Power: 50
+      Accuracy: 90
+      Description: The user fires a concentrated bundle of electricity. It may also
+        raise the user's Sp. Atk stat.
+      moveType: 4
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ROCKTHROW
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 90
+      Description: The user picks up and throws a small rock at the target to attack.
+      moveType: 10
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BULLDOZE
+      Type: GROUND
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: "The user strikes everything around it by stomping on the ground.
+        It reduces hit Pok\xC3\xA9mon's Speed."
+      moveType: 9
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: STOMP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is stomped with a big foot. It may also make the target
+        flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 18
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: CURSE
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: A move that works differently for the Ghost type than for all
+        the other types.
+      moveType: 12
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: HAMMERARM
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 90
+      Description: The user swings and hits with its strong and heavy fist. It lowers
+        the user's Speed, however.
+      moveType: 7
+      moveCategory: 1
+    level: 42
+  - move:
+      Name: STONEEDGE
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user stabs the foe with sharpened stones from below. It has
+        a high critical-hit ratio.
+      moveType: 10
+      moveCategory: 1
+    level: 48
+  - move:
+      Name: SUPERPOWER
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 100
+      Description: The user attacks the target with great power. However, it also
+        lowers the user's Attack and Defense.
+      moveType: 7
+      moveCategory: 1
+    level: 54
+  - move:
+      Name: LOCKON
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user takes sure aim at the target. It ensures the next attack
+        does not fail to hit the target.
+      moveType: 5
+      moveCategory: 3
+    level: 60
+  - move:
+      Name: ZAPCANNON
+      Type: ELECTRIC
+      Category: Special
+      PP: 5
+      Power: 120
+      Accuracy: 50
+      Description: The user fires an electric blast like a cannon to inflict damage
+        and cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 66
+  - move:
+      Name: HYPERBEAM
+      Type: NORMAL
+      Category: Special
+      PP: 5
+      Power: 150
+      Accuracy: 90
+      Description: The foe is attacked with a powerful beam. The user must rest on
+        the next turn to regain its energy.
+      moveType: 5
+      moveCategory: 2
+    level: 72
+  - move:
+      Name: EXPLOSION
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 250
+      Accuracy: 100
+      Description: The user explodes to inflict damage on those around it. The user
+        faints upon using this move.
+      moveType: 5
+      moveCategory: 1
+    level: 78
+  habitat: 1
+  evolutionStructs: []
+  Description: "A Pok\xC3\xA9mon that is made entirely of rocks and boulders. If
+    parts of its body chip off in battle, Regirock repairs itself by adding new rocks."
+  Evolutions: 

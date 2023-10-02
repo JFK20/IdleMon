@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SURSKIT
+  m_EditorClassIdentifier: 
+  Name: SURSKIT
+  ID: 0
+  types: 0b00000002000000
+  baseStats: 280000001e00000020000000410000003200000034000000
+  genderRatio: 4
+  Ability: SWIFTSWIM
+  HiddenAbilities: RAINDISH
+  moveSetStructs:
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: SWEETSCENT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: "A sweet scent that lowers the foe's evasiveness. It also lures
+        wild Pok\xC3\xA9mon if used in grass, etc."
+      moveType: 5
+      moveCategory: 3
+    level: 9
+  - move:
+      Name: SOAK
+      Type: WATER
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user shoots a torrent of water at the target and changes the
+        target's type to Water.
+      moveType: 2
+      moveCategory: 3
+    level: 14
+  - move:
+      Name: BUBBLEBEAM
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: A spray of bubbles is forcefully ejected at the target. It may
+        also lower its Speed stat.
+      moveType: 2
+      moveCategory: 2
+    level: 17
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 22
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: HAZE
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: "The user creates a haze that eliminates every stat change among
+        all the Pok\xC3\xA9mon engaged in battle."
+      moveType: 14
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: AQUAJET
+      Type: WATER
+      Category: Physical
+      PP: 20
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 2
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: BATONPASS
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: "The user switches places with a party Pok\xC3\xA9mon in waiting,
+        passing along any stat changes."
+      moveType: 5
+      moveCategory: 3
+    level: 35
+  - move:
+      Name: STICKYWEB
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: Weaves a sticky net around the opposing team, which lowers their
+        Speed stats upon switching in.
+      moveType: 11
+      moveCategory: 3
+    level: 38
+  habitat: 9
+  evolutionStructs: []
+  Description: They gather on puddles after evening downpours, gliding across the
+    surface of water as if sliding. It secretes honey with a sweet aroma from its
+    head.
+  Evolutions: MASQUERAIN,Level,22

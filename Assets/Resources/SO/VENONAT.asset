@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: VENONAT
+  m_EditorClassIdentifier: 
+  Name: VENONAT
+  ID: 0
+  types: 0b00000008000000
+  baseStats: 3c00000037000000320000002d0000002800000037000000
+  genderRatio: 4
+  Ability: COMPOUNDEYES,TINTEDLENS
+  HiddenAbilities: RUNAWAY
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DISABLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: For four turns, this move prevents the target from using the move
+        it last used.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: STRUGGLEBUG
+      Type: BUG
+      Category: Special
+      PP: 20
+      Power: 50
+      Accuracy: 100
+      Description: "While resisting, the user attacks the opposing Pok\xC3\xA9mon.
+        The targets' Sp. Atk stat is reduced."
+      moveType: 11
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 5
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 11
+  - move:
+      Name: POISONPOWDER
+      Type: POISON
+      Category: Status
+      PP: 35
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of poisonous dust on the target. It
+        may poison the target.
+      moveType: 8
+      moveCategory: 3
+    level: 13
+  - move:
+      Name: PSYBEAM
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is attacked with a peculiar ray. It may also cause
+        confusion.
+      moveType: 13
+      moveCategory: 2
+    level: 17
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 23
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 25
+  - move:
+      Name: SLEEPPOWDER
+      Type: GRASS
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a big cloud of sleep-inducing dust around the
+        target.
+      moveType: 3
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: LEECHLIFE
+      Type: BUG
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user drains the target's blood. The user's HP is restored
+        by half the damage taken by the target.
+      moveType: 11
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 37
+  - move:
+      Name: POISONFANG
+      Type: POISON
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: The user bites the target with toxic fangs. It may also leave
+        the target badly poisoned.
+      moveType: 8
+      moveCategory: 1
+    level: 41
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 47
+  habitat: 2
+  evolutionStructs: []
+  Description: Its coat of thin, stiff hair that covers its entire body is said to
+    have evolved for protection. Its large eyes never fail to spot even miniscule
+    prey.
+  Evolutions: VENOMOTH,Level,31

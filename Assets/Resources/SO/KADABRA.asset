@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: KADABRA
+  m_EditorClassIdentifier: 
+  Name: KADABRA
+  ID: 0
+  types: 0d000000
+  baseStats: 28000000230000001e000000690000007800000046000000
+  genderRatio: 3
+  Ability: SYNCHRONIZE,INNERFOCUS
+  HiddenAbilities: MAGICGUARD
+  moveSetStructs:
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 0
+  - move:
+      Name: KINESIS
+      Type: PSYCHIC
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 80
+      Description: The user distracts the target by bending a spoon. It lowers the
+        target's accuracy.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DISABLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: For four turns, this move prevents the target from using the move
+        it last used.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TELEPORT
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The user switches place with a party Pok\xC3\xA9mon. Also warps
+        to the last Pok\xC3\xA9mon Center visited."
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: PSYBEAM
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is attacked with a peculiar ray. It may also cause
+        confusion.
+      moveType: 13
+      moveCategory: 2
+    level: 5
+  - move:
+      Name: REFLECT
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: A wondrous wall of light is put up to suppress damage from physical
+        attacks for five turns.
+      moveType: 13
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: ALLYSWITCH
+      Type: PSYCHIC
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user teleports using a strange power and switches its place
+        with one of its allies.
+      moveType: 13
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: PSYCHOCUT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The user tears at the target with blades formed by psychic power.
+        Critical hits land more easily.
+      moveType: 13
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: RECOVER
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Restoring its own cells, the user restores its own HP by half
+        of its max HP.
+      moveType: 5
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: PSYSHOCK
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user materializes an odd psychic wave to attack the target.
+        This attack does physical damage.
+      moveType: 13
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 35
+  - move:
+      Name: ROLEPLAY
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user mimics the target completely, copying the target's natural
+        Ability.
+      moveType: 13
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: FUTURESIGHT
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: Two turns after this move is used, a hunk of psychic energy attacks
+        the target.
+      moveType: 13
+      moveCategory: 2
+    level: 45
+  - move:
+      Name: CALMMIND
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user quietly focuses its mind and calms its spirit to raise
+        its Sp. Atk and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 50
+  habitat: 8
+  evolutionStructs: []
+  Description: It is rumored that a boy with psychic abilities suddenly transformed
+    into Kadabra while he was assisting research into extrasensory powers.
+  Evolutions: ALAKAZAM,Trade,

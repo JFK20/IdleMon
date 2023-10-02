@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: JIRACHI
+  m_EditorClassIdentifier: 
+  Name: JIRACHI
+  ID: 0
+  types: 110000000d000000
+  baseStats: 640000006400000064000000640000006400000064000000
+  genderRatio: 8
+  Ability: SERENEGRACE
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: WISH
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: One turn after this move is used, the target's HP is restored
+        by half the user's maximum HP.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SWIFT
+      Type: NORMAL
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: Star-shaped rays are shot at the opposing team. This attack never
+        misses.
+      moveType: 5
+      moveCategory: 2
+    level: 7
+  - move:
+      Name: HELPINGHAND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user assists an ally by boosting the power of its attack.
+      moveType: 5
+      moveCategory: 3
+    level: 14
+  - move:
+      Name: LIFEDEW
+      Type: WATER
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user scatters mysterious water around and restores the HP
+        of itself and its allies.
+      moveType: 2
+      moveCategory: 3
+    level: 21
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: GRAVITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: Gravity is intensified for five turns, making moves involving
+        flying unusable and negating Levitation.
+      moveType: 13
+      moveCategory: 3
+    level: 35
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 42
+  - move:
+      Name: METEORMASH
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The target is hit with a hard punch fired like a meteor. It may
+        also raise the user's Attack.
+      moveType: 17
+      moveCategory: 1
+    level: 49
+  - move:
+      Name: HEALINGWISH
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user faints. In return, the Pok\xC3\xA9mon taking its place
+        will have its HP restored and status cured."
+      moveType: 13
+      moveCategory: 3
+    level: 56
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 63
+  - move:
+      Name: FUTURESIGHT
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: Two turns after this move is used, a hunk of psychic energy attacks
+        the target.
+      moveType: 13
+      moveCategory: 2
+    level: 70
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 77
+  - move:
+      Name: COSMICPOWER
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user absorbs a mystical power from space to raise its Defense
+        and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 84
+  - move:
+      Name: LASTRESORT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 140
+      Accuracy: 100
+      Description: This move can be used only after the user has used all the other
+        moves it knows in the battle.
+      moveType: 5
+      moveCategory: 1
+    level: 91
+  - move:
+      Name: DOOMDESIRE
+      Type: STEEL
+      Category: Special
+      PP: 5
+      Power: 140
+      Accuracy: 100
+      Description: Two turns after this move is used, the user blasts the target
+        with a concentrated bundle of light.
+      moveType: 17
+      moveCategory: 2
+    level: 98
+  habitat: 4
+  evolutionStructs: []
+  Description: Jirachi is said to make wishes come true. While it sleeps, a tough
+    crystalline shell envelops the body to protect it from enemies.
+  Evolutions: 

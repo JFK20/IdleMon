@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: TRAPINCH
+  m_EditorClassIdentifier: 
+  Name: TRAPINCH
+  ID: 0
+  types: 09000000
+  baseStats: 2d000000640000002d0000000a0000002d0000002d000000
+  genderRatio: 4
+  Ability: HYPERCUTTER,ARENATRAP
+  HiddenAbilities: SHEERFORCE
+  moveSetStructs:
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LASERFOCUS
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user focuses intensely. The attack on the next turn always
+        results in a critical hit.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: MUDSLAP
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 20
+      Accuracy: 100
+      Description: The user hurls mud in the target's face to inflict damage and
+        lower its accuracy.
+      moveType: 9
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: SANDTOMB
+      Type: GROUND
+      Category: Physical
+      PP: 15
+      Power: 35
+      Accuracy: 85
+      Description: The user traps the target inside a harshly raging sandstorm for
+        four to five turns.
+      moveType: 9
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: BULLDOZE
+      Type: GROUND
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: "The user strikes everything around it by stomping on the ground.
+        It reduces hit Pok\xC3\xA9mon's Speed."
+      moveType: 9
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: DIG
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user burrows, then attacks on the second turn. It can also
+        be used to exit dungeons.
+      moveType: 9
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: SANDSTORM
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Summons a five-turn sandstorm to hurt all combatants except the
+        Rock, Ground, and Steel types.
+      moveType: 10
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: EARTHPOWER
+      Type: GROUND
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user makes the ground under the foe erupt with power. It may
+        also lower the target's Sp. Def.
+      moveType: 9
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: EARTHQUAKE
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: "The user sets off an earthquake that strikes every Pok\xC3\xA9mon
+        around it."
+      moveType: 9
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: SUPERPOWER
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 100
+      Description: The user attacks the target with great power. However, it also
+        lowers the user's Attack and Defense.
+      moveType: 7
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: FISSURE
+      Type: GROUND
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The user opens up a fissure in the ground and drops the foe in.
+        The target instantly faints if it hits.
+      moveType: 9
+      moveCategory: 1
+    level: 48
+  habitat: 6
+  evolutionStructs: []
+  Description: Its big jaws crunch through boulders. Because its head is so big,
+    it has a hard time getting back upright if it tips over onto its back.
+  Evolutions: VIBRAVA,Level,35

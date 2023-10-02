@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: BAGON
+  m_EditorClassIdentifier: 
+  Name: BAGON
+  ID: 0
+  types: 0f000000
+  baseStats: 2d0000004b0000003c00000032000000280000001e000000
+  genderRatio: 4
+  Ability: ROCKHEAD
+  HiddenAbilities: SHEERFORCE
+  moveSetStructs:
+  - move:
+      Name: EMBER
+      Type: FIRE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is attacked with small flames. It may also leave the
+        target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 5
+  - move:
+      Name: DRAGONBREATH
+      Type: DRAGON
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user exhales a mighty gust that inflicts damage. It may also
+        leave the target with paralysis.
+      moveType: 15
+      moveCategory: 2
+    level: 10
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: DRAGONCLAW
+      Type: DRAGON
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user slashes the target with huge, sharp claws.
+      moveType: 15
+      moveCategory: 1
+    level: 31
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: FLAMETHROWER
+      Type: FIRE
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: The target is scorched with an intense blast of fire. It may also
+        leave the target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 45
+  - move:
+      Name: OUTRAGE
+      Type: DRAGON
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 15
+      moveCategory: 1
+    level: 50
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 55
+  habitat: 6
+  evolutionStructs: []
+  Description: "Although it is small, this Pok\xC3\xA9mon is very powerful because
+    its body is a bundle of muscles. It launches head-butts with its ironlike skull."
+  Evolutions: SHELGON,Level,30

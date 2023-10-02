@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GRUMPIG
+  m_EditorClassIdentifier: 
+  Name: GRUMPIG
+  ID: 0
+  types: 0d000000
+  baseStats: 500000002d00000041000000500000005a0000006e000000
+  genderRatio: 4
+  Ability: THICKFAT,OWNTEMPO
+  HiddenAbilities: GLUTTONY
+  moveSetStructs:
+  - move:
+      Name: TEETERDANCE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: "The user performs a wobbly dance that confuses the Pok\xC3\xA9mon
+        around it."
+      moveType: 5
+      moveCategory: 3
+    level: 0
+  - move:
+      Name: BELCH
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 90
+      Description: The user lets out a damaging belch at the target. The user must
+        eat a held Berry to use this move.
+      moveType: 8
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SPLASH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user just flops and splashes around to no effect at all...
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 7
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: PSYBEAM
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is attacked with a peculiar ray. It may also cause
+        confusion.
+      moveType: 13
+      moveCategory: 2
+    level: 14
+  - move:
+      Name: PSYCHUP
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user hypnotizes itself into copying any stat change made by
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: CONFUSERAY
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The target is exposed to a sinister ray that triggers confusion.
+      moveType: 12
+      moveCategory: 3
+    level: 18
+  - move:
+      Name: MAGICCOAT
+      Type: PSYCHIC
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: A barrier reflects back to the target moves like Leech Seed and
+        moves that damage status.
+      moveType: 13
+      moveCategory: 3
+    level: 21
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 26
+  - move:
+      Name: POWERGEM
+      Type: ROCK
+      Category: Special
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The user attacks with a ray of light that sparkles as if it were
+        made of gemstones.
+      moveType: 10
+      moveCategory: 2
+    level: 29
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 35
+  - move:
+      Name: SNORE
+      Type: NORMAL
+      Category: Special
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: An attack that can be used only if the user is asleep. The harsh
+        noise may also make the target flinch.
+      moveType: 5
+      moveCategory: 2
+    level: 35
+  - move:
+      Name: PSYSHOCK
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user materializes an odd psychic wave to attack the target.
+        This attack does physical damage.
+      moveType: 13
+      moveCategory: 2
+    level: 42
+  - move:
+      Name: PAYBACK
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: If the user moves after the target, this attack's power will be
+        doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 46
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 52
+  - move:
+      Name: BOUNCE
+      Type: FLYING
+      Category: Physical
+      PP: 5
+      Power: 85
+      Accuracy: 85
+      Description: The user bounces up high, then drops on the foe on the second
+        turn. It may also paralyze the foe.
+      moveType: 6
+      moveCategory: 1
+    level: 60
+  habitat: 4
+  evolutionStructs: []
+  Description: It stores power in the black pearls on its forehead. When it uses
+    psychic power, it performs an odd dance step. Its style of dancing became hugely
+    popular overseas.
+  Evolutions: 

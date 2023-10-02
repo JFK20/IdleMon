@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SNORLAX
+  m_EditorClassIdentifier: 
+  Name: SNORLAX
+  ID: 0
+  types: 05000000
+  baseStats: a00000006e000000410000001e000000410000006e000000
+  genderRatio: 2
+  Ability: IMMUNITY,THICKFAT
+  HiddenAbilities: GLUTTONY
+  moveSetStructs:
+  - move:
+      Name: RECYCLE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user recycles a held item that has been used in battle so
+        it can be used again.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: COVET
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user endearingly approaches the target, then steals the target's
+        held item.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: STOCKPILE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user charges up power and raises both its Defense and Sp.
+        Def. The move can be used three times.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SWALLOW
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The power stored using the move Stockpile is absorbed by the user
+        to heal its HP.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FLING
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user flings its held item at the target to attack. Its power
+        and effects depend on the item.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: METRONOME
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user waggles a finger and stimulates its brain into randomly
+        using nearly any move.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FLAIL
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user flails about aimlessly to attack. It becomes more powerful
+        the less HP the user has.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LASTRESORT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 140
+      Accuracy: 100
+      Description: This move can be used only after the user has used all the other
+        moves it knows in the battle.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LICK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is licked with a long tongue, causing damage. It may
+        also leave the target with paralysis.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BLOCK
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user blocks the target's way with arms spread wide to prevent
+        escape.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: YAWN
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lets loose a huge yawn that lulls the target into falling
+        asleep on the next turn.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: SNORE
+      Type: NORMAL
+      Category: Special
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: An attack that can be used only if the user is asleep. The harsh
+        noise may also make the target flinch.
+      moveType: 5
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: SLEEPTALK
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: While it is asleep, the user randomly uses one of the moves it
+        knows.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: HEAVYSLAM
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user slams into the foe with its heavy body. The heavier the
+        user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: HIGHHORSEPOWER
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 95
+      Accuracy: 95
+      Description: The user fiercely attacks the target using its entire body.
+      moveType: 9
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: HAMMERARM
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 90
+      Description: The user swings and hits with its strong and heavy fist. It lowers
+        the user's Speed, however.
+      moveType: 7
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: BELLYDRUM
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user maximizes its Attack stat in exchange for HP equal to
+        half its max HP.
+      moveType: 5
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: BELCH
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 90
+      Description: The user lets out a damaging belch at the target. The user must
+        eat a held Berry to use this move.
+      moveType: 8
+      moveCategory: 2
+    level: 52
+  - move:
+      Name: GIGAIMPACT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 150
+      Accuracy: 90
+      Description: The user charges at the target using every bit of its power. The
+        user must rest on the next turn.
+      moveType: 5
+      moveCategory: 1
+    level: 56
+  habitat: 4
+  evolutionStructs: []
+  Description: "Snorlax's typical day consists of nothing more than eating and sleeping.
+    It is such a docile Pok\xC3\xA9mon that there are children who use its big belly
+    as a place to play."
+  Evolutions: 

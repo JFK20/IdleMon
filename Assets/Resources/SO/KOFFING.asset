@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: KOFFING
+  m_EditorClassIdentifier: 
+  Name: KOFFING
+  ID: 0
+  types: 08000000
+  baseStats: 28000000410000005f000000230000003c0000002d000000
+  genderRatio: 4
+  Ability: LEVITATE,NEUTRALIZINGGAS
+  HiddenAbilities: STENCH
+  moveSetStructs:
+  - move:
+      Name: POISONGAS
+      Type: POISON
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 90
+      Description: "A cloud of poison gas is sprayed in the face of opposing Pok\xC3\xA9mon.
+        It may poison those hit."
+      moveType: 8
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SMOG
+      Type: POISON
+      Category: Special
+      PP: 20
+      Power: 30
+      Accuracy: 70
+      Description: The target is attacked with a discharge of filthy gases. It may
+        also poison the target.
+      moveType: 8
+      moveCategory: 2
+    level: 4
+  - move:
+      Name: SMOKESCREEN
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user releases an obscuring cloud of smoke or ink. It reduces
+        the target's accuracy.
+      moveType: 5
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: CLEARSMOG
+      Type: POISON
+      Category: Special
+      PP: 15
+      Power: 50
+      Accuracy: 0
+      Description: The user attacks by throwing a clump of special mud. All status
+        changes are returned to normal.
+      moveType: 8
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: ASSURANCE
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: If the target has already taken some damage in the same turn,
+        this attack's power is doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: SLUDGE
+      Type: POISON
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: Unsanitary sludge is hurled at the target. It may also poison
+        the target.
+      moveType: 8
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: HAZE
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: "The user creates a haze that eliminates every stat change among
+        all the Pok\xC3\xA9mon engaged in battle."
+      moveType: 14
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: SELFDESTRUCT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 200
+      Accuracy: 100
+      Description: "The user blows up to inflict damage on all Pok\xC3\xA9mon in
+        battle. The user faints upon using this move."
+      moveType: 5
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: SLUDGEBOMB
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: Unsanitary sludge is hurled at the target. It may also poison
+        the target.
+      moveType: 8
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: TOXIC
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 90
+      Description: A move that leaves the target badly poisoned. Its poison damage
+        worsens every turn.
+      moveType: 8
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: BELCH
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 90
+      Description: The user lets out a damaging belch at the target. The user must
+        eat a held Berry to use this move.
+      moveType: 8
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: EXPLOSION
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 250
+      Accuracy: 100
+      Description: The user explodes to inflict damage on those around it. The user
+        faints upon using this move.
+      moveType: 5
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: MEMENTO
+      Type: DARK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user faints when using this move. In return, it harshly lowers
+        the target's Attack and Sp. Atk.
+      moveType: 16
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: DESTINYBOND
+      Type: GHOST
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: When this move is used, if the user faints, the foe that landed
+        the knockout hit also faints.
+      moveType: 12
+      moveCategory: 3
+    level: 52
+  habitat: 8
+  evolutionStructs: []
+  Description: Getting up close to a Koffing will give you a chance to observe, through
+    its thin skin, the toxic gases swirling inside. It blows up at the slightest
+    stimulation.
+  Evolutions: WEEZING,Level,35

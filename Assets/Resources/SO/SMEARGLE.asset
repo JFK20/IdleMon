@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SMEARGLE
+  m_EditorClassIdentifier: 
+  Name: SMEARGLE
+  ID: 0
+  types: 05000000
+  baseStats: 3700000014000000230000004b000000140000002d000000
+  genderRatio: 4
+  Ability: OWNTEMPO,TECHNICIAN
+  HiddenAbilities: MOODY
+  moveSetStructs:
+  - move:
+      Name: SKETCH
+      Type: NORMAL
+      Category: Status
+      PP: 1
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to permanently learn the move last used by
+        the foe. Once used, Sketch disappears.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  habitat: 8
+  evolutionStructs: []
+  Description: "A Smeargle marks its territory using a fluid that leaks out from
+    the tip of its tail. About 5,000 different marks left by this Pok\xC3\xA9mon
+    have been found."
+  Evolutions: 

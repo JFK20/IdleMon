@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SHARPEDO
+  m_EditorClassIdentifier: 
+  Name: SHARPEDO
+  ID: 0
+  types: 0200000010000000
+  baseStats: 4600000078000000280000005f0000005f00000028000000
+  genderRatio: 4
+  Ability: ROUGHSKIN
+  HiddenAbilities: SPEEDBOOST
+  moveSetStructs:
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: NIGHTSLASH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user slashes the target the instant an opportunity arises.
+        Critical hits land more easily.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: AQUAJET
+      Type: WATER
+      Category: Physical
+      PP: 20
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 2
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POISONFANG
+      Type: POISON
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: The user bites the target with toxic fangs. It may also leave
+        the target badly poisoned.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: ICEFANG
+      Type: ICE
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with cold-infused fangs. It may also make the target
+        flinch or leave it frozen.
+      moveType: 14
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: SWAGGER
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 85
+      Description: The user enrages and confuses the target. However, it also sharply
+        raises the target's Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 34
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: LIQUIDATION
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 85
+      Accuracy: 100
+      Description: The user slams into the target using a full-force blast of water.
+        May lower the target's Defense.
+      moveType: 2
+      moveCategory: 1
+    level: 46
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 52
+  habitat: 7
+  evolutionStructs: []
+  Description: The vicious and sly gangster of the sea. Its skin is specially textured
+    to minimize drag in water. Its speed tops out at over 75 miles per hour.
+  Evolutions: 

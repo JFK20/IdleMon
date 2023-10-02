@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: CHIMECHO
+  m_EditorClassIdentifier: 
+  Name: CHIMECHO
+  ID: 0
+  types: 0d000000
+  baseStats: 4b0000003200000050000000410000005f0000005a000000
+  genderRatio: 4
+  Ability: LEVITATE
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: HEALINGWISH
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user faints. In return, the Pok\xC3\xA9mon taking its place
+        will have its HP restored and status cured."
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WRAP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 90
+      Description: A long body or vines are used to wrap and squeeze the target for
+        four to five turns.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LASTRESORT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 140
+      Accuracy: 100
+      Description: This move can be used only after the user has used all the other
+        moves it knows in the battle.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ENTRAINMENT
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: The user dances to compel the target to mimic it, making the target's
+        Ability the same as the user's.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: YAWN
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lets loose a huge yawn that lulls the target into falling
+        asleep on the next turn.
+      moveType: 5
+      moveCategory: 3
+    level: 13
+  - move:
+      Name: LIGHTSCREEN
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: A wondrous wall of light is put up to suppress damage from special
+        attacks for five turns.
+      moveType: 13
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: EXTRASENSORY
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The user attacks with an odd, unseeable power. It may also make
+        the target flinch.
+      moveType: 13
+      moveCategory: 2
+    level: 22
+  - move:
+      Name: HEALBELL
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: "The user makes a soothing bell chime to heal the status problems
+        of all the party Pok\xC3\xA9mon."
+      moveType: 5
+      moveCategory: 3
+    level: 27
+  - move:
+      Name: UPROAR
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user attacks in an uproar for three turns. Over that time,
+        no one can fall asleep.
+      moveType: 5
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: SAFEGUARD
+      Type: NORMAL
+      Category: Status
+      PP: 25
+      Power: 0
+      Accuracy: 0
+      Description: The user creates a protective field that prevents status problems
+        for five turns.
+      moveType: 5
+      moveCategory: 3
+    level: 37
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 42
+  - move:
+      Name: HEALPULSE
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user emits a healing pulse which restores the target's HP
+        by up to half of its max HP.
+      moveType: 13
+      moveCategory: 3
+    level: 47
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 52
+  habitat: 3
+  evolutionStructs: []
+  Description: They fly about very actively when the hot season arrives. They communicate
+    among themselves using seven different and distinguishing cries.
+  Evolutions: 

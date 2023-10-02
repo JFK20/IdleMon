@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: VENOMOTH
+  m_EditorClassIdentifier: 
+  Name: VENOMOTH
+  ID: 0
+  types: 0b00000008000000
+  baseStats: 46000000410000003c0000005a0000005a0000004b000000
+  genderRatio: 4
+  Ability: SHIELDDUST,TINTEDLENS
+  HiddenAbilities: WONDERSKIN
+  moveSetStructs:
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 0
+  - move:
+      Name: QUIVERDANCE
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user performs a beautiful dance. It boosts the user's Sp.
+        Atk, Sp. Def, and Speed stats.
+      moveType: 11
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BUGBUZZ
+      Type: BUG
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user vibrates its wings to generate a damaging sound wave.
+        It may also lower the target's Sp. Def stat.
+      moveType: 11
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: WHIRLWIND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The foe is blown away, to be replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DISABLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: For four turns, this move prevents the target from using the move
+        it last used.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: STRUGGLEBUG
+      Type: BUG
+      Category: Special
+      PP: 20
+      Power: 50
+      Accuracy: 100
+      Description: "While resisting, the user attacks the opposing Pok\xC3\xA9mon.
+        The targets' Sp. Atk stat is reduced."
+      moveType: 11
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 11
+  - move:
+      Name: POISONPOWDER
+      Type: POISON
+      Category: Status
+      PP: 35
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of poisonous dust on the target. It
+        may poison the target.
+      moveType: 8
+      moveCategory: 3
+    level: 13
+  - move:
+      Name: PSYBEAM
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is attacked with a peculiar ray. It may also cause
+        confusion.
+      moveType: 13
+      moveCategory: 2
+    level: 17
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 23
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 25
+  - move:
+      Name: SLEEPPOWDER
+      Type: GRASS
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a big cloud of sleep-inducing dust around the
+        target.
+      moveType: 3
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: LEECHLIFE
+      Type: BUG
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user drains the target's blood. The user's HP is restored
+        by half the damage taken by the target.
+      moveType: 11
+      moveCategory: 1
+    level: 37
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 41
+  - move:
+      Name: POISONFANG
+      Type: POISON
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: The user bites the target with toxic fangs. It may also leave
+        the target badly poisoned.
+      moveType: 8
+      moveCategory: 1
+    level: 47
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 55
+  habitat: 2
+  evolutionStructs: []
+  Description: Venomoth are nocturnal--they only are active at night. Their favorite
+    prey are insects that gather around streetlights, attracted by the light in the
+    darkness.
+  Evolutions: 

@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: BLAZIKEN
+  m_EditorClassIdentifier: 
+  Name: BLAZIKEN
+  ID: 0
+  types: 0100000007000000
+  baseStats: 500000007800000046000000500000006e00000046000000
+  genderRatio: 2
+  Ability: BLAZE
+  HiddenAbilities: SPEEDBOOST
+  moveSetStructs:
+  - move:
+      Name: CLOSECOMBAT
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 100
+      Description: The user fights the foe up close without guarding itself. It also
+        cuts the user's Defense and Sp. Def.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DOUBLEKICK
+      Type: FIGHTING
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is quickly kicked twice in succession using both feet.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FIREPUNCH
+      Type: FIRE
+      Category: Physical
+      PP: 15
+      Power: 75
+      Accuracy: 100
+      Description: The target is punched with a fiery fist. It may leave the target
+        with a burn.
+      moveType: 1
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BRAVEBIRD
+      Type: FLYING
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: The user tucks in its wings and charges from a low altitude. The
+        user also takes serious damage.
+      moveType: 6
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FLAMETHROWER
+      Type: FIRE
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: The target is scorched with an intense blast of fire. It may also
+        leave the target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: FEATHERDANCE
+      Type: FLYING
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: The user covers the target's body with a mass of down that harshly
+        lowers its Attack stat.
+      moveType: 6
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: EMBER
+      Type: FIRE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is attacked with small flames. It may also leave the
+        target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FLAMECHARGE
+      Type: FIRE
+      Category: Physical
+      PP: 20
+      Power: 50
+      Accuracy: 100
+      Description: The user cloaks itself in flame and attacks. Building up more
+        power, it raises the user's Speed stat.
+      moveType: 1
+      moveCategory: 1
+    level: 9
+  - move:
+      Name: DETECT
+      Type: FIGHTING
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: AERIALACE
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: The user confounds the foe with speed, then slashes. The attack
+        lands without fail.
+      moveType: 6
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: BOUNCE
+      Type: FLYING
+      Category: Physical
+      PP: 5
+      Power: 85
+      Accuracy: 85
+      Description: The user bounces up high, then drops on the foe on the second
+        turn. It may also paralyze the foe.
+      moveType: 6
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 35
+  - move:
+      Name: BLAZEKICK
+      Type: FIRE
+      Category: Physical
+      PP: 10
+      Power: 85
+      Accuracy: 90
+      Description: The user launches a kick with a high critical-hit ratio. It may
+        also leave the target with a burn.
+      moveType: 1
+      moveCategory: 1
+    level: 42
+  - move:
+      Name: BULKUP
+      Type: FIGHTING
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user tenses its muscles to bulk up its body, boosting both
+        its Attack and Defense stats.
+      moveType: 7
+      moveCategory: 3
+    level: 49
+  - move:
+      Name: REVERSAL
+      Type: FIGHTING
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: An all-out attack that becomes more powerful the less HP the user
+        has.
+      moveType: 7
+      moveCategory: 1
+    level: 56
+  - move:
+      Name: FLAREBLITZ
+      Type: FIRE
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: The user cloaks itself in fire and charges at the foe. The user
+        also takes damage and may burn the target.
+      moveType: 1
+      moveCategory: 1
+    level: 63
+  habitat: 3
+  evolutionStructs: []
+  Description: It learns martial arts that use punches and kicks. Every several years,
+    its old feathers burn off, and new, supple feathers grow back in their place.
+  Evolutions: 

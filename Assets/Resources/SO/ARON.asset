@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: ARON
+  m_EditorClassIdentifier: 
+  Name: ARON
+  ID: 0
+  types: 110000000a000000
+  baseStats: 3200000046000000640000001e0000002800000028000000
+  genderRatio: 4
+  Ability: STURDY,ROCKHEAD
+  HiddenAbilities: HEAVYMETAL
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: METALCLAW
+      Type: STEEL
+      Category: Physical
+      PP: 35
+      Power: 50
+      Accuracy: 95
+      Description: The target is raked with steel claws. It may also raise the user's
+        Attack stat.
+      moveType: 17
+      moveCategory: 1
+    level: 4
+  - move:
+      Name: ROCKTOMB
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 60
+      Accuracy: 95
+      Description: Boulders are hurled at the target. It also lowers the target's
+        Speed by preventing its movement.
+      moveType: 10
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: ROAR
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The target is scared off and replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: ROCKSLIDE
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 90
+      Description: Large boulders are hurled at the foes to inflict damage. It may
+        also make the targets flinch.
+      moveType: 10
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: IRONHEAD
+      Type: STEEL
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The foe slams the target with its steel-hard head. It may also
+        make the target flinch.
+      moveType: 17
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: METALSOUND
+      Type: STEEL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: A horrible sound like scraping metal harshly reduces the target's
+        Sp. Def stat.
+      moveType: 17
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: AUTOTOMIZE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user sheds part of its body to make itself lighter and sharply
+        raise its Speed stat.
+      moveType: 17
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: IRONTAIL
+      Type: STEEL
+      Category: Physical
+      PP: 15
+      Power: 100
+      Accuracy: 75
+      Description: The target is slammed with a steel-hard tail. It may also lower
+        the target's Defense stat.
+      moveType: 17
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: HEAVYSLAM
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user slams into the foe with its heavy body. The heavier the
+        user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 52
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 56
+  - move:
+      Name: METALBURST
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user retaliates with much greater power against the target
+        that last inflicted damage on it.
+      moveType: 17
+      moveCategory: 1
+    level: 60
+  habitat: 4
+  evolutionStructs: []
+  Description: "A Pok\xC3\xA9mon that is clad in steel armor. A new suit of armor
+    is made when it evolves. The old, discarded armor is salvaged as metal for making
+    iron products."
+  Evolutions: LAIRON,Level,32

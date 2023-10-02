@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: HITMONTOP
+  m_EditorClassIdentifier: 
+  Name: HITMONTOP
+  ID: 0
+  types: 07000000
+  baseStats: 320000005f0000005f00000046000000230000006e000000
+  genderRatio: 1
+  Ability: INTIMIDATE,TECHNICIAN
+  HiddenAbilities: STEADFAST
+  moveSetStructs:
+  - move:
+      Name: TRIPLEKICK
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 10
+      Accuracy: 90
+      Description: A consecutive three-kick attack that becomes more powerful with
+        each successive hit.
+      moveType: 7
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: FEINT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 30
+      Accuracy: 100
+      Description: An attack that hits a target using Protect or Detect. It also
+        lifts the effects of those moves.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: RAPIDSPIN
+      Type: NORMAL
+      Category: Physical
+      PP: 40
+      Power: 50
+      Accuracy: 100
+      Description: A spin attack that raises the user's Speed and eliminates the
+        effects of Bind, Spikes, etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HELPINGHAND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user assists an ally by boosting the power of its attack.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FAKEOUT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 40
+      Accuracy: 100
+      Description: An attack that hits first and makes the target flinch. It only
+        works the first turn the user is in battle.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 4
+  - move:
+      Name: GYROBALL
+      Type: STEEL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: The user tackles the target with a high-speed spin. The slower
+        the user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: DETECT
+      Type: FIGHTING
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: REVENGE
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: An attack move that inflicts double the damage if the user has
+        been hurt by the foe in the same turn.
+      moveType: 7
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: WIDEGUARD
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user and its allies are protected from wide-ranging attacks
+        for a turn. May fail if used in succession.
+      moveType: 10
+      moveCategory: 3
+    level: 21
+  - move:
+      Name: QUICKGUARD
+      Type: FIGHTING
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user protects itself and its allies from priority moves. If
+        may fail if used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 21
+  - move:
+      Name: SUCKERPUNCH
+      Type: DARK
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: This move enables the user to attack first. It fails if the target
+        is not readying an attack, however.
+      moveType: 16
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: DIG
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user burrows, then attacks on the second turn. It can also
+        be used to exit dungeons.
+      moveType: 9
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: CLOSECOMBAT
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 100
+      Description: The user fights the foe up close without guarding itself. It also
+        cuts the user's Defense and Sp. Def.
+      moveType: 7
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: COUNTER
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A retaliation move that counters any physical attack, inflicting
+        double the damage taken.
+      moveType: 7
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: ENDEAVOR
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: An attack move that cuts down the target's HP to equal the user's
+        HP.
+      moveType: 5
+      moveCategory: 1
+    level: 44
+  habitat: 8
+  evolutionStructs: []
+  Description: Its technique of kicking while spinning is a remarkable mix of both
+    offense and defense. Hitmontop travel faster spinning than they do walking.
+  Evolutions: 

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: DELIBIRD
+  m_EditorClassIdentifier: 
+  Name: DELIBIRD
+  ID: 0
+  types: 0e00000006000000
+  baseStats: 2d000000370000002d0000004b000000410000002d000000
+  genderRatio: 4
+  Ability: VITALSPIRIT,HUSTLE
+  HiddenAbilities: INSOMNIA
+  moveSetStructs:
+  - move:
+      Name: PRESENT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 90
+      Description: The user attacks by giving the target a gift with a hidden trap.
+        It restores HP sometimes, however.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DRILLPECK
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: A corkscrewing attack with the sharp beak acting as a drill.
+      moveType: 6
+      moveCategory: 1
+    level: 25
+  habitat: 4
+  evolutionStructs: []
+  Description: It carries food bundled up in its tail. There was a famous explorer
+    who managed to scale Mt. Everest thanks to a Delibird sharing its food.
+  Evolutions: 

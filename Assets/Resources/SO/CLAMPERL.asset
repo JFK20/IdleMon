@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: CLAMPERL
+  m_EditorClassIdentifier: 
+  Name: CLAMPERL
+  ID: 0
+  types: 02000000
+  baseStats: 230000004000000055000000200000004a00000037000000
+  genderRatio: 4
+  Ability: SHELLARMOR
+  HiddenAbilities: RATTLED
+  moveSetStructs:
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: WHIRLPOOL
+      Type: WATER
+      Category: Special
+      PP: 15
+      Power: 35
+      Accuracy: 85
+      Description: Traps foes in a violent swirling whirlpool for four to five turns.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SHELLSMASH
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user breaks its shell, lowering its defenses but sharply raising
+        attacking and Speed stats.
+      moveType: 5
+      moveCategory: 3
+    level: 50
+  habitat: 7
+  evolutionStructs: []
+  Description: A Clamperl slams its shell closed on prey to prevent escape. The pearl
+    it creates upon evolution is said to be infused with a mysterious energy.
+  Evolutions: HUNTAIL,TradeItem,DEEPSEATOOTH,GOREBYSS,TradeItem,DEEPSEASCALE

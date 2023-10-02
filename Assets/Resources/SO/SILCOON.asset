@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SILCOON
+  m_EditorClassIdentifier: 
+  Name: SILCOON
+  ID: 0
+  types: 0b000000
+  baseStats: 3200000023000000370000000f0000001900000019000000
+  genderRatio: 4
+  Ability: SHEDSKIN
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 0
+  habitat: 2
+  evolutionStructs: []
+  Description: It prepares for evolution using the energy it stored while it was
+    a Wurmple. It keeps watch over the surroundings with its two eyes.
+  Evolutions: BEAUTIFLY,Level,10

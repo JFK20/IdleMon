@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GULPIN
+  m_EditorClassIdentifier: 
+  Name: GULPIN
+  ID: 0
+  types: 08000000
+  baseStats: 460000002b00000035000000280000002b00000035000000
+  genderRatio: 4
+  Ability: LIQUIDOOZE,STICKYHOLD
+  HiddenAbilities: GLUTTONY
+  moveSetStructs:
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: YAWN
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lets loose a huge yawn that lulls the target into falling
+        asleep on the next turn.
+      moveType: 5
+      moveCategory: 3
+    level: 5
+  - move:
+      Name: POISONGAS
+      Type: POISON
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 90
+      Description: "A cloud of poison gas is sprayed in the face of opposing Pok\xC3\xA9mon.
+        It may poison those hit."
+      moveType: 8
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: SLUDGE
+      Type: POISON
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: Unsanitary sludge is hurled at the target. It may also poison
+        the target.
+      moveType: 8
+      moveCategory: 2
+    level: 10
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: ACIDSPRAY
+      Type: POISON
+      Category: Special
+      PP: 20
+      Power: 40
+      Accuracy: 100
+      Description: The user spits fluid that works to melt the target. This harshly
+        reduces the target's Sp. Def stat.
+      moveType: 8
+      moveCategory: 2
+    level: 17
+  - move:
+      Name: ENCORE
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 100
+      Description: The user compels the target to keep using only the move it last
+        used for three turns.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: TOXIC
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 90
+      Description: A move that leaves the target badly poisoned. Its poison damage
+        worsens every turn.
+      moveType: 8
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: STOCKPILE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user charges up power and raises both its Defense and Sp.
+        Def. The move can be used three times.
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: SPITUP
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The power stored using the move Stockpile is released all at once
+        in an attack.
+      moveType: 5
+      moveCategory: 2
+    level: 28
+  - move:
+      Name: SWALLOW
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The power stored using the move Stockpile is absorbed by the user
+        to heal its HP.
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: SLUDGEBOMB
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: Unsanitary sludge is hurled at the target. It may also poison
+        the target.
+      moveType: 8
+      moveCategory: 2
+    level: 33
+  - move:
+      Name: GASTROACID
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user hurls up its stomach acids on the foe. The fluid negates
+        the effect of the target's Ability.
+      moveType: 8
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: BELCH
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 90
+      Description: The user lets out a damaging belch at the target. The user must
+        eat a held Berry to use this move.
+      moveType: 8
+      moveCategory: 2
+    level: 41
+  - move:
+      Name: PAINSPLIT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user adds its HP to the target's HP, then equally shares the
+        combined HP with the target.
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: GUNKSHOT
+      Type: POISON
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 80
+      Description: The user shoots filthy garbage at the target to attack. It may
+        also poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 49
+  habitat: 3
+  evolutionStructs: []
+  Description: "This Pok\xC3\xA9mon's stomach fluid can even digest scrap iron. In
+    one gulp, it can swallow something that is as large as itself."
+  Evolutions: SWALOT,Level,26

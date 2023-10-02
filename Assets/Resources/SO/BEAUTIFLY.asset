@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: BEAUTIFLY
+  m_EditorClassIdentifier: 
+  Name: BEAUTIFLY
+  ID: 0
+  types: 0b00000006000000
+  baseStats: 3c0000004600000032000000410000006400000032000000
+  genderRatio: 4
+  Ability: SWARM
+  HiddenAbilities: RIVALRY
+  moveSetStructs:
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 0
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: STRINGSHOT
+      Type: BUG
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 95
+      Description: The foe is bound with silk blown from the user's mouth. This silk
+        reduces the target's Speed.
+      moveType: 11
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POISONSTING
+      Type: POISON
+      Category: Physical
+      PP: 35
+      Power: 15
+      Accuracy: 100
+      Description: The user stabs the target with a poisonous stinger. This may also
+        poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BUGBITE
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user bites the target. If the target is holding a Berry, the
+        user eats it and gains its effect.
+      moveType: 11
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: MORNINGSUN
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP. The amount of HP regained varies
+        with the weather.
+      moveType: 5
+      moveCategory: 3
+    level: 17
+  - move:
+      Name: AIRCUTTER
+      Type: FLYING
+      Category: Special
+      PP: 25
+      Power: 60
+      Accuracy: 95
+      Description: The user launches razor-like wind to slash the opposing team.
+        Critical hits land more easily.
+      moveType: 6
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 22
+  - move:
+      Name: LEECHLIFE
+      Type: BUG
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user drains the target's blood. The user's HP is restored
+        by half the damage taken by the target.
+      moveType: 11
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: ATTRACT
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: If it is the opposite gender of the user, the target becomes infatuated
+        and less likely to attack.
+      moveType: 5
+      moveCategory: 3
+    level: 27
+  - move:
+      Name: WHIRLWIND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The foe is blown away, to be replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: BUGBUZZ
+      Type: BUG
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user vibrates its wings to generate a damaging sound wave.
+        It may also lower the target's Sp. Def stat.
+      moveType: 11
+      moveCategory: 2
+    level: 35
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 37
+  - move:
+      Name: QUIVERDANCE
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user performs a beautiful dance. It boosts the user's Sp.
+        Atk, Sp. Def, and Speed stats.
+      moveType: 11
+      moveCategory: 3
+    level: 40
+  habitat: 2
+  evolutionStructs: []
+  Description: Its colorfully patterned wings are its most prominent feature. It
+    flies through flower-covered fields collecting pollen. It attacks ferociously
+    when angered.
+  Evolutions: 

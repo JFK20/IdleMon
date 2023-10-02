@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: TREECKO
+  m_EditorClassIdentifier: 
+  Name: TREECKO
+  ID: 0
+  types: 03000000
+  baseStats: 280000002d00000023000000460000004100000037000000
+  genderRatio: 2
+  Ability: OVERGROW
+  HiddenAbilities: UNBURDEN
+  moveSetStructs:
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: LEAFAGE
+      Type: GRASS
+      Category: Physical
+      PP: 40
+      Power: 40
+      Accuracy: 100
+      Description: The user attacks by pelting the target with leaves.
+      moveType: 3
+      moveCategory: 1
+    level: 3
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 9
+  - move:
+      Name: DETECT
+      Type: FIGHTING
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: QUICKGUARD
+      Type: FIGHTING
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user protects itself and its allies from priority moves. If
+        may fail if used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: ASSURANCE
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: If the target has already taken some damage in the same turn,
+        this attack's power is doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 18
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 21
+  - move:
+      Name: SLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 75
+      Description: The target is slammed with a long tail, vines, etc., to inflict
+        damage.
+      moveType: 5
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: DOUBLETEAM
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: By moving rapidly, the user makes illusory copies of itself to
+        raise its evasiveness.
+      moveType: 5
+      moveCategory: 3
+    level: 27
+  - move:
+      Name: ENERGYBALL
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user draws power from nature and fires it at the target. It
+        may also lower the target's Sp. Def.
+      moveType: 3
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 33
+  - move:
+      Name: ENDEAVOR
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: An attack move that cuts down the target's HP to equal the user's
+        HP.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: LEAFSTORM
+      Type: GRASS
+      Category: Special
+      PP: 5
+      Power: 130
+      Accuracy: 90
+      Description: A storm of sharp is whipped up. The attack's recoil harshly reduces
+        the user's Sp. Atk stat.
+      moveType: 3
+      moveCategory: 2
+    level: 39
+  habitat: 2
+  evolutionStructs: []
+  Description: It makes its nest in a giant tree in the forest. It ferociously guards
+    against anything nearing its territory. It is said to be the protector of the
+    trees.
+  Evolutions: GROVYLE,Level,16

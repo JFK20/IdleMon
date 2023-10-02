@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SUICUNE
+  m_EditorClassIdentifier: 
+  Name: SUICUNE
+  ID: 0
+  types: 02000000
+  baseStats: 640000004b00000073000000550000005a00000073000000
+  genderRatio: 8
+  Ability: PRESSURE
+  HiddenAbilities: INNERFOCUS
+  moveSetStructs:
+  - move:
+      Name: SHEERCOLD
+      Type: ICE
+      Category: Special
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The foe is attacked with a blast of absolute-zero cold. The target
+        instantly faints if it hits.
+      moveType: 14
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: EXTREMESPEED
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 80
+      Accuracy: 100
+      Description: The user charges the target at blinding speed. This attack always
+        goes before any other move.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 6
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: CALMMIND
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user quietly focuses its mind and calms its spirit to raise
+        its Sp. Atk and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 18
+  - move:
+      Name: ROAR
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The target is scared off and replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: ICEFANG
+      Type: ICE
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with cold-infused fangs. It may also make the target
+        flinch or leave it frozen.
+      moveType: 14
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: TAILWIND
+      Type: FLYING
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: "The user whips up a turbulent whirlwind that ups the Speed of
+        all party Pok\xC3\xA9mon for four turns."
+      moveType: 6
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 42
+  - move:
+      Name: EXTRASENSORY
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The user attacks with an odd, unseeable power. It may also make
+        the target flinch.
+      moveType: 13
+      moveCategory: 2
+    level: 48
+  - move:
+      Name: SURF
+      Type: WATER
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: It swamps the area around the user with a giant wave. It can also
+        be used for crossing water.
+      moveType: 2
+      moveCategory: 2
+    level: 54
+  - move:
+      Name: MIRRORCOAT
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A retaliation move that counters any special attack, inflicting
+        double the damage taken.
+      moveType: 13
+      moveCategory: 2
+    level: 60
+  - move:
+      Name: RAINDANCE
+      Type: WATER
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user summons a heavy rain that falls for five turns, powering
+        up Water-type moves.
+      moveType: 2
+      moveCategory: 3
+    level: 66
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 72
+  - move:
+      Name: BLIZZARD
+      Type: ICE
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 70
+      Description: A howling blizzard is summoned to strike the opposing team. It
+        may also freeze them solid.
+      moveType: 14
+      moveCategory: 2
+    level: 78
+  habitat: 3
+  evolutionStructs: []
+  Description: Suicune embodies the compassion of a pure spring of water. It runs
+    across the land with gliding elegance. It has the power to purify dirty water.
+  Evolutions: 

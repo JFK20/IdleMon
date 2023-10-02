@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: BLASTOISE
+  m_EditorClassIdentifier: 
+  Name: BLASTOISE
+  ID: 0
+  types: 02000000
+  baseStats: 4f00000053000000640000004e0000005500000069000000
+  genderRatio: 2
+  Ability: TORRENT
+  HiddenAbilities: RAINDISH
+  moveSetStructs:
+  - move:
+      Name: FLASHCANNON
+      Type: STEEL
+      Category: Special
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user gathers all its light energy and releases it at once.
+        It may also lower the target's Sp. Def stat.
+      moveType: 17
+      moveCategory: 2
+    level: 0
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: WITHDRAW
+      Type: WATER
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user withdraws its body into its hard shell, raising its Defense
+        stat.
+      moveType: 2
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: RAPIDSPIN
+      Type: NORMAL
+      Category: Physical
+      PP: 40
+      Power: 50
+      Accuracy: 100
+      Description: A spin attack that raises the user's Speed and eliminates the
+        effects of Bind, Spikes, etc.
+      moveType: 5
+      moveCategory: 1
+    level: 9
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 15
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: RAINDANCE
+      Type: WATER
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user summons a heavy rain that falls for five turns, powering
+        up Water-type moves.
+      moveType: 2
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: AQUATAIL
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user attacks by swinging its tail as if it were a vicious
+        wave in a raging storm.
+      moveType: 2
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: SHELLSMASH
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user breaks its shell, lowering its defenses but sharply raising
+        attacking and Speed stats.
+      moveType: 5
+      moveCategory: 3
+    level: 35
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 42
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 49
+  - move:
+      Name: SKULLBASH
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 130
+      Accuracy: 100
+      Description: The user tucks in its head to raise its Defense in the first turn,
+        then rams the foe on the next turn.
+      moveType: 5
+      moveCategory: 1
+    level: 56
+  habitat: 9
+  evolutionStructs: []
+  Description: The waterspouts that protrude from its shell are highly accurate.
+    Their bullets of water can precisely nail tin cans from a distance of over 160
+    feet.
+  Evolutions: 

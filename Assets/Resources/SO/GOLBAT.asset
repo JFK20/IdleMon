@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GOLBAT
+  m_EditorClassIdentifier: 
+  Name: GOLBAT
+  ID: 0
+  types: 0800000006000000
+  baseStats: 4b00000050000000460000005a000000410000004b000000
+  genderRatio: 4
+  Ability: INNERFOCUS
+  HiddenAbilities: INFILTRATOR
+  moveSetStructs:
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: MEANLOOK
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user pins the target with a dark, arresting look. The target
+        becomes unable to flee.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POISONFANG
+      Type: POISON
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: The user bites the target with toxic fangs. It may also leave
+        the target badly poisoned.
+      moveType: 8
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: QUICKGUARD
+      Type: FIGHTING
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user protects itself and its allies from priority moves. If
+        may fail if used in succession.
+      moveType: 7
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: AIRCUTTER
+      Type: FLYING
+      Category: Special
+      PP: 25
+      Power: 60
+      Accuracy: 95
+      Description: The user launches razor-like wind to slash the opposing team.
+        Critical hits land more easily.
+      moveType: 6
+      moveCategory: 2
+    level: 27
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 34
+  - move:
+      Name: HAZE
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: "The user creates a haze that eliminates every stat change among
+        all the Pok\xC3\xA9mon engaged in battle."
+      moveType: 14
+      moveCategory: 3
+    level: 41
+  - move:
+      Name: VENOSHOCK
+      Type: POISON
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: The user drenches the foe in a special poisonous liquid. Its power
+        doubles if the target is poisoned.
+      moveType: 8
+      moveCategory: 2
+    level: 48
+  - move:
+      Name: CONFUSERAY
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The target is exposed to a sinister ray that triggers confusion.
+      moveType: 12
+      moveCategory: 3
+    level: 55
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 62
+  - move:
+      Name: LEECHLIFE
+      Type: BUG
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user drains the target's blood. The user's HP is restored
+        by half the damage taken by the target.
+      moveType: 11
+      moveCategory: 1
+    level: 69
+  habitat: 1
+  evolutionStructs: []
+  Description: "Its fangs easily puncture even thick animal hide. It loves to feast
+    on the blood of people and Pok\xC3\xA9mon. It flits about in darkness and strikes
+    from behind."
+  Evolutions: CROBAT,Happiness,

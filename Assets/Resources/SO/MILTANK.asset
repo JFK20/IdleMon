@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: MILTANK
+  m_EditorClassIdentifier: 
+  Name: MILTANK
+  ID: 0
+  types: 05000000
+  baseStats: 5f0000005000000069000000640000002800000046000000
+  genderRatio: 7
+  Ability: THICKFAT,SCRAPPY
+  HiddenAbilities: SAPSIPPER
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ROLLOUT
+      Type: ROCK
+      Category: Physical
+      PP: 20
+      Power: 30
+      Accuracy: 90
+      Description: The user continually rolls into the target over five turns. It
+        becomes stronger each time it hits.
+      moveType: 10
+      moveCategory: 1
+    level: 5
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: STOMP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is stomped with a big foot. It may also make the target
+        flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: HEALBELL
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: "The user makes a soothing bell chime to heal the status problems
+        of all the party Pok\xC3\xA9mon."
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: MILKDRINK
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP by up to half of its maximum HP.
+        May also be used in the field to heal HP.
+      moveType: 5
+      moveCategory: 3
+    level: 35
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: PLAYROUGH
+      Type: FAIRY
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user plays rough with the target and attacks it. This may
+        also lower the target's Attack stat.
+      moveType: 18
+      moveCategory: 1
+    level: 45
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: HIGHHORSEPOWER
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 95
+      Accuracy: 95
+      Description: The user fiercely attacks the target using its entire body.
+      moveType: 9
+      moveCategory: 1
+    level: 55
+  habitat: 3
+  evolutionStructs: []
+  Description: It gives over five gallons of milk daily. Its sweet milk is enjoyed
+    by children and adults alike. People who can't drink milk turn it into yogurt
+    and eat it instead.
+  Evolutions: 

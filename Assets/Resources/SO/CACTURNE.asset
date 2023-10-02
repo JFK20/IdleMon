@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: CACTURNE
+  m_EditorClassIdentifier: 
+  Name: CACTURNE
+  ID: 0
+  types: 0300000010000000
+  baseStats: 46000000730000003c00000037000000730000003c000000
+  genderRatio: 4
+  Ability: SANDVEIL
+  HiddenAbilities: WATERABSORB
+  moveSetStructs:
+  - move:
+      Name: SPIKYSHIELD
+      Type: GRASS
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Protects the user from attacks. Also damages attackers that make
+        contact with the user.
+      moveType: 3
+      moveCategory: 3
+    level: 0
+  - move:
+      Name: DESTINYBOND
+      Type: GHOST
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: When this move is used, if the user faints, the foe that landed
+        the knockout hit also faints.
+      moveType: 12
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: REVENGE
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: An attack move that inflicts double the damage if the user has
+        been hurt by the foe in the same turn.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: POISONSTING
+      Type: POISON
+      Category: Physical
+      PP: 35
+      Power: 15
+      Accuracy: 100
+      Description: The user stabs the target with a poisonous stinger. This may also
+        poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: GROWTH
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user's body grows all at once, raising the Atk and Sp. Atk
+        stats.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: LEECHSEED
+      Type: GRASS
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 90
+      Description: A seed is planted on the target. It steals some HP from the target
+        every turn.
+      moveType: 3
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 13
+  - move:
+      Name: POISONJAB
+      Type: POISON
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The target is stabbed with a tentacle or arm seeped with poison.
+        It may also poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: ASSURANCE
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 100
+      Description: If the target has already taken some damage in the same turn,
+        this attack's power is doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: INGRAIN
+      Type: GRASS
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays roots that restore its HP on every turn. Because
+        it is rooted, it can't switch out.
+      moveType: 3
+      moveCategory: 3
+    level: 22
+  - move:
+      Name: PAYBACK
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: If the user moves after the target, this attack's power will be
+        doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 26
+  - move:
+      Name: SPIKES
+      Type: GROUND
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays a trap of spikes at the foe's feet. The trap hurts
+        foes that switch into battle.
+      moveType: 9
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: SUCKERPUNCH
+      Type: DARK
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: This move enables the user to attack first. It fails if the target
+        is not readying an attack, however.
+      moveType: 16
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: PINMISSILE
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 25
+      Accuracy: 95
+      Description: Sharp spikes are shot at the target in rapid succession. They
+        hit two to five times in a row.
+      moveType: 11
+      moveCategory: 1
+    level: 38
+  - move:
+      Name: ENERGYBALL
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user draws power from nature and fires it at the target. It
+        may also lower the target's Sp. Def.
+      moveType: 3
+      moveCategory: 2
+    level: 44
+  - move:
+      Name: COTTONSPORE
+      Type: GRASS
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user releases cotton-like spores that cling to the foe, harshly
+        reducing its Speed stat.
+      moveType: 3
+      moveCategory: 3
+    level: 49
+  - move:
+      Name: SANDSTORM
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Summons a five-turn sandstorm to hurt all combatants except the
+        Rock, Ground, and Steel types.
+      moveType: 10
+      moveCategory: 3
+    level: 54
+  habitat: 6
+  evolutionStructs: []
+  Description: After spending thousands of years in harsh deserts, its blood transformed
+    into the same substances as sand. It is nocturnal, so it hunts at night.
+  Evolutions: 

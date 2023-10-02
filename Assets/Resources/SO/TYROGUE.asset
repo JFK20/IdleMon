@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: TYROGUE
+  m_EditorClassIdentifier: 
+  Name: TYROGUE
+  ID: 0
+  types: 07000000
+  baseStats: 230000002300000023000000230000002300000023000000
+  genderRatio: 1
+  Ability: GUTS,STEADFAST
+  HiddenAbilities: VITALSPIRIT
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: HELPINGHAND
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user assists an ally by boosting the power of its attack.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FAKEOUT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 40
+      Accuracy: 100
+      Description: An attack that hits first and makes the target flinch. It only
+        works the first turn the user is in battle.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  habitat: 8
+  evolutionStructs: []
+  Description: "Tyrogue become stressed out if they do not get to train every day.
+    When raising this Pok\xC3\xA9mon, the trainer must establish a regular training
+    schedule."
+  Evolutions: HITMONLEE,AttackGreater,20,HITMONCHAN,DefenseGreater,20,HITMONTOP,AtkDefEqual,20

@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SMOOCHUM
+  m_EditorClassIdentifier: 
+  Name: SMOOCHUM
+  ID: 0
+  types: 0e0000000d000000
+  baseStats: 2d0000001e0000000f000000410000005500000041000000
+  genderRatio: 7
+  Ability: OBLIVIOUS,FOREWARN
+  HiddenAbilities: HYDRATION
+  moveSetStructs:
+  - move:
+      Name: LICK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is licked with a long tongue, causing damage. It may
+        also leave the target with paralysis.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: POWDERSNOW
+      Type: ICE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The user attacks with a chilling gust of powdery snow. It may
+        also freeze the targets.
+      moveType: 14
+      moveCategory: 2
+    level: 4
+  - move:
+      Name: COPYCAT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user mimics the move used immediately before it. The move
+        fails if no other move has been used yet.
+      moveType: 5
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: COVET
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user endearingly approaches the target, then steals the target's
+        held item.
+      moveType: 5
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: SING
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 55
+      Description: A soothing lullaby is sung in a calming voice that puts the target
+        into a deep slumber.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: FAKETEARS
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user feigns crying to fluster the target, harshly lowering
+        its Sp. Def stat.
+      moveType: 16
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: ICEPUNCH
+      Type: ICE
+      Category: Physical
+      PP: 15
+      Power: 75
+      Accuracy: 100
+      Description: The target is punched with an icy fist. It may also leave the
+        target frozen.
+      moveType: 14
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: SWEETKISS
+      Type: FAIRY
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 75
+      Description: The user kisses the target with a sweet, angelic cuteness that
+        causes confusion.
+      moveType: 18
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: MEANLOOK
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user pins the target with a dark, arresting look. The target
+        becomes unable to flee.
+      moveType: 5
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: PERISHSONG
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: "Any Pok\xC3\xA9mon that hears this song faints in three turns,
+        unless it switches out of battle."
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: BLIZZARD
+      Type: ICE
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 70
+      Description: A howling blizzard is summoned to strike the opposing team. It
+        may also freeze them solid.
+      moveType: 14
+      moveCategory: 2
+    level: 48
+  habitat: 8
+  evolutionStructs: []
+  Description: It actively runs about, but also falls often. Whenever it falls, it
+    will check its reflection on a lake's surface to make sure its face hasn't become
+    dirty.
+  Evolutions: JYNX,Level,30

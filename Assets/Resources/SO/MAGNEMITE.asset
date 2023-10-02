@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: MAGNEMITE
+  m_EditorClassIdentifier: 
+  Name: MAGNEMITE
+  ID: 0
+  types: 0400000011000000
+  baseStats: 1900000023000000460000002d0000005f00000037000000
+  genderRatio: 8
+  Ability: MAGNETPULL,STURDY
+  HiddenAbilities: ANALYTIC
+  moveSetStructs:
+  - move:
+      Name: THUNDERSHOCK
+      Type: ELECTRIC
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: A jolt of electricity is hurled at the foe to inflict damage.
+        It may also leave the target with paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: THUNDERWAVE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 90
+      Description: A weak electric charge is launched at the target. It causes paralysis
+        if it hits.
+      moveType: 4
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: ELECTROBALL
+      Type: ELECTRIC
+      Category: Special
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user hurls an electric orb at the foe. It does more damage
+        the faster the user is.
+      moveType: 4
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: GYROBALL
+      Type: STEEL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: The user tackles the target with a high-speed spin. The slower
+        the user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: SPARK
+      Type: ELECTRIC
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The user throws an electrically charged tackle at the target.
+        It may also leave the target with paralysis.
+      moveType: 4
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: MAGNETRISE
+      Type: ELECTRIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user levitates using electrically generated magnetism for
+        five turns.
+      moveType: 4
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: FLASHCANNON
+      Type: STEEL
+      Category: Special
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user gathers all its light energy and releases it at once.
+        It may also lower the target's Sp. Def stat.
+      moveType: 17
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: DISCHARGE
+      Type: ELECTRIC
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: A flare of electricity is loosed to strike the area around the
+        user. It may also cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: METALSOUND
+      Type: STEEL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: A horrible sound like scraping metal harshly reduces the target's
+        Sp. Def stat.
+      moveType: 17
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: LIGHTSCREEN
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: A wondrous wall of light is put up to suppress damage from special
+        attacks for five turns.
+      moveType: 13
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: LOCKON
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user takes sure aim at the target. It ensures the next attack
+        does not fail to hit the target.
+      moveType: 5
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: ZAPCANNON
+      Type: ELECTRIC
+      Category: Special
+      PP: 5
+      Power: 120
+      Accuracy: 50
+      Description: The user fires an electric blast like a cannon to inflict damage
+        and cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 52
+  habitat: 6
+  evolutionStructs: []
+  Description: The units at its sides are extremely powerful magnets. They generate
+    enough magnetism to draw in iron objects from over 300 feet away.
+  Evolutions: MAGNETON,Level,30

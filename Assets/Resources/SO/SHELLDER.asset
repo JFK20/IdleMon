@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SHELLDER
+  m_EditorClassIdentifier: 
+  Name: SHELLDER
+  ID: 0
+  types: 02000000
+  baseStats: 1e0000004100000064000000280000002d00000019000000
+  genderRatio: 4
+  Ability: SHELLARMOR,SKILLLINK
+  HiddenAbilities: OVERCOAT
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: WITHDRAW
+      Type: WATER
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user withdraws its body into its hard shell, raising its Defense
+        stat.
+      moveType: 2
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: ICESHARD
+      Type: ICE
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user flash freezes chunks of ice and hurls them at the target.
+        This move always goes first.
+      moveType: 14
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: WHIRLPOOL
+      Type: WATER
+      Category: Special
+      PP: 15
+      Power: 35
+      Accuracy: 85
+      Description: Traps foes in a violent swirling whirlpool for four to five turns.
+      moveType: 2
+      moveCategory: 2
+    level: 16
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: AURORABEAM
+      Type: ICE
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is hit with a rainbow-colored beam. This may also lower
+        the target's Attack stat.
+      moveType: 14
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: RAZORSHELL
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 95
+      Description: The user cuts the foe with sharp shells. It may also lower the
+        target's Defense stat.
+      moveType: 2
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: ICEBEAM
+      Type: ICE
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is struck with an icy-cold beam of energy. It may also
+        freeze the target solid.
+      moveType: 14
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: SHELLSMASH
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user breaks its shell, lowering its defenses but sharply raising
+        attacking and Speed stats.
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 48
+  habitat: 7
+  evolutionStructs: []
+  Description: At night, it burrows a hole in the seafloor with its broad tongue
+    to make a place to sleep. While asleep, it closes its shell, but leaves its tongue
+    hanging out.
+  Evolutions: CLOYSTER,Item,WATERSTONE

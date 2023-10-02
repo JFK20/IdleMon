@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GASTLY
+  m_EditorClassIdentifier: 
+  Name: GASTLY
+  ID: 0
+  types: 0c00000008000000
+  baseStats: 1e000000230000001e000000500000006400000023000000
+  genderRatio: 4
+  Ability: LEVITATE
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: LICK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is licked with a long tongue, causing damage. It may
+        also leave the target with paralysis.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: CONFUSERAY
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The target is exposed to a sinister ray that triggers confusion.
+      moveType: 12
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: HYPNOSIS
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 60
+      Description: The user employs hypnotic suggestion to make the target fall into
+        a deep sleep.
+      moveType: 13
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: MEANLOOK
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user pins the target with a dark, arresting look. The target
+        becomes unable to flee.
+      moveType: 5
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: PAYBACK
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: If the user moves after the target, this attack's power will be
+        doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: SPITE
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user unleashes its grudge on the move last used by the target
+        by cutting 4 PP from it.
+      moveType: 12
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: CURSE
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: A move that works differently for the Ghost type than for all
+        the other types.
+      moveType: 12
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: HEX
+      Type: GHOST
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: This relentless attack does massive damage to a target affected
+        by status problems.
+      moveType: 12
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: NIGHTSHADE
+      Type: GHOST
+      Category: Special
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user makes the foe see a frightening mirage. It inflicts damage
+        matching the user's level.
+      moveType: 12
+      moveCategory: 2
+    level: 28
+  - move:
+      Name: SUCKERPUNCH
+      Type: DARK
+      Category: Physical
+      PP: 5
+      Power: 70
+      Accuracy: 100
+      Description: This move enables the user to attack first. It fails if the target
+        is not readying an attack, however.
+      moveType: 16
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: DARKPULSE
+      Type: DARK
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user releases a horrible aura imbued with dark thoughts. It
+        may also make the target flinch.
+      moveType: 16
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: SHADOWBALL
+      Type: GHOST
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user hurls a shadowy blob at the target. It may also lower
+        the target's Sp. Def stat.
+      moveType: 12
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: DESTINYBOND
+      Type: GHOST
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: When this move is used, if the user faints, the foe that landed
+        the knockout hit also faints.
+      moveType: 12
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: DREAMEATER
+      Type: PSYCHIC
+      Category: Special
+      PP: 15
+      Power: 100
+      Accuracy: 100
+      Description: The user eats the dreams of a sleeping foe. It absorbs half the
+        damage caused to heal the user's HP.
+      moveType: 13
+      moveCategory: 2
+    level: 48
+  habitat: 1
+  evolutionStructs: []
+  Description: When exposed to a strong wind, a Gastly's gaseous body quickly dwindles
+    away. They cluster under the eaves of houses to escape the ravages of wind.
+  Evolutions: HAUNTER,Level,25

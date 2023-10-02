@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: MEW
+  m_EditorClassIdentifier: 
+  Name: MEW
+  ID: 0
+  types: 0d000000
+  baseStats: 640000006400000064000000640000006400000064000000
+  genderRatio: 8
+  Ability: SYNCHRONIZE
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: REFLECTTYPE
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user reflects the target's type, making it the same type as
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: BATONPASS
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: "The user switches places with a party Pok\xC3\xA9mon in waiting,
+        passing along any stat changes."
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: LIFEDEW
+      Type: WATER
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user scatters mysterious water around and restores the HP
+        of itself and its allies.
+      moveType: 2
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: NASTYPLOT
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user stimulates its brain by thinking bad thoughts. It sharply
+        raises the user's Sp. Atk.
+      moveType: 16
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: METRONOME
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user waggles a finger and stimulates its brain into randomly
+        using nearly any move.
+      moveType: 5
+      moveCategory: 3
+    level: 60
+  - move:
+      Name: IMPRISON
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: If the foe knows any move also known by the user, the foe is prevented
+        from using it.
+      moveType: 13
+      moveCategory: 3
+    level: 70
+  - move:
+      Name: TRANSFORM
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user transforms into a copy of the target right down to having
+        the same move set.
+      moveType: 5
+      moveCategory: 3
+    level: 80
+  - move:
+      Name: AURASPHERE
+      Type: FIGHTING
+      Category: Special
+      PP: 20
+      Power: 80
+      Accuracy: 0
+      Description: The user looses a blast of aura power from deep within its body.
+        This move is certain to hit.
+      moveType: 7
+      moveCategory: 2
+    level: 90
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 100
+  habitat: 5
+  evolutionStructs: []
+  Description: "A Mew is said to possess the genes of all Pok\xC3\xA9mon. It is capable
+    of making itself invisible at will, so it entirely avoids notice even if it approaches
+    people."
+  Evolutions: 

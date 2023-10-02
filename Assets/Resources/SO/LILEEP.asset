@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: LILEEP
+  m_EditorClassIdentifier: 
+  Name: LILEEP
+  ID: 0
+  types: 0a00000003000000
+  baseStats: 42000000290000004d000000170000003d00000057000000
+  genderRatio: 2
+  Ability: SUCTIONCUPS
+  HiddenAbilities: STORMDRAIN
+  moveSetStructs:
+  - move:
+      Name: WRAP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 90
+      Description: A long body or vines are used to wrap and squeeze the target for
+        four to five turns.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ACID
+      Type: POISON
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The foe is attacked with a spray of harsh acid. It may also lower
+        the target's Sp. Def stat.
+      moveType: 8
+      moveCategory: 2
+    level: 4
+  - move:
+      Name: CONFUSERAY
+      Type: GHOST
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The target is exposed to a sinister ray that triggers confusion.
+      moveType: 12
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: INGRAIN
+      Type: GRASS
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays roots that restore its HP on every turn. Because
+        it is rooted, it can't switch out.
+      moveType: 3
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 16
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: BRINE
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 65
+      Accuracy: 100
+      Description: If the target's HP is down to about half, this attack will hit
+        with double the power.
+      moveType: 2
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: GASTROACID
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user hurls up its stomach acids on the foe. The fluid negates
+        the effect of the target's Ability.
+      moveType: 8
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: STOCKPILE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user charges up power and raises both its Defense and Sp.
+        Def. The move can be used three times.
+      moveType: 5
+      moveCategory: 3
+    level: 41
+  - move:
+      Name: SPITUP
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The power stored using the move Stockpile is released all at once
+        in an attack.
+      moveType: 5
+      moveCategory: 2
+    level: 41
+  - move:
+      Name: SWALLOW
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The power stored using the move Stockpile is absorbed by the user
+        to heal its HP.
+      moveType: 5
+      moveCategory: 3
+    level: 41
+  - move:
+      Name: ENERGYBALL
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user draws power from nature and fires it at the target. It
+        may also lower the target's Sp. Def.
+      moveType: 3
+      moveCategory: 2
+    level: 44
+  habitat: 7
+  evolutionStructs: []
+  Description: It disguises itself as seaweed by making its tentacles sway. Unsuspecting
+    prey that come too close are swallowed whole. It became extinct 100 million years
+    ago.
+  Evolutions: CRADILY,Level,40

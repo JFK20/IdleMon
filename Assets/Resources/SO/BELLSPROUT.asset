@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: BELLSPROUT
+  m_EditorClassIdentifier: 
+  Name: BELLSPROUT
+  ID: 0
+  types: 0300000008000000
+  baseStats: 320000004b0000002300000028000000460000001e000000
+  genderRatio: 4
+  Ability: CHLOROPHYLL
+  HiddenAbilities: GLUTTONY
+  moveSetStructs:
+  - move:
+      Name: VINEWHIP
+      Type: GRASS
+      Category: Physical
+      PP: 25
+      Power: 45
+      Accuracy: 100
+      Description: The target is struck with slender, whiplike vines to inflict damage.
+      moveType: 3
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWTH
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user's body grows all at once, raising the Atk and Sp. Atk
+        stats.
+      moveType: 5
+      moveCategory: 3
+    level: 7
+  - move:
+      Name: WRAP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 90
+      Description: A long body or vines are used to wrap and squeeze the target for
+        four to five turns.
+      moveType: 5
+      moveCategory: 1
+    level: 11
+  - move:
+      Name: SLEEPPOWDER
+      Type: GRASS
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a big cloud of sleep-inducing dust around the
+        target.
+      moveType: 3
+      moveCategory: 3
+    level: 13
+  - move:
+      Name: POISONPOWDER
+      Type: POISON
+      Category: Status
+      PP: 35
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of poisonous dust on the target. It
+        may poison the target.
+      moveType: 8
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 17
+  - move:
+      Name: ACID
+      Type: POISON
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The foe is attacked with a spray of harsh acid. It may also lower
+        the target's Sp. Def stat.
+      moveType: 8
+      moveCategory: 2
+    level: 23
+  - move:
+      Name: KNOCKOFF
+      Type: DARK
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The user slaps down the target's held item, preventing that item
+        from being used in the battle.
+      moveType: 16
+      moveCategory: 1
+    level: 27
+  - move:
+      Name: SWEETSCENT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: "A sweet scent that lowers the foe's evasiveness. It also lures
+        wild Pok\xC3\xA9mon if used in grass, etc."
+      moveType: 5
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: GASTROACID
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user hurls up its stomach acids on the foe. The fluid negates
+        the effect of the target's Ability.
+      moveType: 8
+      moveCategory: 3
+    level: 35
+  - move:
+      Name: RAZORLEAF
+      Type: GRASS
+      Category: Physical
+      PP: 25
+      Power: 55
+      Accuracy: 95
+      Description: Sharp-edged leaves are launched to slash at the opposing team.
+        Critical hits land more easily.
+      moveType: 3
+      moveCategory: 1
+    level: 39
+  - move:
+      Name: POISONJAB
+      Type: POISON
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: The target is stabbed with a tentacle or arm seeped with poison.
+        It may also poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 41
+  - move:
+      Name: SLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 75
+      Description: The target is slammed with a long tail, vines, etc., to inflict
+        damage.
+      moveType: 5
+      moveCategory: 1
+    level: 47
+  habitat: 2
+  evolutionStructs: []
+  Description: A Bellsprout's thin and flexible body lets it bend and sway to avoid
+    any attack, however strong it may be. From its mouth, it leaks a fluid that melts
+    even iron.
+  Evolutions: WEEPINBELL,Level,21

@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: METANG
+  m_EditorClassIdentifier: 
+  Name: METANG
+  ID: 0
+  types: 110000000d000000
+  baseStats: 3c0000004b00000064000000320000003700000050000000
+  genderRatio: 8
+  Ability: CLEARBODY
+  HiddenAbilities: LIGHTMETAL
+  moveSetStructs:
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 0
+  - move:
+      Name: METALCLAW
+      Type: STEEL
+      Category: Physical
+      PP: 35
+      Power: 50
+      Accuracy: 95
+      Description: The target is raked with steel claws. It may also raise the user's
+        Attack stat.
+      moveType: 17
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: BULLETPUNCH
+      Type: STEEL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user strikes the target with tough punches as fast as bullets.
+        This move always goes first.
+      moveType: 17
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: MAGNETRISE
+      Type: ELECTRIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user levitates using electrically generated magnetism for
+        five turns.
+      moveType: 4
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: FLASHCANNON
+      Type: STEEL
+      Category: Special
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user gathers all its light energy and releases it at once.
+        It may also lower the target's Sp. Def stat.
+      moveType: 17
+      moveCategory: 2
+    level: 18
+  - move:
+      Name: TAKEDOWN
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 90
+      Accuracy: 85
+      Description: A reckless, full-body charge attack for slamming into the foe.
+        It also damages the user a little.
+      moveType: 5
+      moveCategory: 1
+    level: 26
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 34
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 42
+  - move:
+      Name: METEORMASH
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The target is hit with a hard punch fired like a meteor. It may
+        also raise the user's Attack.
+      moveType: 17
+      moveCategory: 1
+    level: 50
+  - move:
+      Name: IRONDEFENSE
+      Type: STEEL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: The user hardens its body's surface like iron, sharply raising
+        its Defense stat.
+      moveType: 17
+      moveCategory: 3
+    level: 58
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 66
+  - move:
+      Name: HYPERBEAM
+      Type: NORMAL
+      Category: Special
+      PP: 5
+      Power: 150
+      Accuracy: 90
+      Description: The foe is attacked with a powerful beam. The user must rest on
+        the next turn to regain its energy.
+      moveType: 5
+      moveCategory: 2
+    level: 74
+  habitat: 6
+  evolutionStructs: []
+  Description: The claws tipping its arms pack the destructive power to tear through
+    thick iron sheets as if they were silk. It flies at over 60 miles per hour.
+  Evolutions: METAGROSS,Level,45

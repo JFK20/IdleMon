@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SANDSLASH
+  m_EditorClassIdentifier: 
+  Name: SANDSLASH
+  ID: 0
+  types: 09000000
+  baseStats: 4b000000640000006e000000410000002d00000037000000
+  genderRatio: 4
+  Ability: SANDVEIL
+  HiddenAbilities: SANDRUSH
+  moveSetStructs:
+  - move:
+      Name: CRUSHCLAW
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 95
+      Description: The user slashes the target with hard and sharp claws. It may
+        also lower the target's Defense.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: POISONSTING
+      Type: POISON
+      Category: Physical
+      PP: 35
+      Power: 15
+      Accuracy: 100
+      Description: The user stabs the target with a poisonous stinger. This may also
+        poison the target.
+      moveType: 8
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ROLLOUT
+      Type: ROCK
+      Category: Physical
+      PP: 20
+      Power: 30
+      Accuracy: 90
+      Description: The user continually rolls into the target over five turns. It
+        becomes stronger each time it hits.
+      moveType: 10
+      moveCategory: 1
+    level: 9
+  - move:
+      Name: FURYCUTTER
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 40
+      Accuracy: 95
+      Description: The target is slashed with scythes or claws. Its power increases
+        if it hits in succession.
+      moveType: 11
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: RAPIDSPIN
+      Type: NORMAL
+      Category: Physical
+      PP: 40
+      Power: 50
+      Accuracy: 100
+      Description: A spin attack that raises the user's Speed and eliminates the
+        effects of Bind, Spikes, etc.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: BULLDOZE
+      Type: GROUND
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: "The user strikes everything around it by stomping on the ground.
+        It reduces hit Pok\xC3\xA9mon's Speed."
+      moveType: 9
+      moveCategory: 1
+    level: 18
+  - move:
+      Name: SWIFT
+      Type: NORMAL
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: Star-shaped rays are shot at the opposing team. This attack never
+        misses.
+      moveType: 5
+      moveCategory: 2
+    level: 21
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 26
+  - move:
+      Name: SANDTOMB
+      Type: GROUND
+      Category: Physical
+      PP: 15
+      Power: 35
+      Accuracy: 85
+      Description: The user traps the target inside a harshly raging sandstorm for
+        four to five turns.
+      moveType: 9
+      moveCategory: 1
+    level: 31
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: DIG
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user burrows, then attacks on the second turn. It can also
+        be used to exit dungeons.
+      moveType: 9
+      moveCategory: 1
+    level: 41
+  - move:
+      Name: GYROBALL
+      Type: STEEL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: The user tackles the target with a high-speed spin. The slower
+        the user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 46
+  - move:
+      Name: SWORDSDANCE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: A frenetic dance to uplift the fighting spirit. It sharply raises
+        the user's Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 51
+  - move:
+      Name: SANDSTORM
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Summons a five-turn sandstorm to hurt all combatants except the
+        Rock, Ground, and Steel types.
+      moveType: 10
+      moveCategory: 3
+    level: 56
+  - move:
+      Name: EARTHQUAKE
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: "The user sets off an earthquake that strikes every Pok\xC3\xA9mon
+        around it."
+      moveType: 9
+      moveCategory: 1
+    level: 61
+  habitat: 6
+  evolutionStructs: []
+  Description: It curls up in a ball to protect itself from enemy attacks. It also
+    curls up to prevent heatstroke during the daytime when temperatures rise sharply.
+  Evolutions: 

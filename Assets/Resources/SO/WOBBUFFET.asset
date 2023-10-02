@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: WOBBUFFET
+  m_EditorClassIdentifier: 
+  Name: WOBBUFFET
+  ID: 0
+  types: 0d000000
+  baseStats: be000000210000003a00000021000000210000003a000000
+  genderRatio: 4
+  Ability: SHADOWTAG
+  HiddenAbilities: TELEPATHY
+  moveSetStructs:
+  - move:
+      Name: COUNTER
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A retaliation move that counters any physical attack, inflicting
+        double the damage taken.
+      moveType: 7
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: MIRRORCOAT
+      Type: PSYCHIC
+      Category: Special
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A retaliation move that counters any special attack, inflicting
+        double the damage taken.
+      moveType: 13
+      moveCategory: 2
+    level: 0
+  - move:
+      Name: SAFEGUARD
+      Type: NORMAL
+      Category: Status
+      PP: 25
+      Power: 0
+      Accuracy: 0
+      Description: The user creates a protective field that prevents status problems
+        for five turns.
+      moveType: 5
+      moveCategory: 3
+    level: 0
+  - move:
+      Name: DESTINYBOND
+      Type: GHOST
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: When this move is used, if the user faints, the foe that landed
+        the knockout hit also faints.
+      moveType: 12
+      moveCategory: 3
+    level: 0
+  - move:
+      Name: SPLASH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user just flops and splashes around to no effect at all...
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ENCORE
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 100
+      Description: The user compels the target to keep using only the move it last
+        used for three turns.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  habitat: 1
+  evolutionStructs: []
+  Description: Usually docile, a Wobbuffet strikes back ferociously if its black
+    tail is attacked. It makes its lair in caves where it waits for nightfall.
+  Evolutions: 

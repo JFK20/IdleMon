@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: TANGELA
+  m_EditorClassIdentifier: 
+  Name: TANGELA
+  ID: 0
+  types: 03000000
+  baseStats: 4100000037000000730000003c0000006400000028000000
+  genderRatio: 4
+  Ability: CHLOROPHYLL,LEAFGUARD
+  HiddenAbilities: REGENERATOR
+  moveSetStructs:
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: BIND
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 85
+      Description: Things such as long bodies or tentacles are used to bind and squeeze
+        the foe for four to five turns.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: GROWTH
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user's body grows all at once, raising the Atk and Sp. Atk
+        stats.
+      moveType: 5
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: VINEWHIP
+      Type: GRASS
+      Category: Physical
+      PP: 25
+      Power: 45
+      Accuracy: 100
+      Description: The target is struck with slender, whiplike vines to inflict damage.
+      moveType: 3
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: POISONPOWDER
+      Type: POISON
+      Category: Status
+      PP: 35
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of poisonous dust on the target. It
+        may poison the target.
+      moveType: 8
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 24
+  - move:
+      Name: KNOCKOFF
+      Type: DARK
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The user slaps down the target's held item, preventing that item
+        from being used in the battle.
+      moveType: 16
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: SLEEPPOWDER
+      Type: GRASS
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a big cloud of sleep-inducing dust around the
+        target.
+      moveType: 3
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: SLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 75
+      Description: The target is slammed with a long tail, vines, etc., to inflict
+        damage.
+      moveType: 5
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: TICKLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user tickles the target into laughing, reducing its Attack
+        and Defense stats.
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: POWERWHIP
+      Type: GRASS
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 85
+      Description: The user violently whirls its vines or tentacles to harshly lash
+        the target.
+      moveType: 3
+      moveCategory: 1
+    level: 48
+  - move:
+      Name: INGRAIN
+      Type: GRASS
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays roots that restore its HP on every turn. Because
+        it is rooted, it can't switch out.
+      moveType: 3
+      moveCategory: 3
+    level: 52
+  - move:
+      Name: GRASSYTERRAIN
+      Type: GRASS
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user turns the ground to grass for five turns. Grounded Pok\xC3\xA9mon
+        restore a little HP every turn."
+      moveType: 3
+      moveCategory: 3
+    level: 56
+  habitat: 3
+  evolutionStructs: []
+  Description: Its vines snap off easily and painlessly if they are grabbed, allowing
+    it to make a quick getaway. The lost vines are replaced by new growth the very
+    next day.
+  Evolutions: TANGROWTH,HasMove,ANCIENTPOWER

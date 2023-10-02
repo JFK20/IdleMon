@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: LOUDRED
+  m_EditorClassIdentifier: 
+  Name: LOUDRED
+  ID: 0
+  types: 05000000
+  baseStats: 54000000470000002b00000030000000470000002b000000
+  genderRatio: 4
+  Ability: SOUNDPROOF
+  HiddenAbilities: SCRAPPY
+  moveSetStructs:
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: POUND
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: The target is physically pounded with a long tail or a foreleg,
+        etc.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: ECHOEDVOICE
+      Type: NORMAL
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: The user attacks the foe with an echoing voice. If this move is
+        used every turn, it does greater damage.
+      moveType: 5
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: HOWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user howls loudly to raise the spirit of itself and allies,
+        boosting their Attack stats.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: SLEEPTALK
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: While it is asleep, the user randomly uses one of the moves it
+        knows.
+      moveType: 5
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: STOMP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is stomped with a big foot. It may also make the target
+        flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 23
+  - move:
+      Name: ROAR
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The target is scared off and replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: UPROAR
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user attacks in an uproar for three turns. Over that time,
+        no one can fall asleep.
+      moveType: 5
+      moveCategory: 2
+    level: 43
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: HYPERVOICE
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user lets loose a horribly echoing shout with the power to
+        inflict damage.
+      moveType: 5
+      moveCategory: 2
+    level: 57
+  habitat: 1
+  evolutionStructs: []
+  Description: It positions the round speakers on its head to assail foes with ultrasonic
+    waves at massive volume. It builds power by stomping the ground.
+  Evolutions: EXPLOUD,Level,40

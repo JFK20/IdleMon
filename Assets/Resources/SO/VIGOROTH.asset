@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: VIGOROTH
+  m_EditorClassIdentifier: 
+  Name: VIGOROTH
+  ID: 0
+  types: 05000000
+  baseStats: 5000000050000000500000005a0000003700000037000000
+  genderRatio: 4
+  Ability: VITALSPIRIT
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: REVERSAL
+      Type: FIGHTING
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: An all-out attack that becomes more powerful the less HP the user
+        has.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: YAWN
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lets loose a huge yawn that lulls the target into falling
+        asleep on the next turn.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SLACKOFF
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user slacks off, restoring its own HP by up to half of its
+        maximum HP.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: COVET
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user endearingly approaches the target, then steals the target's
+        held item.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FLAIL
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 1
+      Accuracy: 100
+      Description: The user flails about aimlessly to attack. It becomes more powerful
+        the less HP the user has.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: PLAYROUGH
+      Type: FAIRY
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user plays rough with the target and attacks it. This may
+        also lower the target's Attack stat.
+      moveType: 18
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ENCORE
+      Type: NORMAL
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 100
+      Description: The user compels the target to keep using only the move it last
+        used for three turns.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: UPROAR
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user attacks in an uproar for three turns. Over that time,
+        no one can fall asleep.
+      moveType: 5
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 14
+  - move:
+      Name: ENDURE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user endures any attack with at least 1 HP. Its chance of
+        failing rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 17
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 23
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 27
+  - move:
+      Name: COUNTER
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A retaliation move that counters any physical attack, inflicting
+        double the damage taken.
+      moveType: 7
+      moveCategory: 1
+    level: 33
+  - move:
+      Name: FOCUSPUNCH
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 150
+      Accuracy: 100
+      Description: The user focuses its mind before launching a punch. It will fail
+        if the user is hit before it is used.
+      moveType: 7
+      moveCategory: 1
+    level: 37
+  habitat: 2
+  evolutionStructs: []
+  Description: It can't keep still because its blood boils with energy. It runs through
+    the fields and mountains all day to calm itself. If it doesn't, it can't sleep
+    at night.
+  Evolutions: SLAKING,Level,36

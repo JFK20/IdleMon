@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: URSARING
+  m_EditorClassIdentifier: 
+  Name: URSARING
+  ID: 0
+  types: 05000000
+  baseStats: 5a000000820000004b000000370000004b0000004b000000
+  genderRatio: 4
+  Ability: GUTS,QUICKFEET
+  HiddenAbilities: UNNERVE
+  moveSetStructs:
+  - move:
+      Name: HAMMERARM
+      Type: FIGHTING
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 90
+      Description: The user swings and hits with its strong and heavy fist. It lowers
+        the user's Speed, however.
+      moveType: 7
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FLING
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user flings its held item at the target to attack. Its power
+        and effects depend on the item.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: BABYDOLLEYES
+      Type: FAIRY
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user stares with its baby-doll eyes, which lowers the target's
+        Attack stat. Always goes first.
+      moveType: 18
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: COVET
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The user endearingly approaches the target, then steals the target's
+        held item.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: LICK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is licked with a long tongue, causing damage. It may
+        also leave the target with paralysis.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: FAKETEARS
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user feigns crying to fluster the target, harshly lowering
+        its Sp. Def stat.
+      moveType: 16
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: PAYBACK
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 50
+      Accuracy: 100
+      Description: If the user moves after the target, this attack's power will be
+        doubled.
+      moveType: 16
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: SWEETSCENT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: "A sweet scent that lowers the foe's evasiveness. It also lures
+        wild Pok\xC3\xA9mon if used in grass, etc."
+      moveType: 5
+      moveCategory: 3
+    level: 22
+  - move:
+      Name: PLAYNICE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user and target become friends. The target loses its will
+        to fight, lowering its Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 29
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 38
+  - move:
+      Name: REST
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user goes to sleep for two turns. It fully restores the user's
+        HP and heals any status problem.
+      moveType: 13
+      moveCategory: 3
+    level: 47
+  - move:
+      Name: SNORE
+      Type: NORMAL
+      Category: Special
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: An attack that can be used only if the user is asleep. The harsh
+        noise may also make the target flinch.
+      moveType: 5
+      moveCategory: 2
+    level: 49
+  - move:
+      Name: THRASH
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 5
+      moveCategory: 1
+    level: 58
+  habitat: 4
+  evolutionStructs: []
+  Description: In forests, it is said that there are many streams and towering trees
+    where an Ursaring gathers food. It walks through its forest collecting food every
+    day.
+  Evolutions: 

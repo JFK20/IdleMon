@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: BELLOSSOM
+  m_EditorClassIdentifier: 
+  Name: BELLOSSOM
+  ID: 0
+  types: 03000000
+  baseStats: 4b000000500000005f000000320000005a00000064000000
+  genderRatio: 4
+  Ability: CHLOROPHYLL
+  HiddenAbilities: HEALER
+  moveSetStructs:
+  - move:
+      Name: PETALBLIZZARD
+      Type: GRASS
+      Category: Physical
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: The user stirs up a violent petal blizzard and attacks everything
+        around it.
+      moveType: 3
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: QUIVERDANCE
+      Type: BUG
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user performs a beautiful dance. It boosts the user's Sp.
+        Atk, Sp. Def, and Speed stats.
+      moveType: 11
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: MEGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 15
+      Power: 40
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: POISONPOWDER
+      Type: POISON
+      Category: Status
+      PP: 35
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of poisonous dust on the target. It
+        may poison the target.
+      moveType: 8
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: STUNSPORE
+      Type: GRASS
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a cloud of paralyzing powder. It may leave the
+        target with paralysis.
+      moveType: 3
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SLEEPPOWDER
+      Type: GRASS
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 75
+      Description: The user scatters a big cloud of sleep-inducing dust around the
+        target.
+      moveType: 3
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: GIGADRAIN
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 75
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: TOXIC
+      Type: POISON
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 90
+      Description: A move that leaves the target badly poisoned. Its poison damage
+        worsens every turn.
+      moveType: 8
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: MOONBLAST
+      Type: FAIRY
+      Category: Special
+      PP: 15
+      Power: 95
+      Accuracy: 100
+      Description: The user attacks by borrowing the power of the moon. This may
+        also lower the target's Sp. Atk stat.
+      moveType: 18
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: GRASSYTERRAIN
+      Type: GRASS
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: "The user turns the ground to grass for five turns. Grounded Pok\xC3\xA9mon
+        restore a little HP every turn."
+      moveType: 3
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: MOONLIGHT
+      Type: FAIRY
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user restores its own HP. The amount of HP regained varies
+        with the weather.
+      moveType: 18
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: PETALDANCE
+      Type: GRASS
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user attacks by scattering petals for two to three turns.
+        The user then becomes confused.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ABSORB
+      Type: GRASS
+      Category: Special
+      PP: 25
+      Power: 20
+      Accuracy: 100
+      Description: A nutrient-draining attack. The user's HP is restored by half
+        the damage taken by the target.
+      moveType: 3
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: GROWTH
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user's body grows all at once, raising the Atk and Sp. Atk
+        stats.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ACID
+      Type: POISON
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The foe is attacked with a spray of harsh acid. It may also lower
+        the target's Sp. Def stat.
+      moveType: 8
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SWEETSCENT
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: "A sweet scent that lowers the foe's evasiveness. It also lures
+        wild Pok\xC3\xA9mon if used in grass, etc."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  habitat: 3
+  evolutionStructs: []
+  Description: Its flower petals deepen in color through exposure to sunlight. When
+    cloudy weather persists, it does a dance that is thought to be a sun-summoning
+    ritual.
+  Evolutions: 

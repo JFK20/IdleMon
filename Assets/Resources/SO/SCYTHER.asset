@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SCYTHER
+  m_EditorClassIdentifier: 
+  Name: SCYTHER
+  ID: 0
+  types: 0b00000006000000
+  baseStats: 460000006e00000050000000690000003700000050000000
+  genderRatio: 4
+  Ability: SWARM,TECHNICIAN
+  HiddenAbilities: STEADFAST
+  moveSetStructs:
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FURYCUTTER
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 40
+      Accuracy: 95
+      Description: The target is slashed with scythes or claws. Its power increases
+        if it hits in succession.
+      moveType: 11
+      moveCategory: 1
+    level: 4
+  - move:
+      Name: FALSESWIPE
+      Type: NORMAL
+      Category: Physical
+      PP: 40
+      Power: 40
+      Accuracy: 100
+      Description: A restrained attack that prevents the target from fainting. The
+        target is left with at least 1 HP.
+      moveType: 5
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: WINGATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 60
+      Accuracy: 100
+      Description: The target is struck with large, imposing wings spread wide to
+        inflict damage.
+      moveType: 6
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: DOUBLETEAM
+      Type: NORMAL
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: By moving rapidly, the user makes illusory copies of itself to
+        raise its evasiveness.
+      moveType: 5
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: DOUBLEHIT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 35
+      Accuracy: 90
+      Description: The user slams the target with a long tail, vines, or tentacle.
+        The target is hit twice in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: SLASH
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The target is attacked with a slash of claws or blades. Critical
+        hits land more easily.
+      moveType: 5
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: XSCISSOR
+      Type: BUG
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user slashes at the foe by crossing its scythes or claws as
+        if they were a pair of scissors.
+      moveType: 11
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: LASERFOCUS
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user focuses intensely. The attack on the next turn always
+        results in a critical hit.
+      moveType: 5
+      moveCategory: 3
+    level: 44
+  - move:
+      Name: SWORDSDANCE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: A frenetic dance to uplift the fighting spirit. It sharply raises
+        the user's Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 48
+  habitat: 3
+  evolutionStructs: []
+  Description: Its blindingly fast speed adds to the sharpness of its twin forearm
+    scythes. The scythes can slice through thick logs in one wicked stroke.
+  Evolutions: SCIZOR,TradeItem,METALCOAT

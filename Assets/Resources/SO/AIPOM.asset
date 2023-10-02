@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: AIPOM
+  m_EditorClassIdentifier: 
+  Name: AIPOM
+  ID: 0
+  types: 05000000
+  baseStats: 370000004600000037000000550000002800000037000000
+  genderRatio: 4
+  Ability: RUNAWAY,PICKUP
+  HiddenAbilities: SKILLLINK
+  moveSetStructs:
+  - move:
+      Name: SCRATCH
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: Hard, pointed, and sharp claws rake the target to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SANDATTACK
+      Type: GROUND
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 100
+      Description: Sand is hurled in the target's face, reducing its accuracy.
+      moveType: 9
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: ASTONISH
+      Type: GHOST
+      Category: Physical
+      PP: 15
+      Power: 30
+      Accuracy: 100
+      Description: The user attacks the target while shouting in a startling fashion.
+        It may also make the target flinch.
+      moveType: 12
+      moveCategory: 1
+    level: 8
+  - move:
+      Name: BATONPASS
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: "The user switches places with a party Pok\xC3\xA9mon in waiting,
+        passing along any stat changes."
+      moveType: 5
+      moveCategory: 3
+    level: 11
+  - move:
+      Name: TICKLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user tickles the target into laughing, reducing its Attack
+        and Defense stats.
+      moveType: 5
+      moveCategory: 3
+    level: 15
+  - move:
+      Name: FURYSWIPES
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 18
+      Accuracy: 80
+      Description: The target is raked with sharp claws or scythes for two to five
+        times in quick succession.
+      moveType: 5
+      moveCategory: 1
+    level: 18
+  - move:
+      Name: SWIFT
+      Type: NORMAL
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: Star-shaped rays are shot at the opposing team. This attack never
+        misses.
+      moveType: 5
+      moveCategory: 2
+    level: 22
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 25
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 29
+  - move:
+      Name: DOUBLEHIT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 35
+      Accuracy: 90
+      Description: The user slams the target with a long tail, vines, or tentacle.
+        The target is hit twice in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: FLING
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user flings its held item at the target to attack. Its power
+        and effects depend on the item.
+      moveType: 16
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: NASTYPLOT
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user stimulates its brain by thinking bad thoughts. It sharply
+        raises the user's Sp. Atk.
+      moveType: 16
+      moveCategory: 3
+    level: 39
+  - move:
+      Name: LASTRESORT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 140
+      Accuracy: 100
+      Description: This move can be used only after the user has used all the other
+        moves it knows in the battle.
+      moveType: 5
+      moveCategory: 1
+    level: 43
+  habitat: 2
+  evolutionStructs: []
+  Description: Its tail ends with a dexterous, handlike appendage. However, because
+    it uses the tail so much, Aipom's real hands have become rather clumsy.
+  Evolutions: AMBIPOM,HasMove,DOUBLEHIT

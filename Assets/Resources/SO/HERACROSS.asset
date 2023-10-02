@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: HERACROSS
+  m_EditorClassIdentifier: 
+  Name: HERACROSS
+  ID: 0
+  types: 0b00000007000000
+  baseStats: 500000007d0000004b00000055000000280000005f000000
+  genderRatio: 4
+  Ability: SWARM,GUTS
+  HiddenAbilities: MOXIE
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: FURYATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 85
+      Description: The target is jabbed repeatedly with a horn or beak two to five
+        times in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 5
+  - move:
+      Name: ENDURE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user endures any attack with at least 1 HP. Its chance of
+        failing rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: AERIALACE
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: The user confounds the foe with speed, then slashes. The attack
+        lands without fail.
+      moveType: 6
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: HORNATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 25
+      Power: 65
+      Accuracy: 100
+      Description: The target is jabbed with a sharply pointed horn to inflict damage.
+      moveType: 5
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: COUNTER
+      Type: FIGHTING
+      Category: Physical
+      PP: 20
+      Power: 1
+      Accuracy: 100
+      Description: A retaliation move that counters any physical attack, inflicting
+        double the damage taken.
+      moveType: 7
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: BRICKBREAK
+      Type: FIGHTING
+      Category: Physical
+      PP: 15
+      Power: 75
+      Accuracy: 100
+      Description: The user attacks with a swift chop. It can also break any barrier
+        such as Light Screen and Reflect.
+      moveType: 7
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: PINMISSILE
+      Type: BUG
+      Category: Physical
+      PP: 20
+      Power: 25
+      Accuracy: 95
+      Description: Sharp spikes are shot at the target in rapid succession. They
+        hit two to five times in a row.
+      moveType: 11
+      moveCategory: 1
+    level: 35
+  - move:
+      Name: THROATCHOP
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user attacks the target's throat. The target cannot use sound-based
+        moves for two turns.
+      moveType: 16
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: THRASH
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 5
+      moveCategory: 1
+    level: 45
+  - move:
+      Name: SWORDSDANCE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: A frenetic dance to uplift the fighting spirit. It sharply raises
+        the user's Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: MEGAHORN
+      Type: BUG
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 85
+      Description: Using its tough and impressive horn, the user rams into the target
+        with no letup.
+      moveType: 11
+      moveCategory: 1
+    level: 55
+  - move:
+      Name: CLOSECOMBAT
+      Type: FIGHTING
+      Category: Physical
+      PP: 5
+      Power: 120
+      Accuracy: 100
+      Description: The user fights the foe up close without guarding itself. It also
+        cuts the user's Defense and Sp. Def.
+      moveType: 7
+      moveCategory: 1
+    level: 60
+  habitat: 2
+  evolutionStructs: []
+  Description: They gather in forests seeking the sweet sap of trees. It is completely
+    clad in a steel-hard shell. It is proud of its horn, which it uses to fling foes.
+  Evolutions: 

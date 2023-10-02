@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: CORPHISH
+  m_EditorClassIdentifier: 
+  Name: CORPHISH
+  ID: 0
+  types: 02000000
+  baseStats: 2b0000005000000041000000230000003200000023000000
+  genderRatio: 4
+  Ability: HYPERCUTTER,SHELLARMOR
+  HiddenAbilities: ADAPTABILITY
+  moveSetStructs:
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: TAUNT
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The target is taunted into a rage that allows it to use only attack
+        moves for three turns.
+      moveType: 16
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: BUBBLEBEAM
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: A spray of bubbles is forcefully ejected at the target. It may
+        also lower its Speed stat.
+      moveType: 2
+      moveCategory: 2
+    level: 12
+  - move:
+      Name: KNOCKOFF
+      Type: DARK
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The user slaps down the target's held item, preventing that item
+        from being used in the battle.
+      moveType: 16
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: DOUBLEHIT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 35
+      Accuracy: 90
+      Description: The user slams the target with a long tail, vines, or tentacle.
+        The target is hit twice in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: NIGHTSLASH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user slashes the target the instant an opportunity arises.
+        Critical hits land more easily.
+      moveType: 16
+      moveCategory: 1
+    level: 28
+  - move:
+      Name: RAZORSHELL
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 75
+      Accuracy: 95
+      Description: The user cuts the foe with sharp shells. It may also lower the
+        target's Defense stat.
+      moveType: 2
+      moveCategory: 1
+    level: 32
+  - move:
+      Name: SWORDSDANCE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: A frenetic dance to uplift the fighting spirit. It sharply raises
+        the user's Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: CRABHAMMER
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 90
+      Description: The target is hammered with a large pincer. Critical hits land
+        more easily.
+      moveType: 2
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: ENDEAVOR
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: An attack move that cuts down the target's HP to equal the user's
+        HP.
+      moveType: 5
+      moveCategory: 1
+    level: 48
+  - move:
+      Name: GUILLOTINE
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: A vicious, tearing attack with big pincers. The target will faint
+        instantly if this attack hits.
+      moveType: 5
+      moveCategory: 1
+    level: 52
+  habitat: 9
+  evolutionStructs: []
+  Description: "Once it grips prey with its large pincers, it will never let go,
+    no matter what. It is a hardy Pok\xC3\xA9mon that can thrive in any environment."
+  Evolutions: CRAWDAUNT,Level,30

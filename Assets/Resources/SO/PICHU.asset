@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: PICHU
+  m_EditorClassIdentifier: 
+  Name: PICHU
+  ID: 0
+  types: 04000000
+  baseStats: 14000000280000000f0000003c0000002300000023000000
+  genderRatio: 4
+  Ability: STATIC
+  HiddenAbilities: LIGHTNINGROD
+  moveSetStructs:
+  - move:
+      Name: THUNDERSHOCK
+      Type: ELECTRIC
+      Category: Special
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: A jolt of electricity is hurled at the foe to inflict damage.
+        It may also leave the target with paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: TAILWHIP
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: "The user wags its tail cutely, making opposing Pok\xC3\xA9mon
+        less wary and lowering their Defense stat."
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: PLAYNICE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user and target become friends. The target loses its will
+        to fight, lowering its Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: SWEETKISS
+      Type: FAIRY
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 75
+      Description: The user kisses the target with a sweet, angelic cuteness that
+        causes confusion.
+      moveType: 18
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: NUZZLE
+      Type: ELECTRIC
+      Category: Physical
+      PP: 20
+      Power: 20
+      Accuracy: 100
+      Description: The user nuzzles its electrified cheeks against the target. This
+        also leaves the target with paralysis.
+      moveType: 4
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: NASTYPLOT
+      Type: DARK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user stimulates its brain by thinking bad thoughts. It sharply
+        raises the user's Sp. Atk.
+      moveType: 16
+      moveCategory: 3
+    level: 16
+  - move:
+      Name: CHARM
+      Type: FAIRY
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user charmingly gazes at the foe, making it less wary. The
+        target's Attack is harshly lowered.
+      moveType: 18
+      moveCategory: 3
+    level: 20
+  habitat: 2
+  evolutionStructs: []
+  Description: It is still inept at retaining electricity. When it is startled, it
+    discharges power accidentally. It gets better at holding power as it grows older.
+  Evolutions: PIKACHU,Happiness,

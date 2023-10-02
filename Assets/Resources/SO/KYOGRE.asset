@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: KYOGRE
+  m_EditorClassIdentifier: 
+  Name: KYOGRE
+  ID: 0
+  types: 02000000
+  baseStats: 64000000640000005a0000005a000000960000008c000000
+  genderRatio: 8
+  Ability: DRIZZLE
+  HiddenAbilities: 
+  moveSetStructs:
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: BODYSLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 85
+      Accuracy: 100
+      Description: The user drops onto the target with its full body weight. It may
+        leave the target with paralysis.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: AQUATAIL
+      Type: WATER
+      Category: Physical
+      PP: 10
+      Power: 90
+      Accuracy: 90
+      Description: The user attacks by swinging its tail as if it were a vicious
+        wave in a raging storm.
+      moveType: 2
+      moveCategory: 1
+    level: 9
+  - move:
+      Name: CALMMIND
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user quietly focuses its mind and calms its spirit to raise
+        its Sp. Atk and Sp. Def stats.
+      moveType: 13
+      moveCategory: 3
+    level: 18
+  - move:
+      Name: MUDDYWATER
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 85
+      Description: The user attacks by shooting muddy water at the opposing team.
+        It may also lower the target's accuracy.
+      moveType: 2
+      moveCategory: 2
+    level: 27
+  - move:
+      Name: ICEBEAM
+      Type: ICE
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is struck with an icy-cold beam of energy. It may also
+        freeze the target solid.
+      moveType: 14
+      moveCategory: 2
+    level: 36
+  - move:
+      Name: SHEERCOLD
+      Type: ICE
+      Category: Special
+      PP: 5
+      Power: 1
+      Accuracy: 30
+      Description: The foe is attacked with a blast of absolute-zero cold. The target
+        instantly faints if it hits.
+      moveType: 14
+      moveCategory: 2
+    level: 45
+  - move:
+      Name: AQUARING
+      Type: WATER
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user envelops itself in a veil made of water. It regains some
+        HP on every turn.
+      moveType: 2
+      moveCategory: 3
+    level: 54
+  - move:
+      Name: ORIGINPULSE
+      Type: WATER
+      Category: Special
+      PP: 10
+      Power: 110
+      Accuracy: 85
+      Description: "The user attacks opposing Pok\xC3\xA9mon with countless beams
+        of light that glow a deep and brilliant blue."
+      moveType: 2
+      moveCategory: 2
+    level: 63
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 72
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 81
+  - move:
+      Name: WATERSPOUT
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 150
+      Accuracy: 100
+      Description: The user spouts water to damage the foe. The lower the user's
+        HP, the less powerful it becomes.
+      moveType: 2
+      moveCategory: 2
+    level: 90
+  habitat: 7
+  evolutionStructs: []
+  Description: Kyogre has appeared in mythology as the creator of the sea. After
+    long years of feuding with Groudon, it took to sleep at the bottom of the sea.
+  Evolutions: 

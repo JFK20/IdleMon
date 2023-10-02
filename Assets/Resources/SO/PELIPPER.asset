@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: PELIPPER
+  m_EditorClassIdentifier: 
+  Name: PELIPPER
+  ID: 0
+  types: 0200000006000000
+  baseStats: 3c0000003200000064000000410000005f00000046000000
+  genderRatio: 4
+  Ability: KEENEYE,DRIZZLE
+  HiddenAbilities: RAINDISH
+  moveSetStructs:
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SOAK
+      Type: WATER
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: The user shoots a torrent of water at the target and changes the
+        target's type to Water.
+      moveType: 2
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WATERGUN
+      Type: WATER
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is blasted with a forceful shot of water.
+      moveType: 2
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: TAILWIND
+      Type: FLYING
+      Category: Status
+      PP: 15
+      Power: 0
+      Accuracy: 0
+      Description: "The user whips up a turbulent whirlwind that ups the Speed of
+        all party Pok\xC3\xA9mon for four turns."
+      moveType: 6
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: WINGATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 60
+      Accuracy: 100
+      Description: The target is struck with large, imposing wings spread wide to
+        inflict damage.
+      moveType: 6
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: WATERPULSE
+      Type: WATER
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the target with a pulsing blast of water. It
+        may also confuse the target.
+      moveType: 2
+      moveCategory: 2
+    level: 20
+  - move:
+      Name: STOCKPILE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user charges up power and raises both its Defense and Sp.
+        Def. The move can be used three times.
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: SWALLOW
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The power stored using the move Stockpile is absorbed by the user
+        to heal its HP.
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: SPITUP
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The power stored using the move Stockpile is released all at once
+        in an attack.
+      moveType: 5
+      moveCategory: 2
+    level: 28
+  - move:
+      Name: FLING
+      Type: DARK
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user flings its held item at the target to attack. Its power
+        and effects depend on the item.
+      moveType: 16
+      moveCategory: 1
+    level: 34
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 41
+  - move:
+      Name: ROOST
+      Type: FLYING
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lands and rests its body. It restores the user's HP by
+        up to half of its max HP.
+      moveType: 6
+      moveCategory: 3
+    level: 48
+  - move:
+      Name: HURRICANE
+      Type: FLYING
+      Category: Special
+      PP: 10
+      Power: 110
+      Accuracy: 70
+      Description: The user wraps its foe in a fierce wind that flies up into the
+        sky. It may also confuse the foe.
+      moveType: 6
+      moveCategory: 2
+    level: 55
+  - move:
+      Name: HYDROPUMP
+      Type: WATER
+      Category: Special
+      PP: 5
+      Power: 110
+      Accuracy: 80
+      Description: The target is blasted by a huge volume of water launched under
+        great pressure.
+      moveType: 2
+      moveCategory: 2
+    level: 62
+  habitat: 7
+  evolutionStructs: []
+  Description: It skims the tops of waves as it flies. When it spots prey, it uses
+    its large beak to scoop up the victim with water. It protects its eggs in its
+    beak.
+  Evolutions: 

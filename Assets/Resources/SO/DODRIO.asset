@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: DODRIO
+  m_EditorClassIdentifier: 
+  Name: DODRIO
+  ID: 0
+  types: 0500000006000000
+  baseStats: 3c0000006e000000460000006e0000003c0000003c000000
+  genderRatio: 4
+  Ability: RUNAWAY,EARLYBIRD
+  HiddenAbilities: TANGLEDFEET
+  moveSetStructs:
+  - move:
+      Name: TRIATTACK
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 80
+      Accuracy: 100
+      Description: The user strikes with a simultaneous three-beam attack. May also
+        paralyze, burn, or freeze the target.
+      moveType: 5
+      moveCategory: 2
+    level: 0
+  - move:
+      Name: PECK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 35
+      Accuracy: 100
+      Description: The target is jabbed with a sharply pointed beak or horn.
+      moveType: 6
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: GROWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 100
+      Description: The user growls in an endearing way, making the foe less wary.
+        The foe's Attack stat is lowered.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: FURYATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 85
+      Description: The target is jabbed repeatedly with a horn or beak two to five
+        times in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: WINGATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 60
+      Accuracy: 100
+      Description: The target is struck with large, imposing wings spread wide to
+        inflict damage.
+      moveType: 6
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: PLUCK
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user pecks the target. If the target is holding a Berry, the
+        user eats it and gains its effect.
+      moveType: 6
+      moveCategory: 1
+    level: 19
+  - move:
+      Name: DOUBLEHIT
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 35
+      Accuracy: 90
+      Description: The user slams the target with a long tail, vines, or tentacle.
+        The target is hit twice in a row.
+      moveType: 5
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 26
+  - move:
+      Name: UPROAR
+      Type: NORMAL
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The user attacks in an uproar for three turns. Over that time,
+        no one can fall asleep.
+      moveType: 5
+      moveCategory: 2
+    level: 29
+  - move:
+      Name: ACUPRESSURE
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user applies pressure to stress points, sharply boosting one
+        of its stats.
+      moveType: 5
+      moveCategory: 3
+    level: 34
+  - move:
+      Name: SWORDSDANCE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: A frenetic dance to uplift the fighting spirit. It sharply raises
+        the user's Attack stat.
+      moveType: 5
+      moveCategory: 3
+    level: 38
+  - move:
+      Name: LUNGE
+      Type: BUG
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user makes a lunge at the target, attacking with full force.
+        This lowers the target's Attack stat.
+      moveType: 11
+      moveCategory: 1
+    level: 43
+  - move:
+      Name: DRILLPECK
+      Type: FLYING
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 100
+      Description: A corkscrewing attack with the sharp beak acting as a drill.
+      moveType: 6
+      moveCategory: 1
+    level: 47
+  - move:
+      Name: ENDEAVOR
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 1
+      Accuracy: 100
+      Description: An attack move that cuts down the target's HP to equal the user's
+        HP.
+      moveType: 5
+      moveCategory: 1
+    level: 52
+  - move:
+      Name: THRASH
+      Type: NORMAL
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 5
+      moveCategory: 1
+    level: 56
+  habitat: 3
+  evolutionStructs: []
+  Description: "A peculiar Pok\xC3\xA9mon species with three heads. It vigorously
+    races across grassy plains even in arid seasons with little rainfall."
+  Evolutions: 

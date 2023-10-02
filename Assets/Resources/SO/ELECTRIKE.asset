@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: ELECTRIKE
+  m_EditorClassIdentifier: 
+  Name: ELECTRIKE
+  ID: 0
+  types: 04000000
+  baseStats: 280000002d00000028000000410000004100000028000000
+  genderRatio: 4
+  Ability: STATIC,LIGHTNINGROD
+  HiddenAbilities: MINUS
+  moveSetStructs:
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: THUNDERWAVE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 90
+      Description: A weak electric charge is launched at the target. It causes paralysis
+        if it hits.
+      moveType: 4
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: HOWL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user howls loudly to raise the spirit of itself and allies,
+        boosting their Attack stats.
+      moveType: 5
+      moveCategory: 3
+    level: 8
+  - move:
+      Name: QUICKATTACK
+      Type: NORMAL
+      Category: Physical
+      PP: 30
+      Power: 40
+      Accuracy: 100
+      Description: The user lunges at the target at a speed that makes it almost
+        invisible. It is sure to strike first.
+      moveType: 5
+      moveCategory: 1
+    level: 12
+  - move:
+      Name: SHOCKWAVE
+      Type: ELECTRIC
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: The user strikes the target with a quick jolt of electricity.
+        This attack cannot be evaded.
+      moveType: 4
+      moveCategory: 2
+    level: 16
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 20
+  - move:
+      Name: THUNDERFANG
+      Type: ELECTRIC
+      Category: Physical
+      PP: 15
+      Power: 65
+      Accuracy: 95
+      Description: The user bites with electrified fangs. It may also make the target
+        flinch or leave it with paralysis.
+      moveType: 4
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: ROAR
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: "The target is scared off and replaced by another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 5
+      moveCategory: 3
+    level: 28
+  - move:
+      Name: DISCHARGE
+      Type: ELECTRIC
+      Category: Special
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: A flare of electricity is loosed to strike the area around the
+        user. It may also cause paralysis.
+      moveType: 4
+      moveCategory: 2
+    level: 32
+  - move:
+      Name: CHARGE
+      Type: ELECTRIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user boosts the power of the Electric move it uses next. It
+        also raises the user's Sp. Def stat.
+      moveType: 4
+      moveCategory: 3
+    level: 36
+  - move:
+      Name: WILDCHARGE
+      Type: ELECTRIC
+      Category: Physical
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: The user shrouds itself in electricity and smashes into its foe.
+        It also damages the user a little.
+      moveType: 4
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: THUNDER
+      Type: ELECTRIC
+      Category: Special
+      PP: 10
+      Power: 110
+      Accuracy: 70
+      Description: A wicked thunderbolt is dropped on the foe to inflict damage.
+        It may also leave the target paralyzed.
+      moveType: 4
+      moveCategory: 2
+    level: 44
+  habitat: 3
+  evolutionStructs: []
+  Description: It generates electricity using friction from the atmosphere. In seasons
+    with especially arid air, its entire body blazes with violent showers of sparks.
+  Evolutions: MANECTRIC,Level,26

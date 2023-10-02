@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: GOLEM
+  m_EditorClassIdentifier: 
+  Name: GOLEM
+  ID: 0
+  types: 0a00000009000000
+  baseStats: 5000000078000000820000002d0000003700000041000000
+  genderRatio: 4
+  Ability: ROCKHEAD,STURDY
+  HiddenAbilities: SANDVEIL
+  moveSetStructs:
+  - move:
+      Name: HEAVYSLAM
+      Type: STEEL
+      Category: Physical
+      PP: 10
+      Power: 1
+      Accuracy: 100
+      Description: The user slams into the foe with its heavy body. The heavier the
+        user, the greater the damage.
+      moveType: 17
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: TACKLE
+      Type: NORMAL
+      Category: Physical
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A physical attack in which the user charges and slams into the
+        target with its whole body.
+      moveType: 5
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ROCKPOLISH
+      Type: ROCK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user polishes its body to reduce drag. It can sharply raise
+        the Speed stat.
+      moveType: 10
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: SANDSTORM
+      Type: ROCK
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Summons a five-turn sandstorm to hurt all combatants except the
+        Rock, Ground, and Steel types.
+      moveType: 10
+      moveCategory: 3
+    level: 4
+  - move:
+      Name: ROLLOUT
+      Type: ROCK
+      Category: Physical
+      PP: 20
+      Power: 30
+      Accuracy: 90
+      Description: The user continually rolls into the target over five turns. It
+        becomes stronger each time it hits.
+      moveType: 10
+      moveCategory: 1
+    level: 10
+  - move:
+      Name: HARDEN
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user stiffens all the muscles in its body to raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: ROCKTHROW
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 90
+      Description: The user picks up and throws a small rock at the target to attack.
+      moveType: 10
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: SMACKDOWN
+      Type: ROCK
+      Category: Physical
+      PP: 15
+      Power: 50
+      Accuracy: 100
+      Description: "The user throws a stone or projectile to attack. A flying Pok\xC3\xA9mon
+        will fall to the ground when hit."
+      moveType: 10
+      moveCategory: 1
+    level: 18
+  - move:
+      Name: BULLDOZE
+      Type: GROUND
+      Category: Physical
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: "The user strikes everything around it by stomping on the ground.
+        It reduces hit Pok\xC3\xA9mon's Speed."
+      moveType: 9
+      moveCategory: 1
+    level: 22
+  - move:
+      Name: SELFDESTRUCT
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 200
+      Accuracy: 100
+      Description: "The user blows up to inflict damage on all Pok\xC3\xA9mon in
+        battle. The user faints upon using this move."
+      moveType: 5
+      moveCategory: 1
+    level: 24
+  - move:
+      Name: STEALTHROCK
+      Type: ROCK
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user lays a trap of levitating stones around the foe. The
+        trap hurts foes that switch into battle.
+      moveType: 10
+      moveCategory: 3
+    level: 30
+  - move:
+      Name: ROCKBLAST
+      Type: ROCK
+      Category: Physical
+      PP: 10
+      Power: 25
+      Accuracy: 90
+      Description: The user hurls hard rocks at the target. Two to five rocks are
+        launched in quick succession.
+      moveType: 10
+      moveCategory: 1
+    level: 34
+  - move:
+      Name: EARTHQUAKE
+      Type: GROUND
+      Category: Physical
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: "The user sets off an earthquake that strikes every Pok\xC3\xA9mon
+        around it."
+      moveType: 9
+      moveCategory: 1
+    level: 40
+  - move:
+      Name: EXPLOSION
+      Type: NORMAL
+      Category: Physical
+      PP: 5
+      Power: 250
+      Accuracy: 100
+      Description: The user explodes to inflict damage on those around it. The user
+        faints upon using this move.
+      moveType: 5
+      moveCategory: 1
+    level: 44
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 50
+  - move:
+      Name: STONEEDGE
+      Type: ROCK
+      Category: Physical
+      PP: 5
+      Power: 100
+      Accuracy: 80
+      Description: The user stabs the foe with sharpened stones from below. It has
+        a high critical-hit ratio.
+      moveType: 10
+      moveCategory: 1
+    level: 54
+  habitat: 4
+  evolutionStructs: []
+  Description: It is said to live in volcanic craters on mountain peaks. Once a year,
+    it sheds its hide and grows larger. The shed hide crumbles and returns to the
+    soil.
+  Evolutions: 

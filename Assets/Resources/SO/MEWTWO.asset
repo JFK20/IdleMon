@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: MEWTWO
+  m_EditorClassIdentifier: 
+  Name: MEWTWO
+  ID: 0
+  types: 0d000000
+  baseStats: 6a0000006e0000005a000000820000009a0000005a000000
+  genderRatio: 8
+  Ability: PRESSURE
+  HiddenAbilities: UNNERVE
+  moveSetStructs:
+  - move:
+      Name: LIFEDEW
+      Type: WATER
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user scatters mysterious water around and restores the HP
+        of itself and its allies.
+      moveType: 2
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: LASERFOCUS
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user focuses intensely. The attack on the next turn always
+        results in a critical hit.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DISABLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: For four turns, this move prevents the target from using the move
+        it last used.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: CONFUSION
+      Type: PSYCHIC
+      Category: Special
+      PP: 25
+      Power: 50
+      Accuracy: 100
+      Description: The target is hit by a weak telekinetic force. It may also leave
+        the target confused.
+      moveType: 13
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: SWIFT
+      Type: NORMAL
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 0
+      Description: Star-shaped rays are shot at the opposing team. This attack never
+        misses.
+      moveType: 5
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 8
+  - move:
+      Name: PSYCHOCUT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 20
+      Power: 70
+      Accuracy: 100
+      Description: The user tears at the target with blades formed by psychic power.
+        Critical hits land more easily.
+      moveType: 13
+      moveCategory: 1
+    level: 16
+  - move:
+      Name: SAFEGUARD
+      Type: NORMAL
+      Category: Status
+      PP: 25
+      Power: 0
+      Accuracy: 0
+      Description: The user creates a protective field that prevents status problems
+        for five turns.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: AMNESIA
+      Type: PSYCHIC
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 0
+      Description: The user temporarily empties its mind to forget its concerns.
+        It sharply raises the user's Sp. Def stat.
+      moveType: 13
+      moveCategory: 3
+    level: 32
+  - move:
+      Name: AURASPHERE
+      Type: FIGHTING
+      Category: Special
+      PP: 20
+      Power: 80
+      Accuracy: 0
+      Description: The user looses a blast of aura power from deep within its body.
+        This move is certain to hit.
+      moveType: 7
+      moveCategory: 2
+    level: 40
+  - move:
+      Name: PSYCHIC
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 90
+      Accuracy: 100
+      Description: The target is hit by a strong telekinetic force. It may also reduce
+        the target's Sp. Def stat.
+      moveType: 13
+      moveCategory: 2
+    level: 48
+  - move:
+      Name: POWERSWAP
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user employs its psychic power to switch changes to its Attack
+        and Sp. Atk with the target.
+      moveType: 13
+      moveCategory: 3
+    level: 56
+  - move:
+      Name: GUARDSWAP
+      Type: PSYCHIC
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user employs its psychic power to switch changes to its Defense
+        and Sp. Def with the target.
+      moveType: 13
+      moveCategory: 3
+    level: 56
+  - move:
+      Name: MIST
+      Type: ICE
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user cloaks its body with a white mist that prevents any of
+        its stats from being cut for five turns.
+      moveType: 14
+      moveCategory: 3
+    level: 64
+  - move:
+      Name: PSYSTRIKE
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 100
+      Accuracy: 100
+      Description: The user materializes an odd psychic wave to attack the target.
+        This attack does physical damage.
+      moveType: 13
+      moveCategory: 2
+    level: 72
+  - move:
+      Name: RECOVER
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: Restoring its own cells, the user restores its own HP by half
+        of its max HP.
+      moveType: 5
+      moveCategory: 3
+    level: 80
+  - move:
+      Name: FUTURESIGHT
+      Type: PSYCHIC
+      Category: Special
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: Two turns after this move is used, a hunk of psychic energy attacks
+        the target.
+      moveType: 13
+      moveCategory: 2
+    level: 88
+  habitat: 5
+  evolutionStructs: []
+  Description: "A Pok\xC3\xA9mon that was created by genetic manipulation. However,
+    even though the scientific power of humans made its body, they failed to give
+    it a warm heart."
+  Evolutions: 

@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: LICKITUNG
+  m_EditorClassIdentifier: 
+  Name: LICKITUNG
+  ID: 0
+  types: 05000000
+  baseStats: 5a000000370000004b0000001e0000003c0000004b000000
+  genderRatio: 4
+  Ability: OWNTEMPO,OBLIVIOUS
+  HiddenAbilities: CLOUDNINE
+  moveSetStructs:
+  - move:
+      Name: LICK
+      Type: GHOST
+      Category: Physical
+      PP: 30
+      Power: 30
+      Accuracy: 100
+      Description: The target is licked with a long tongue, causing damage. It may
+        also leave the target with paralysis.
+      moveType: 12
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DEFENSECURL
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 0
+      Description: The user curls up to conceal weak spots and raise its Defense
+        stat.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: ROLLOUT
+      Type: ROCK
+      Category: Physical
+      PP: 20
+      Power: 30
+      Accuracy: 90
+      Description: The user continually rolls into the target over five turns. It
+        becomes stronger each time it hits.
+      moveType: 10
+      moveCategory: 1
+    level: 6
+  - move:
+      Name: SUPERSONIC
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 55
+      Description: The user generates odd sound waves from its body. It may confuse
+        the target.
+      moveType: 5
+      moveCategory: 3
+    level: 12
+  - move:
+      Name: WRAP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 15
+      Accuracy: 90
+      Description: A long body or vines are used to wrap and squeeze the target for
+        four to five turns.
+      moveType: 5
+      moveCategory: 1
+    level: 18
+  - move:
+      Name: DISABLE
+      Type: NORMAL
+      Category: Status
+      PP: 20
+      Power: 0
+      Accuracy: 100
+      Description: For four turns, this move prevents the target from using the move
+        it last used.
+      moveType: 5
+      moveCategory: 3
+    level: 24
+  - move:
+      Name: STOMP
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The target is stomped with a big foot. It may also make the target
+        flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 30
+  - move:
+      Name: KNOCKOFF
+      Type: DARK
+      Category: Physical
+      PP: 20
+      Power: 65
+      Accuracy: 100
+      Description: The user slaps down the target's held item, preventing that item
+        from being used in the battle.
+      moveType: 16
+      moveCategory: 1
+    level: 36
+  - move:
+      Name: SCREECH
+      Type: NORMAL
+      Category: Status
+      PP: 40
+      Power: 0
+      Accuracy: 85
+      Description: An earsplitting screech harshly reduces the target's Defense stat.
+      moveType: 5
+      moveCategory: 3
+    level: 42
+  - move:
+      Name: SLAM
+      Type: NORMAL
+      Category: Physical
+      PP: 20
+      Power: 80
+      Accuracy: 75
+      Description: The target is slammed with a long tail, vines, etc., to inflict
+        damage.
+      moveType: 5
+      moveCategory: 1
+    level: 48
+  - move:
+      Name: POWERWHIP
+      Type: GRASS
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 85
+      Description: The user violently whirls its vines or tentacles to harshly lash
+        the target.
+      moveType: 3
+      moveCategory: 1
+    level: 54
+  - move:
+      Name: BELLYDRUM
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user maximizes its Attack stat in exchange for HP equal to
+        half its max HP.
+      moveType: 5
+      moveCategory: 3
+    level: 60
+  habitat: 3
+  evolutionStructs: []
+  Description: Whenever it sees something unfamiliar, it always licks the object
+    because it memorizes things by texture and taste. It is somewhat put off by sour
+    things.
+  Evolutions: LICKILICKY,HasMove,ROLLOUT

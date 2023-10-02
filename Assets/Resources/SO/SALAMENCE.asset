@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: SALAMENCE
+  m_EditorClassIdentifier: 
+  Name: SALAMENCE
+  ID: 0
+  types: 0f00000006000000
+  baseStats: 5f0000008700000050000000640000006e00000050000000
+  genderRatio: 4
+  Ability: INTIMIDATE
+  HiddenAbilities: MOXIE
+  moveSetStructs:
+  - move:
+      Name: FLY
+      Type: FLYING
+      Category: Physical
+      PP: 15
+      Power: 90
+      Accuracy: 95
+      Description: The user soars, then strikes on the second turn. It can also be
+        used for flying to any familiar town.
+      moveType: 6
+      moveCategory: 1
+    level: 0
+  - move:
+      Name: PROTECT
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: It enables the user to evade all attacks. Its chance of failing
+        rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: DRAGONTAIL
+      Type: DRAGON
+      Category: Physical
+      PP: 10
+      Power: 60
+      Accuracy: 90
+      Description: "The user knocks away the target and drags out another Pok\xC3\xA9mon
+        in its party. In the wild, the battle ends."
+      moveType: 15
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: EMBER
+      Type: FIRE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is attacked with small flames. It may also leave the
+        target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: BITE
+      Type: DARK
+      Category: Physical
+      PP: 25
+      Power: 60
+      Accuracy: 100
+      Description: The target is bitten with viciously sharp fangs. It may make the
+        target flinch.
+      moveType: 16
+      moveCategory: 1
+    level: 1
+  - move:
+      Name: DRAGONBREATH
+      Type: DRAGON
+      Category: Special
+      PP: 20
+      Power: 60
+      Accuracy: 100
+      Description: The user exhales a mighty gust that inflicts damage. It may also
+        leave the target with paralysis.
+      moveType: 15
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: HEADBUTT
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 70
+      Accuracy: 100
+      Description: The user sticks out its head and attacks by charging into the
+        foe. It may also make the target flinch.
+      moveType: 5
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: SCARYFACE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 100
+      Description: The user frightens the target with a scary face to harshly reduce
+        its Speed stat.
+      moveType: 5
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: CRUNCH
+      Type: DARK
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user crunches up the target with sharp fangs. It may also
+        lower the target's Defense stat.
+      moveType: 16
+      moveCategory: 1
+    level: 25
+  - move:
+      Name: DRAGONCLAW
+      Type: DRAGON
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 100
+      Description: The user slashes the target with huge, sharp claws.
+      moveType: 15
+      moveCategory: 1
+    level: 33
+  - move:
+      Name: ZENHEADBUTT
+      Type: PSYCHIC
+      Category: Physical
+      PP: 15
+      Power: 80
+      Accuracy: 90
+      Description: The user focuses its willpower to its head and attacks the foe.
+        It may also make the target flinch.
+      moveType: 13
+      moveCategory: 1
+    level: 39
+  - move:
+      Name: FOCUSENERGY
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user takes a deep breath and focuses so that critical hits
+        land more easily.
+      moveType: 5
+      moveCategory: 3
+    level: 46
+  - move:
+      Name: FLAMETHROWER
+      Type: FIRE
+      Category: Special
+      PP: 15
+      Power: 90
+      Accuracy: 100
+      Description: The target is scorched with an intense blast of fire. It may also
+        leave the target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 55
+  - move:
+      Name: OUTRAGE
+      Type: DRAGON
+      Category: Physical
+      PP: 10
+      Power: 120
+      Accuracy: 100
+      Description: The user rampages and attacks for two to three turns. It then
+        becomes confused, however.
+      moveType: 15
+      moveCategory: 1
+    level: 64
+  - move:
+      Name: DOUBLEEDGE
+      Type: NORMAL
+      Category: Physical
+      PP: 15
+      Power: 120
+      Accuracy: 100
+      Description: A reckless, life-risking tackle. It also damages the user by a
+        fairly large amount, however.
+      moveType: 5
+      moveCategory: 1
+    level: 73
+  habitat: 6
+  evolutionStructs: []
+  Description: After many long years, its cellular structure underwent a sudden mutation
+    to grow wings. When angered, it loses all thought and rampages out of control.
+  Evolutions: 

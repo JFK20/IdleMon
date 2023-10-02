@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b422f0aa84de1e408a5cda83b3782f5, type: 3}
+  m_Name: MOLTRES
+  m_EditorClassIdentifier: 
+  Name: MOLTRES
+  ID: 0
+  types: 0100000006000000
+  baseStats: 5a000000640000005a0000005a0000007d00000055000000
+  genderRatio: 8
+  Ability: PRESSURE
+  HiddenAbilities: FLAMEBODY
+  moveSetStructs:
+  - move:
+      Name: GUST
+      Type: FLYING
+      Category: Special
+      PP: 35
+      Power: 40
+      Accuracy: 100
+      Description: A gust of wind is whipped up by wings and launched at the target
+        to inflict damage.
+      moveType: 6
+      moveCategory: 2
+    level: 1
+  - move:
+      Name: LEER
+      Type: NORMAL
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 100
+      Description: The user gains an intimidating leer with sharp eyes. The target's
+        Defense stat is reduced.
+      moveType: 5
+      moveCategory: 3
+    level: 1
+  - move:
+      Name: EMBER
+      Type: FIRE
+      Category: Special
+      PP: 25
+      Power: 40
+      Accuracy: 100
+      Description: The target is attacked with small flames. It may also leave the
+        target with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 5
+  - move:
+      Name: SAFEGUARD
+      Type: NORMAL
+      Category: Status
+      PP: 25
+      Power: 0
+      Accuracy: 0
+      Description: The user creates a protective field that prevents status problems
+        for five turns.
+      moveType: 5
+      moveCategory: 3
+    level: 10
+  - move:
+      Name: WINGATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 35
+      Power: 60
+      Accuracy: 100
+      Description: The target is struck with large, imposing wings spread wide to
+        inflict damage.
+      moveType: 6
+      moveCategory: 1
+    level: 15
+  - move:
+      Name: AGILITY
+      Type: PSYCHIC
+      Category: Status
+      PP: 30
+      Power: 0
+      Accuracy: 0
+      Description: The user relaxes and lightens its body to move faster. It sharply
+        boosts the Speed stat.
+      moveType: 13
+      moveCategory: 3
+    level: 20
+  - move:
+      Name: ANCIENTPOWER
+      Type: ROCK
+      Category: Special
+      PP: 5
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks with a prehistoric power. It may also raise all
+        the user's stats at once.
+      moveType: 10
+      moveCategory: 2
+    level: 25
+  - move:
+      Name: INCINERATE
+      Type: FIRE
+      Category: Special
+      PP: 15
+      Power: 60
+      Accuracy: 100
+      Description: The user attacks the foe with fire. The target's held Berry becomes
+        burnt up and unusable.
+      moveType: 1
+      moveCategory: 2
+    level: 30
+  - move:
+      Name: AIRSLASH
+      Type: FLYING
+      Category: Special
+      PP: 15
+      Power: 75
+      Accuracy: 95
+      Description: The user attacks with a blade of air that slices even the sky.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 2
+    level: 35
+  - move:
+      Name: ROOST
+      Type: FLYING
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user lands and rests its body. It restores the user's HP by
+        up to half of its max HP.
+      moveType: 6
+      moveCategory: 3
+    level: 40
+  - move:
+      Name: HEATWAVE
+      Type: FIRE
+      Category: Special
+      PP: 10
+      Power: 95
+      Accuracy: 90
+      Description: The user attacks by exhaling hot breath on the opposing team.
+        It may also leave targets with a burn.
+      moveType: 1
+      moveCategory: 2
+    level: 45
+  - move:
+      Name: SUNNYDAY
+      Type: FIRE
+      Category: Status
+      PP: 5
+      Power: 0
+      Accuracy: 0
+      Description: The user intensifies the sun for five turns, powering up Fire-type
+        moves.
+      moveType: 1
+      moveCategory: 3
+    level: 50
+  - move:
+      Name: HURRICANE
+      Type: FLYING
+      Category: Special
+      PP: 10
+      Power: 110
+      Accuracy: 70
+      Description: The user wraps its foe in a fierce wind that flies up into the
+        sky. It may also confuse the foe.
+      moveType: 6
+      moveCategory: 2
+    level: 55
+  - move:
+      Name: ENDURE
+      Type: NORMAL
+      Category: Status
+      PP: 10
+      Power: 0
+      Accuracy: 0
+      Description: The user endures any attack with at least 1 HP. Its chance of
+        failing rises if it is used in succession.
+      moveType: 5
+      moveCategory: 3
+    level: 60
+  - move:
+      Name: BURNUP
+      Type: FIRE
+      Category: Special
+      PP: 5
+      Power: 130
+      Accuracy: 100
+      Description: To inflict massive damage, the user burns itself out. The user
+        will no longer be Fire type.
+      moveType: 1
+      moveCategory: 2
+    level: 65
+  - move:
+      Name: SKYATTACK
+      Type: FLYING
+      Category: Physical
+      PP: 5
+      Power: 140
+      Accuracy: 90
+      Description: A second-turn attack move where critical hits land more easily.
+        It may also make the target flinch.
+      moveType: 6
+      moveCategory: 1
+    level: 70
+  habitat: 5
+  evolutionStructs: []
+  Description: "Moltres is a legendary bird Pok\xC3\xA9mon that can control fire.
+    If injured, it is said to dip its body in the molten magma of a volcano to burn
+    and heal itself."
+  Evolutions: 
