@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
+using System.IO;
 
 
 [CreateAssetMenu(menuName = "SO/Pokemon", order = 1)] [Serializable]
@@ -105,15 +106,34 @@ public class PokemonSO : ScriptableObject
                 }
             }
         }
-
+        
         return TMPEvolutionsList;
     }
-
-    public void DumpToJson() {
-        string path = Path.Join(Application.dataPath, "Resources", "pokemons.json");
-        StreamWriter writer = new StreamWriter(path, true);
-        writer.Write(JsonUtility.ToJson(this));
-        writer.Close();
+    
+    [Serializable]
+    private struct JsonStruct {
+        public string pokemonName;
+        public List<JsonEvolutions> evolutions;
     }
+    
+    [Serializable]
+    private struct JsonEvolutions {
+        public string evolutionName;
+        public int level;
+    }
+
+    public string DumpToJson() {
+        
+        JsonStruct allJson = new JsonStruct();
+        allJson.pokemonName = this.Name;
+        List<JsonEvolutions> jsonEvolutions = new List<JsonEvolutions>();
+        foreach (var evolutionStruct in evolutionStructs) {
+            jsonEvolutions.Add(new JsonEvolutions{evolutionName = evolutionStruct.pokemon.Name, level = evolutionStruct.level});
+        }
+        allJson.evolutions = jsonEvolutions;
+        return JsonUtility.ToJson(allJson);
+        
+    }
+    
 }
 

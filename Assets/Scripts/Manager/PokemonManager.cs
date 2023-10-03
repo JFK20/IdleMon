@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEditor;
-
 public class PokemonManager : MonoBehaviour
 {
     private Pokemon[] pokemons;
@@ -12,9 +11,9 @@ public class PokemonManager : MonoBehaviour
     
     public void Initialize()
     {
-        pokemons = LoadPokemons();
-        pokemonSOs = CreateSo();
-        PrintPokemon();
+        //pokemons = LoadPokemons();
+        //pokemonSOs = CreateSo();
+        //EvolutionsPokemon();
     }
 
     private Pokemon[] LoadPokemons() {
@@ -34,11 +33,6 @@ public class PokemonManager : MonoBehaviour
             Sotmp.Add(CreatePokemonSO.Spawn(pokemon));
         }
         
-        /*for (int i = 0; i < 20; i++) {
-            Sotmp.Add(CreatePokemonSO.Spawn(pokemons[i]));
-            
-        }*/
-
         return Sotmp;
 
     }
@@ -54,12 +48,19 @@ public class PokemonManager : MonoBehaviour
         return null;
     }
     
-    public void PrintPokemon() {
+    public void EvolutionsPokemon() {
+        string path = Path.Join("Assets" ,"Resources", "pokemons.json");
+        string everything = "[\n";
+        
         PokemonSO[] test = Resources.LoadAll<PokemonSO>("SO");
         foreach (var poke in test) {
-            Debug.Log(poke);
-            poke.SetEvolutions(poke.InitEvolutions());
-            poke.DumpToJson();
+            List<PokemonSO.evolutionStruct> tmp = poke.InitEvolutions();
+            poke.SetEvolutions(tmp);
+            everything += poke.DumpToJson();
+            everything += ",\n";
         }
+
+        everything += "]";
+        File.WriteAllText(path , everything);
     }
 }

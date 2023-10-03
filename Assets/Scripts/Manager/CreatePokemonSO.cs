@@ -15,11 +15,5 @@ public class CreatePokemonSO : MonoBehaviour
         UnityEditor.AssetDatabase.CreateAsset(tmp, path);
         return tmp;
     }
-
-    public static void OverridePokemonSO(PokemonSO pokemonSo) {
-        PokemonSO tmp = pokemonSo;
-        string path = Path.Join("Assets/Resources/SO", pokemonSo.GetName() + "wE" + ".asset");
-        UnityEditor.AssetDatabase.CreateAsset(tmp, path);
-    }
-
+    
 }
